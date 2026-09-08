@@ -27,8 +27,9 @@ export function ProjectReel() {
   const position = useRef(0);
   const groupWidth = useRef(0);
   const blocked = useRef({ paused: false, hover: false, focus: false, reduced: false });
-  const pointer = useRef<{ id: number; startX: number; startY: number; lastX: number; dragged: boolean; vertical: boolean } | null>(null);
+  const pointer = useRef<{ id: number; startX: number; startY: number; lastX: number; lastTime: number; dragged: boolean; vertical: boolean } | null>(null);
   const suppressClick = useRef(false);
+  const velocity = useRef(0);
   const selected = siteConfig.homepage.projectOrder.flatMap(slug => {
     const project = projects.find(p => p.slug === slug);
     return project ? [project] : [];
@@ -69,7 +70,7 @@ export function ProjectReel() {
 
   useEffect(() => {
     const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
-    const update = () => { blocked.current.reduced = preference.matches; };
+    const update = () => { blocked.current.reduced = preference.matches; if(preference.matches)velocity.current=0; };
     update();
     preference.addEventListener('change', update);
     return () => preference.removeEventListener('change', update);
@@ -84,7 +85,10 @@ export function ProjectReel() {
       const elapsed = previous ? Math.min(now - previous, 50) : 0;
       previous = now;
       const state = blocked.current;
-      if (!document.hidden && !state.paused && !state.hover && !state.focus && !state.reduced && !pointer.current && items.length > 1) {
+      if (!document.hidden && !state.reduced && !pointer.current && Math.abs(velocity.current) > .015) {
+        moveTo(position.current + velocity.current * elapsed);
+        velocity.current *= Math.exp(-elapsed / 310);
+      } else if (!document.hidden && !state.paused && !state.hover && !state.focus && !state.reduced && !pointer.current && items.length > 1) {
         moveTo(position.current + elapsed * groupWidth.current / repeats / (duration * 1000));
       }
       frame = requestAnimationFrame(animate);
@@ -96,7 +100,8 @@ export function ProjectReel() {
   const pointerDown = (event: PointerEvent<HTMLDivElement>) => {
     if (!event.isPrimary || event.button !== 0) return;
     suppressClick.current = false;
-    pointer.current = { id: event.pointerId, startX: event.clientX, startY: event.clientY, lastX: event.clientX, dragged: false, vertical: false };
+    velocity.current = 0;
+    pointer.current = { id: event.pointerId, startX: event.clientX, startY: event.clientY, lastX: event.clientX, lastTime: event.timeStamp, dragged: false, vertical: false };
   };
   const pointerMove = (event: PointerEvent<HTMLDivElement>) => {
     const gesture = pointer.current;
@@ -112,11 +117,16 @@ export function ProjectReel() {
       setDragging(true);
     }
     event.preventDefault();
-    moveTo(position.current + gesture.lastX - event.clientX);
+    const distance=(gesture.lastX-event.clientX)*1.15;
+    const elapsed=Math.max(8,event.timeStamp-gesture.lastTime);
+    velocity.current=Math.max(-4,Math.min(4,velocity.current*.25+(distance/elapsed)*.75));
+    moveTo(position.current+distance);
     gesture.lastX = event.clientX;
+    gesture.lastTime = event.timeStamp;
   };
   const pointerEnd = (event: PointerEvent<HTMLDivElement>) => {
     if (pointer.current?.id !== event.pointerId) return;
+    if(event.type==='pointercancel'||!pointer.current.dragged||event.timeStamp-pointer.current.lastTime>100)velocity.current=0;
     pointer.current = null;
     setDragging(false);
     if (event.currentTarget.hasPointerCapture(event.pointerId)) event.currentTarget.releasePointerCapture(event.pointerId);
@@ -157,7 +167,7 @@ export function ProjectReel() {
           </div>)}
         </div>
       </div>
-      <div className="reel-toolbar"><span>SELECTED WORK / {String(items.length).padStart(2, '0')}</span><span className="reel-drag-hint"><MoveHorizontal size={16}/> Drag to explore</span><button className="reel-motion-button" type="button" onClick={() => setPaused(!paused)} aria-label={paused ? 'Play project animation' : 'Pause project animation'} aria-pressed={paused}>{paused ? <Play size={14}/> : <Pause size={14}/>}<span>{paused ? 'Play motion' : 'Pause motion'}</span></button></div>
+      <div className="reel-toolbar"><span>SELECTED WORK / {String(items.length).padStart(2, '0')}</span><span className="reel-drag-hint"><MoveHorizontal size={16}/> Drag to explore</span><button className="reel-motion-button" type="button" onClick={() => { velocity.current=0; setPaused(!paused); }} aria-label={paused ? 'Play project animation' : 'Pause project animation'} aria-pressed={paused}>{paused ? <Play size={14}/> : <Pause size={14}/>}<span>{paused ? 'Play motion' : 'Pause motion'}</span></button></div>
     </div>
   </section>;
 }

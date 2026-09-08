@@ -53,3 +53,5 @@ next-env.d.ts
 /.openai/
 !/.env.example
 /supabase/bootstrap-secret*
+
+.content-check/

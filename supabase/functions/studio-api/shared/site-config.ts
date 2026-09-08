@@ -7,7 +7,7 @@ export const siteConfig = {
   logoUrl:'',
   tagline: ['Imagined with purpose.', 'Rendered with feeling.'],
   introduction: 'We turn architectural ideas into images that feel real. Thoughtful spaces. Compelling perspectives.',
-  navigation: [{ label: 'Projects', href: '/projects' }, { label: 'About', href: '/about' }, { label: 'Services', href: '/services' }, { label: 'Contact', href: '/contact' }],
+  navigation: [{ label: 'Projects', href: '/projects' }, { label: 'Animation', href: '/animation' }, { label: 'About', href: '/about' }, { label: 'Services', href: '/services' }, { label: 'Contact', href: '/contact' }],
   // The order below controls the moving homepage cards.
   homepage: {
     projectOrder: ['skyline-residences', 'garden-residences', 'courtyard-quarter', 'arcade-residences', 'marina-village', 'perth-waterfront', 'komfor-residences', 'winter-park-corner', 'terrace-hotel', 'urban-facade', 'central-ave', 'portobello', 'winter-garden', 'pool-pavilion', 'louver-mechanism', 'sliding-glass'],

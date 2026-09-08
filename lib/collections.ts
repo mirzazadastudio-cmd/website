@@ -9,6 +9,7 @@ export const defaultCollections:Collection[] = [
  {slug:'exterior',category:'Exterior',description:'Light, material and context. Exterior perspectives that communicate a design from its place in the landscape down to the façade.',scope:'Architectural exteriors · Landscape · Atmosphere',featuredProject:'perth-waterfront'},
  {slug:'interior',category:'Interior',description:'A closer view of a space. Interior perspectives shaped by natural light, material relationships and the way people inhabit a room.',scope:'Living spaces · Hospitality interiors · Enclosed terraces',featuredProject:'central-ave'},
  {slug:'product-technical',category:'Product & Technical',description:'From the complete system to the smallest connection. Product renderings, assembly views and cutaways that make mechanisms easier to understand.',scope:'Product modeling · Louver mechanisms · Glass assemblies',featuredProject:'louver-mechanism'},
+ {"slug": "ai", "category": "AI", "description": "A dedicated collection for AI-generated architectural ideas and visual concepts. Explorations of atmosphere, materials and possible spaces.", "scope": "AI-generated concepts \u00b7 Architectural ideas \u00b7 Visual experiments", "featuredProject": ""},
 ];
 export function collectionProjects(projects:Project[],collection:Collection):Project[]{
  const matching=projects.filter(project=>hasCategory(project,collection.category));

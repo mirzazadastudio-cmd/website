@@ -1,6 +1,6 @@
 import type {ProjectBlock,Frame} from './project-blocks';
 import catalog from './project-catalog.json';
-export const projectCategories = ['Residential', 'Large Buildings', 'Restoration', 'Outdoor Systems', 'Street', 'Exterior', 'Interior', 'Product & Technical'] as const;
+export const projectCategories = ['Residential', 'Large Buildings', 'Restoration', 'Outdoor Systems', 'Street', 'Exterior', 'Interior', 'Product & Technical', 'AI'] as const;
 export type Category = (typeof projectCategories)[number];
 export const projectTopics = ['Pergolas', 'Bioclimatic roofs', 'Glass systems', 'Exterior views', 'Interior views', 'Assembly & cutaways'] as const;
 export type ProjectTopic = (typeof projectTopics)[number];

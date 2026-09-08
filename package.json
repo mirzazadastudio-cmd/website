@@ -12,7 +12,8 @@
     "lint": "oxlint",
     "format": "oxfmt",
     "typecheck": "tsc --noEmit",
-    "test": "node tests/deployment.mjs"
+    "test": "node tests/deployment.mjs",
+    "test:content": "vite build --ssr tests/content-features.ts --outDir .content-check && node .content-check/content-features.js"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",

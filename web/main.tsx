@@ -10,6 +10,13 @@ async function boot(){
  if(location.protocol!=='https:'&&!['localhost','127.0.0.1'].includes(location.hostname)){
   location.replace('https://'+location.host+location.pathname+location.search+location.hash);return;
  }
+ const cleanUrl=new URL(location.href);
+ if(/^[a-f0-9]{7}$/.test(cleanUrl.searchParams.get('v')||'')){
+  cleanUrl.searchParams.delete('v');
+  // Refresh the ordinary URL's browser cache, then keep the address clean.
+  void fetch(cleanUrl.href,{cache:'reload'}).catch(()=>{});
+  history.replaceState(history.state,'',cleanUrl.pathname+cleanUrl.search+cleanUrl.hash);
+ }
  const path=window.location.pathname;const root=createRoot(document.getElementById('root')!);
  if(path.replace(/\/$/,'')==='/admin'){
   const incoming=new URLSearchParams(location.hash.slice(1)).get('setup');if(incoming){sessionStorage.setItem('studio-owner-setup',incoming);history.replaceState(null,'',location.pathname);}

@@ -7,7 +7,7 @@ const text=(value:unknown,max=2000)=>{if(typeof value!=='string'||value.length>m
 const flag=(value:unknown)=>{if(typeof value!=='boolean')throw Error('Yayım statusu düzgün deyil.');return value;};
 const slug=(value:unknown)=>{const result=text(value,80);if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(result))throw Error('Ünvan düzgün deyil.');return result;};
 export function validateEditorial(d:SiteContent,image:(v:unknown)=>string,projects:SiteContent['projects']){
- if(!d.profile||!Array.isArray(d.collections)||d.collections.length!==defaultCollections.length)throw Error('Profil və kateqoriyalar düzgün deyil.');
+ if(!d.profile||!Array.isArray(d.collections)||(d.collections.length!==defaultCollections.length&&!(d.collections.length===defaultCollections.length-1&&!d.collections.some(c=>c.category==='AI'))))throw Error('Profil və kateqoriyalar düzgün deyil.');
  const profile={} as StudioProfile;
  for(const key of ['role','experience','location','introduction','biography','markets','expertise','education','collaboration'] as const)profile[key]=text(d.profile[key],key==='biography'?6000:2000);
  profile.portrait=image(d.profile.portrait);
@@ -21,6 +21,7 @@ export function validateEditorial(d:SiteContent,image:(v:unknown)=>string,projec
   if(featuredProject&&!projects.some(p=>p.slug===featuredProject&&hasCategory(p,item.category)))throw Error(item.category+': əsas layihə bu kateqoriyaya aid olmalıdır.');
   return {slug:item.slug,category:item.category,description:text(item.description,2000),scope:text(item.scope,500),featuredProject};
  });
+ if(!collections.some(c=>c.category==='AI'))collections.push({...defaultCollections.find(c=>c.category==='AI')!});
  if(!Array.isArray(d.journal)||d.journal.length>50||!Array.isArray(d.testimonials)||d.testimonials.length>30)throw Error('Ən çox 50 blog yazısı və 30 rəy saxlanıla bilər.');
  const postSlugs=new Set<string>();
  const journal=d.journal.map(post=>{

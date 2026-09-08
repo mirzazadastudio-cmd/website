@@ -36,3 +36,15 @@ Set four A records at @: 185.199.108.153, 185.199.109.153, 185.199.110.153 and 1
 ## Google Search Console
 
 See [Google verification and indexing](GOOGLE-SEARCH-CONSOLE.md) for account verification, sitemap submission, and the relevant Google links. The account-specific verification tag is still required.
+
+### Animation, AI and navigation
+
+`/animation/` and the homepage show four silent, five-second films. They play on request, loop, and pause off screen. Encoded MP4s and posters live in `public/animations/`; clip titles are in `lib/animation-clips.ts`. Source selections from the portfolio Animation folder: Marina Village (18–23 s), Rayer’s Showroom (8–13 s), Patio (3–8 s), and Day to Night (5–10 s). Source files are unchanged.
+
+AI is a separate project category and collection at `/collections/ai/`. Assign only AI-created projects to it in the admin panel. Homepage AI note blocks use published journal entries whose topic is exactly `AI`; these are editable in the existing journal editor. The initial three notes and collection are recorded in `content/studio-additions.json`. No existing projects were relabeled as AI.
+
+The navigation hides on downward scrolling and returns on upward scrolling; focused keyboard navigation and an open mobile menu remain visible. The project reel supports momentum after pointer/touch drag and honors reduced motion.
+
+`/refresh/` refreshes a stale homepage cache and returns to the clean root URL. Temporary seven-character revision parameters are removed without removing campaign parameters or anchors.
+
+Validation: `pnpm run typecheck`, `pnpm run build`, `pnpm test`, `pnpm run test:content`.

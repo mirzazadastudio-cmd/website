@@ -1,0 +1,44 @@
+{
+  "collection": {
+    "slug": "ai",
+    "category": "AI",
+    "description": "A dedicated collection for AI-generated architectural ideas and visual concepts. Explorations of atmosphere, materials and possible spaces.",
+    "scope": "AI-generated concepts · Architectural ideas · Visual experiments",
+    "featuredProject": ""
+  },
+  "notes": [
+    {
+      "slug": "ai-from-prompt-to-direction",
+      "title": "From a prompt to a direction.",
+      "excerpt": "AI is useful at the beginning of a design conversation: a way to compare possibilities before committing to one.",
+      "body": "A concept starts with a question. What should this space feel like? Which material gives the façade its character? How could a courtyard hold light? A useful AI study stays close to that question instead of trying to solve the entire project in one image.\n\nBegin with a small brief: the type of space, its setting, a material palette and a clear viewpoint. Explore a few variations while keeping those decisions consistent. Comparing related images makes it easier to explain why one direction works.\n\nAn evocative image is a starting point. Proportions, circulation, structure and details still need to be developed and checked in the design process. Our AI collection is reserved for work created with AI, with concepts kept distinct from resolved project visualizations.",
+      "topic": "AI",
+      "date": "2026-09-08",
+      "image": "/images/marina-village-catalog-1.webp",
+      "projectSlug": "",
+      "published": true
+    },
+    {
+      "slug": "ai-atmosphere-before-detail",
+      "title": "Atmosphere before detail.",
+      "excerpt": "Light, material and framing can turn an early concept into a more focused discussion.",
+      "body": "Atmosphere is often the first thing someone notices in an architectural image. A low evening sun, a quiet courtyard or a bright interior can suggest how a place might feel before every detail has been decided.\n\nFor an AI concept study, change one variable at a time. Keep the camera and massing consistent while exploring warm and cool light, or compare a small set of material palettes under the same lighting. That makes the differences easier to judge.\n\nLook beyond the mood. Check the scale of doors and furniture, the way surfaces meet, and whether reflections and shadows make sense. Select the ideas that support the brief, then develop them through a more controlled model and visualization process.",
+      "topic": "AI",
+      "date": "2026-09-08",
+      "image": "/images/marina-village-catalog-1.webp",
+      "projectSlug": "",
+      "published": true
+    },
+    {
+      "slug": "ai-from-concept-to-space",
+      "title": "From concept to a resolved space.",
+      "excerpt": "The next step after an AI image: turn a visual idea into something that can be discussed, modeled and refined.",
+      "body": "A compelling concept image can open a conversation, but it rarely answers every question. What is the space made of? How do people move through it? What happens beyond the edge of the frame?\n\nTranslate the strongest ideas into a short list of decisions: proportions, material relationships, light and the intended use of the space. A model can then test those decisions across multiple views instead of relying on a single image.\n\nKeep the process legible when presenting the work. Identify AI-generated explorations, distinguish them from model-based renders, and explain what is still being developed. The goal is a clearer design conversation, with each image doing a specific job.",
+      "topic": "AI",
+      "date": "2026-09-08",
+      "image": "/images/marina-village-catalog-1.webp",
+      "projectSlug": "",
+      "published": true
+    }
+  ]
+}
