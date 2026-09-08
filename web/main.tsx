@@ -7,6 +7,9 @@ import type {ContentRecord} from '@/lib/content-types';
 import '@/app/globals.css';
 import {OwnerSetup} from './setup';
 async function boot(){
+ if(location.protocol!=='https:'&&!['localhost','127.0.0.1'].includes(location.hostname)){
+  location.replace('https://'+location.host+location.pathname+location.search+location.hash);return;
+ }
  const path=window.location.pathname;const root=createRoot(document.getElementById('root')!);
  if(path.replace(/\/$/,'')==='/admin'){
   const incoming=new URLSearchParams(location.hash.slice(1)).get('setup');if(incoming){sessionStorage.setItem('studio-owner-setup',incoming);history.replaceState(null,'',location.pathname);}
