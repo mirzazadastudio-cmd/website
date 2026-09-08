@@ -39,7 +39,7 @@ See [Google verification and indexing](GOOGLE-SEARCH-CONSOLE.md) for account ver
 
 ### Animation, AI and navigation
 
-`/animation/` and the homepage show four silent, five-second films. They play on request, loop, and pause off screen. Encoded MP4s and posters live in `public/animations/`; clip titles are in `lib/animation-clips.ts`. Source selections from the portfolio Animation folder: Marina Village (18–23 s), Rayer’s Showroom (8–13 s), Patio (3–8 s), and Day to Night (5–10 s). Source files are unchanged.
+`/animation/` shows four silent, five-second films. They play on request, loop, and pause off screen. Encoded MP4s and posters live in `public/animations/`; clip titles are in `lib/animation-clips.ts`. Source selections from the portfolio Animation folder: Marina Village (18ï¿½23 s), Rayerï¿½s Showroom (8ï¿½13 s), Patio (3ï¿½8 s), and Day to Night (5ï¿½10 s). Source files are unchanged.
 
 AI is a separate project category and collection at `/collections/ai/`. Assign only AI-created projects to it in the admin panel. Homepage AI note blocks use published journal entries whose topic is exactly `AI`; these are editable in the existing journal editor. The initial three notes and collection are recorded in `content/studio-additions.json`. No existing projects were relabeled as AI.
 
@@ -48,3 +48,5 @@ The navigation hides on downward scrolling and returns on upward scrolling; focu
 `/refresh/` refreshes a stale homepage cache and returns to the clean root URL. Temporary seven-character revision parameters are removed without removing campaign parameters or anchors.
 
 Validation: `pnpm run typecheck`, `pnpm run build`, `pnpm test`, `pnpm run test:content`.
+
+The homepage opens with a full-width video banner (about 40â€“42% of the viewport height). Its silent 20-second studio-loop.mp4 combines the four five-second films with 0.7-second crossfades, including the last-to-first transition. It starts automatically in view, pauses off screen/in background tabs, and uses a static poster by default with reduced motion. The four individual films remain on /animation/.
