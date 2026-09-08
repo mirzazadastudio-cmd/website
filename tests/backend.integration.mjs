@@ -1,0 +1,33 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import crypto from 'node:crypto';
+const credentials=JSON.parse(fs.readFileSync('../../deployment-tools/owner-private.json','utf8'));
+const base='https://wjynujdjmtgpzzllnwgf.supabase.co';
+const apikey='sb_publishable_O3P3930RyQWPdc9-czr6OQ_IoxwYQ7t';
+let access='';
+async function api(path,method='GET',body,auth=false){const response=await fetch(base+'/functions/v1/studio-api'+path,{method,headers:{apikey,...(auth?{Authorization:'Bearer '+access}:{}),...(body?{'Content-Type':'application/json'}:{})},body:body?JSON.stringify(body):undefined});return {status:response.status,data:await response.json()};}
+let login=await fetch(base+'/auth/v1/token?grant_type=password',{method:'POST',headers:{apikey,'Content-Type':'application/json'},body:JSON.stringify({email:credentials.email,password:credentials.password})});
+if(!login.ok){const setup=await api('/setup','POST',{token:credentials.token,password:credentials.password});assert.equal(setup.status,200,JSON.stringify(setup.data));login=await fetch(base+'/auth/v1/token?grant_type=password',{method:'POST',headers:{apikey,'Content-Type':'application/json'},body:JSON.stringify({email:credentials.email,password:credentials.password})});}
+assert.equal(login.status,200);access=(await login.json()).access_token;
+const reused=await api('/setup','POST',{token:credentials.token,password:credentials.password});assert.equal(reused.status,403);
+for(const path of ['/admin/content','/admin/inquiries','/admin/assets','/admin/backup'])assert.equal((await api(path)).status,401,path);
+const privateRead=await fetch(base+'/rest/v1/studio_content?select=id',{headers:{apikey}});assert([401,403].includes(privateRead.status));
+const deniedRpc=await fetch(base+'/rest/v1/rpc/studio_save',{method:'POST',headers:{apikey,'Content-Type':'application/json'},body:JSON.stringify({expected_revision:0,full_data:{},published_data:{}})});assert([401,403,404].includes(deniedRpc.status));
+const evil=await fetch(base+'/functions/v1/studio-api/content',{headers:{apikey,Origin:'https://attacker.invalid'}});assert.equal(evil.status,403);
+const owner=await api('/admin/auth','GET',undefined,true);assert.equal(owner.data.authenticated,true);
+const snapshot=await api('/admin/content','GET',undefined,true);assert.equal(snapshot.status,200);const original=snapshot.data;
+const draft=structuredClone(original);draft.data.projects.push({id:'deployment-private-probe',slug:'deployment-private-probe',title:'PRIVATE DEPLOYMENT PROBE',status:'draft',displayPermission:'unreviewed',category:'Exterior',type:'',description:'',images:[]});
+const saved=await api('/admin/content','PUT',draft,true);assert.equal(saved.status,200,JSON.stringify(saved.data));
+const publicData=await api('/content');assert.equal(publicData.status,200);assert(!JSON.stringify(publicData.data).includes('PRIVATE DEPLOYMENT PROBE'));
+assert.equal((await api('/admin/content','PUT',original,true)).status,409);
+const restore=await api('/admin/content','PUT',{data:original.data,revision:saved.data.revision},true);assert.equal(restore.status,200,JSON.stringify(restore.data));
+const backup=await api('/admin/backup');assert.equal(backup.status,401);
+const versions=await api('/admin/backup?revision=list','GET',undefined,true);assert(versions.data.items.length>=2);
+const inquiryId=crypto.randomUUID();
+const inquiry={id:inquiryId,name:'DEPLOYMENT VERIFICATION',email:credentials.email,projectType:'Deployment test',message:'Temporary delivery verification; removed after testing.',company:'',deadline:'',website:''};
+assert.equal((await api('/contact','POST',inquiry)).status,201);
+const inbox=await api('/admin/inquiries','GET',undefined,true);assert(inbox.data.items.some(i=>i.id===inquiryId));
+assert.equal((await api('/admin/inquiries','PATCH',{id:inquiryId,status:'closed'},true)).status,200);
+fs.writeFileSync('../../deployment-tools/test-records.json',JSON.stringify({inquiryId,revision:restore.data.revision}));
+fs.writeFileSync('../../Mirzazada-Studio-Admin-Access.txt','Mirzazada Studio admin\n\nURL: https://mirzazadastudio.com/admin/\nEmail: '+credentials.email+'\nTemporary password: '+credentials.password+'\n\nAfter signing in, open Hesab ve parol (Account and password) to set your preferred password. Keep this file private.\n');
+console.log('PASS: owner setup/login; one-time setup replay blocked; private APIs/RPC denied; draft hidden; concurrent save rejected; revision backup; content restore; contact delivery and status update.');

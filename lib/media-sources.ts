@@ -1,0 +1,2 @@
+import type {SiteContent} from './content-types';
+export function mediaSources(data:SiteContent){return new Set([data.profile.portrait,data.settings.logoUrl,data.settings.homepage.studioImage,...data.settings.services.map(s=>s.image),...data.journal.map(post=>post.image),...data.projects.flatMap(project=>[...project.images,project.coverImage,project.heroImage,...(project.blocks||[]).flatMap(block=>[block.poster,...block.images.map(image=>image.src)])])].filter((value):value is string=>!!value));}

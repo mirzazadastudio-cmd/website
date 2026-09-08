@@ -1,0 +1,4 @@
+import {getDb} from '@/db';
+import {digest} from './admin-auth';
+export async function rateLimit(request:Request,scope:string,limit:number,windowMs=600000){const db=getDb(),now=Date.now(),key=scope+':'+digest(request.headers.get('cf-connecting-ip')||'local');const rows=await db.batch([db.prepare('DELETE FROM studio_attempts WHERE reset_at < ?').bind(now),db.prepare('INSERT INTO studio_attempts (key,count,reset_at) VALUES (?,1,?) ON CONFLICT(key) DO UPDATE SET count=count+1').bind(key,now+windowMs),db.prepare('SELECT count FROM studio_attempts WHERE key=?').bind(key)]);return Number((rows[2].results[0] as {count:number})?.count)>limit;}
+export async function audit(action:string){await getDb().prepare('INSERT INTO studio_actions (id,action,created_at) VALUES (?,?,?)').bind(crypto.randomUUID(),action,new Date().toISOString()).run();}

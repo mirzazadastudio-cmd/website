@@ -1,0 +1,4 @@
+import {getDb} from '@/db';
+import {adminIdentity,assertOrigin,json} from '@/lib/admin-auth';
+export async function GET(){if(!await adminIdentity())return json({error:'Giriş tələb olunur.'},401);const result=await getDb().prepare('SELECT * FROM studio_inquiries ORDER BY created_at DESC LIMIT 300').all();return json({items:result.results,emailConfigured:false});}
+export async function PATCH(request:Request){if(!await adminIdentity())return json({error:'Giriş tələb olunur.'},401);try{assertOrigin(request);const {id,status}=await request.json() as {id:string;status:string};if(typeof id!=='string'||!['new','reviewing','replied','closed','spam'].includes(status))return json({error:'Status düzgün deyil.'},400);await getDb().prepare('UPDATE studio_inquiries SET status=? WHERE id=?').bind(status,id).run();return json({ok:true});}catch{return json({error:'Sorğu qəbul edilmədi.'},403)}}

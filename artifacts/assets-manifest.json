@@ -1,0 +1,192 @@
+[
+  {
+    "source": "Baku White City\\1.jpg",
+    "output": "public\\images\\white-city-1.webp",
+    "bytes": 476674
+  },
+  {
+    "source": "Baku White City\\11.jpg",
+    "output": "public\\images\\white-city-2.webp",
+    "bytes": 453056
+  },
+  {
+    "source": "Baku White City\\4.jpg",
+    "output": "public\\images\\white-city-3.webp",
+    "bytes": 459630
+  },
+  {
+    "source": "Baku White City\\9.jpg",
+    "output": "public\\images\\white-city-4.webp",
+    "bytes": 491592
+  },
+  {
+    "source": "Marina Village Sea Breeze\\3.jpg",
+    "output": "public\\images\\marina-village-1.webp",
+    "bytes": 293390
+  },
+  {
+    "source": "Marina Village Sea Breeze\\2.jpg",
+    "output": "public\\images\\marina-village-2.webp",
+    "bytes": 334478
+  },
+  {
+    "source": "Marina Village Sea Breeze\\4.jpg",
+    "output": "public\\images\\marina-village-3.webp",
+    "bytes": 278052
+  },
+  {
+    "source": "Marina Village Sea Breeze\\6.jpg",
+    "output": "public\\images\\marina-village-4.webp",
+    "bytes": 545140
+  },
+  {
+    "source": "491 Central Ave\\Exterior\\1.jpg",
+    "output": "public\\images\\central-ave-1.webp",
+    "bytes": 357824
+  },
+  {
+    "source": "491 Central Ave\\Exterior\\10.jpg",
+    "output": "public\\images\\central-ave-2.webp",
+    "bytes": 430360
+  },
+  {
+    "source": "491 Central Ave\\Exterior\\11.jpg",
+    "output": "public\\images\\central-ave-3.webp",
+    "bytes": 302906
+  },
+  {
+    "source": "491 Central Ave\\Exterior\\3.jpg",
+    "output": "public\\images\\central-ave-4.webp",
+    "bytes": 593124
+  },
+  {
+    "source": "491 Central Ave\\Logosuz\\0_zemin 1.jpg",
+    "output": "public\\images\\central-interiors-1.webp",
+    "bytes": 473052
+  },
+  {
+    "source": "491 Central Ave\\Logosuz\\0_zemin 2.jpg",
+    "output": "public\\images\\central-interiors-2.webp",
+    "bytes": 147418
+  },
+  {
+    "source": "491 Central Ave\\Logosuz\\0_zemin 3.jpg",
+    "output": "public\\images\\central-interiors-3.webp",
+    "bytes": 147354
+  },
+  {
+    "source": "491 Central Ave\\Logosuz\\1_1.jpg",
+    "output": "public\\images\\central-interiors-4.webp",
+    "bytes": 225168
+  },
+  {
+    "source": "Projects\\Baverly Hills\\Beverly Hills Hotel 2.jpg",
+    "output": "public\\images\\beverly-hills-1.webp",
+    "bytes": 392472
+  },
+  {
+    "source": "Projects\\Baverly Hills\\Beverly Hills Hote 3.jpg",
+    "output": "public\\images\\beverly-hills-2.webp",
+    "bytes": 449110
+  },
+  {
+    "source": "Projects\\Baverly Hills\\Beverly Hills Hotel 4.jpg",
+    "output": "public\\images\\beverly-hills-3.webp",
+    "bytes": 317880
+  },
+  {
+    "source": "Projects\\Portobello\\Pergola\\10.jpg",
+    "output": "public\\images\\portobello-1.webp",
+    "bytes": 402352
+  },
+  {
+    "source": "Projects\\Portobello\\Pergola\\1.jpg",
+    "output": "public\\images\\portobello-2.webp",
+    "bytes": 208780
+  },
+  {
+    "source": "Projects\\Portobello\\Pergola\\13.jpg",
+    "output": "public\\images\\portobello-3.webp",
+    "bytes": 316600
+  },
+  {
+    "source": "Projects\\Portobello\\Pergola\\3.jpg",
+    "output": "public\\images\\portobello-4.webp",
+    "bytes": 357196
+  },
+  {
+    "source": "Projects\\SIlver Diner\\1.jpg",
+    "output": "public\\images\\silver-diner-1.webp",
+    "bytes": 392970
+  },
+  {
+    "source": "Projects\\SIlver Diner\\14.jpg",
+    "output": "public\\images\\silver-diner-2.webp",
+    "bytes": 279830
+  },
+  {
+    "source": "Projects\\SIlver Diner\\2.jpg",
+    "output": "public\\images\\silver-diner-3.webp",
+    "bytes": 298002
+  },
+  {
+    "source": "Baku Abadliq\\Mothercare\\Bina 3\\1.jpg",
+    "output": "public\\images\\urban-facade-1.webp",
+    "bytes": 341552
+  },
+  {
+    "source": "Baku Abadliq\\Mothercare\\Bina 3\\2.jpg",
+    "output": "public\\images\\urban-facade-2.webp",
+    "bytes": 302522
+  },
+  {
+    "source": "Baku Abadliq\\Mothercare\\Bina 3\\3.jpg",
+    "output": "public\\images\\urban-facade-3.webp",
+    "bytes": 286900
+  },
+  {
+    "source": "Projects\\Building\\1.jpg",
+    "output": "public\\images\\residential-1.webp",
+    "bytes": 447136
+  },
+  {
+    "source": "Projects\\Building\\10.jpg",
+    "output": "public\\images\\residential-2.webp",
+    "bytes": 355702
+  },
+  {
+    "source": "Projects\\Building\\11.jpg",
+    "output": "public\\images\\residential-3.webp",
+    "bytes": 635978
+  },
+  {
+    "source": "Projects\\Pool Model\\2.jpg",
+    "output": "public\\images\\pool-pavilion-1.webp",
+    "bytes": 138570
+  },
+  {
+    "source": "Projects\\Pool Model\\1.jpg",
+    "output": "public\\images\\pool-pavilion-2.webp",
+    "bytes": 152368
+  },
+  {
+    "source": "Projects\\Pool Model\\3.jpg",
+    "output": "public\\images\\pool-pavilion-3.webp",
+    "bytes": 236236
+  },
+  {
+    "source": "Projects\\Nights\\2.jpg",
+    "output": "public\\images\\rooftop-1.webp",
+    "bytes": 119218
+  },
+  {
+    "source": "Projects\\Nights\\3.jpg",
+    "output": "public\\images\\rooftop-2.webp",
+    "bytes": 380340
+  },
+  {
+    "source": "Projects\\Nights\\4.jpg",
+    "output": "public\\images\\rooftop-3.webp",
+    "bytes": 317880
+  }
+]

@@ -1,0 +1,1 @@
+CREATE INDEX `studio_inquiries_created_at_idx` ON `studio_inquiries` (`created_at`);

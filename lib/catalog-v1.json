@@ -1,0 +1,150 @@
+[
+  {
+    "slug": "white-city",
+    "coverImage": "/images/white-city-thumb.webp",
+    "title": "Baku White City",
+    "category": "Exterior",
+    "type": "Residential · Architectural visualization",
+    "description": "A study in urban scale and everyday life. Classical façades, landscaped courtyards and street-level perspectives bring this residential setting into focus.",
+    "images": [
+      "/images/white-city-1.webp",
+      "/images/white-city-2.webp",
+      "/images/white-city-3.webp",
+      "/images/white-city-4.webp"
+    ]
+  },
+  {
+    "slug": "marina-village",
+    "coverImage": "/images/marina-village-thumb.webp",
+    "title": "Marina Village, Sea Breeze",
+    "category": "Exterior",
+    "type": "Waterfront · Architectural visualization",
+    "description": "Arcaded façades, a distinctive clock tower and sunlit public spaces. A series of architectural views exploring the character of Marina Village.",
+    "images": [
+      "/images/marina-village-1.webp",
+      "/images/marina-village-2.webp",
+      "/images/marina-village-3.webp",
+      "/images/marina-village-4.webp"
+    ]
+  },
+  {
+    "slug": "central-ave",
+    "coverImage": "/images/central-ave-thumb.webp",
+    "title": "491 Central Avenue",
+    "category": "Exterior",
+    "type": "Residential · Exterior visualization",
+    "description": "Gabled rooflines and quiet streets. Exterior views that explore the relationship between residential architecture, landscape and natural light.",
+    "images": [
+      "/images/central-ave-1.webp",
+      "/images/central-ave-2.webp",
+      "/images/central-ave-3.webp",
+      "/images/central-ave-4.webp"
+    ]
+  },
+  {
+    "slug": "central-interiors",
+    "coverImage": "/images/central-interiors-thumb.webp",
+    "title": "491 Central — Inside",
+    "category": "Interior",
+    "type": "Residential · Interior visualization",
+    "description": "From the dining room to spaces for unwinding, this interior series studies materials, furniture and the subtle atmosphere of a lived-in home.",
+    "images": [
+      "/images/central-interiors-1.webp",
+      "/images/central-interiors-2.webp",
+      "/images/central-interiors-3.webp",
+      "/images/central-interiors-4.webp"
+    ]
+  },
+  {
+    "slug": "portobello",
+    "coverImage": "/images/portobello-thumb.webp",
+    "title": "Portobello",
+    "category": "Outdoor",
+    "type": "Hospitality · Pergola visualization",
+    "description": "An outdoor extension of the restaurant experience. Pergola structures frame the streetscape and create sheltered spaces for gathering.",
+    "images": [
+      "/images/portobello-1.webp",
+      "/images/portobello-2.webp",
+      "/images/portobello-3.webp",
+      "/images/portobello-4.webp"
+    ]
+  },
+  {
+    "slug": "beverly-hills",
+    "coverImage": "/images/beverly-hills-thumb.webp",
+    "title": "Beverly Hills Hotel",
+    "category": "Outdoor",
+    "type": "Hospitality · Terrace visualization",
+    "description": "Layered timber, filtered daylight and greenery give shape to an open-air dining space. The series follows the terrace through contrasting lighting conditions.",
+    "images": [
+      "/images/beverly-hills-1.webp",
+      "/images/beverly-hills-2.webp",
+      "/images/beverly-hills-3.webp"
+    ]
+  },
+  {
+    "slug": "urban-facade",
+    "coverImage": "/images/urban-facade-thumb.webp",
+    "title": "Baku — Façade Study",
+    "category": "Exterior",
+    "type": "Urban renewal · Façade visualization",
+    "description": "A façade study from the Baku Abadliq collection, exploring proportion, surface detail and the transition from building to street.",
+    "images": [
+      "/images/urban-facade-1.webp",
+      "/images/urban-facade-2.webp",
+      "/images/urban-facade-3.webp"
+    ]
+  },
+  {
+    "slug": "silver-diner",
+    "coverImage": "/images/silver-diner-thumb.webp",
+    "title": "Silver Diner",
+    "category": "Exterior",
+    "type": "Commercial · Architectural visualization",
+    "description": "Street-level commercial architecture seen through daylight and evening perspectives. Glass, signage and reflected light establish an urban presence.",
+    "images": [
+      "/images/silver-diner-1.webp",
+      "/images/silver-diner-2.webp",
+      "/images/silver-diner-3.webp"
+    ]
+  },
+  {
+    "slug": "pool-pavilion",
+    "coverImage": "/images/pool-pavilion-thumb.webp",
+    "title": "Poolside Pavilion",
+    "category": "Outdoor",
+    "type": "Outdoor living · Product visualization",
+    "description": "A light, open pavilion beside the water. Clean structural lines and adjustable shading connect indoor comfort with outdoor living.",
+    "images": [
+      "/images/pool-pavilion-1.webp",
+      "/images/pool-pavilion-2.webp",
+      "/images/pool-pavilion-3.webp"
+    ]
+  },
+  {
+    "slug": "residential",
+    "coverImage": "/images/residential-thumb.webp",
+    "title": "Residential Perspectives",
+    "category": "Exterior",
+    "type": "Residential · Architectural visualization",
+    "description": "A residential building explored from the street and above. Close views of the entrance complement wider studies of the building and its setting.",
+    "images": [
+      "/images/residential-1.webp",
+      "/images/residential-2.webp",
+      "/images/residential-3.webp"
+    ]
+  },
+  {
+    "slug": "rooftop",
+    "coverImage": "/images/rooftop-thumb.webp",
+    "title": "Above the City",
+    "category": "Outdoor",
+    "type": "Outdoor living · Evening studies",
+    "description": "Pergola and architectural lighting studies from the Nights collection, with a focus on the atmosphere of the city after sunset.",
+    "images": [
+      "/images/rooftop-1.webp",
+      "/images/rooftop-2.webp",
+      "/images/rooftop-3.webp"
+    ]
+  }
+]

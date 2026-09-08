@@ -1,0 +1,1 @@
+export type MediaInfo={id:string;src:string;name:string;type:string;size:number;checksum:string;width:number;height:number;variants:{src:string;width:number;height:number}[];createdAt:string;privateOriginal?:boolean};

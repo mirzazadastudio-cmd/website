@@ -1,0 +1,77 @@
+{
+  "/images/portobello-1.webp": {
+    "width": 1920,
+    "height": 1080,
+    "bottom": 0.1
+  },
+  "/images/portobello-2.webp": {
+    "width": 1920,
+    "height": 1080,
+    "bottom": 0.1
+  },
+  "/images/portobello-3.webp": {
+    "width": 1920,
+    "height": 1080,
+    "bottom": 0.1
+  },
+  "/images/portobello-4.webp": {
+    "width": 1920,
+    "height": 1080,
+    "bottom": 0.1
+  },
+  "/images/portobello-thumb.webp": {
+    "width": 900,
+    "height": 506,
+    "bottom": 0.1
+  },
+  "/images/silver-diner-1.webp": {
+    "width": 1920,
+    "height": 1080,
+    "bottom": 0.1
+  },
+  "/images/silver-diner-2.webp": {
+    "width": 1920,
+    "height": 1080,
+    "bottom": 0.1
+  },
+  "/images/silver-diner-3.webp": {
+    "width": 1920,
+    "height": 1080,
+    "bottom": 0.1
+  },
+  "/images/silver-diner-thumb.webp": {
+    "width": 900,
+    "height": 506,
+    "bottom": 0.1
+  },
+  "/images/portobello-catalog-1.webp": {
+    "width": 2200,
+    "height": 1238,
+    "bottom": 0.1
+  },
+  "/images/portobello-catalog-2.webp": {
+    "width": 2200,
+    "height": 1238,
+    "bottom": 0.1
+  },
+  "/images/portobello-catalog-3.webp": {
+    "width": 2200,
+    "height": 1238,
+    "bottom": 0.1
+  },
+  "/images/portobello-catalog-4.webp": {
+    "width": 2200,
+    "height": 1238,
+    "bottom": 0.1
+  },
+  "/images/portobello-catalog-5.webp": {
+    "width": 2200,
+    "height": 1602,
+    "bottom": 0.1
+  },
+  "/images/portobello-catalog-thumb.webp": {
+    "width": 1100,
+    "height": 619,
+    "bottom": 0.1
+  }
+}

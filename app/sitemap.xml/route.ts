@@ -1,0 +1,3 @@
+import {getPublicContent} from '@/lib/content-store';
+import {canonical} from '@/lib/seo';
+export async function GET(){const {data}=await getPublicContent();const paths=['/','/projects','/services','/about','/contact','/blog',...data.projects.map(p=>'/projects/'+p.slug),...data.collections.map(c=>'/collections/'+c.slug),...data.journal.map(post=>'/blog/'+post.slug)];return new Response('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+paths.map(path=>'<url><loc>'+canonical(path)+'</loc></url>').join('')+'</urlset>',{headers:{'Content-Type':'application/xml; charset=utf-8','Cache-Control':'no-cache'}});}

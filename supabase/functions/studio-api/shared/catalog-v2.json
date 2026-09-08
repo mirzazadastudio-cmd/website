@@ -1,0 +1,635 @@
+[
+  {
+    "slug": "skyline-residences",
+    "title": "Skyline Residences",
+    "category": "Residential",
+    "categories": [
+      "Residential",
+      "Exterior",
+      "Building"
+    ],
+    "type": "Residential complex · Exterior visualization",
+    "description": "A multi-building residential ensemble with tall glazed bays, dark vertical frames and landscaped entrances. The views move from the overall massing to the sheltered street edge and arrival spaces.",
+    "images": [
+      "/images/skyline-residences-catalog-1.webp",
+      "/images/skyline-residences-catalog-2.webp",
+      "/images/skyline-residences-catalog-3.webp",
+      "/images/skyline-residences-catalog-4.webp",
+      "/images/skyline-residences-catalog-5.webp"
+    ],
+    "heroImage": "/images/skyline-residences-catalog-1.webp",
+    "coverImage": "/images/skyline-residences-catalog-thumb.webp"
+  },
+  {
+    "slug": "garden-residences",
+    "title": "Garden Residences",
+    "category": "Residential",
+    "categories": [
+      "Residential",
+      "Exterior",
+      "Building"
+    ],
+    "type": "Residential complex · Landscape & architecture",
+    "description": "Layered balconies and a light structural grid give these residences a calm, open character. Garden paths, planted courtyards and illuminated ground-floor spaces connect the buildings to everyday life.",
+    "images": [
+      "/images/garden-residences-catalog-1.webp",
+      "/images/garden-residences-catalog-2.webp",
+      "/images/garden-residences-catalog-3.webp",
+      "/images/garden-residences-catalog-4.webp"
+    ],
+    "heroImage": "/images/garden-residences-catalog-1.webp",
+    "coverImage": "/images/garden-residences-catalog-thumb.webp"
+  },
+  {
+    "slug": "courtyard-quarter",
+    "title": "Courtyard Quarter",
+    "category": "Residential",
+    "categories": [
+      "Residential",
+      "Exterior",
+      "Street"
+    ],
+    "type": "Residential masterplan · Urban visualization",
+    "description": "A connected residential quarter organized around shared courtyards and pedestrian space. Aerial and street-level views show the relationship between the blocks, their stone façades and the surrounding landscape.",
+    "images": [
+      "/images/courtyard-quarter-catalog-1.webp",
+      "/images/courtyard-quarter-catalog-2.webp",
+      "/images/courtyard-quarter-catalog-3.webp",
+      "/images/courtyard-quarter-catalog-4.webp"
+    ],
+    "heroImage": "/images/courtyard-quarter-catalog-1.webp",
+    "coverImage": "/images/courtyard-quarter-catalog-thumb.webp"
+  },
+  {
+    "slug": "arcade-residences",
+    "title": "Arcade Residences",
+    "category": "Residential",
+    "categories": [
+      "Residential",
+      "Exterior",
+      "Building"
+    ],
+    "type": "Residential building · Exterior visualization",
+    "description": "Warm stone, arched openings and softly lit balconies define this residential study. The render series explores the street façade, landscaped forecourt and the detail of the main entrance.",
+    "images": [
+      "/images/arcade-residences-catalog-1.webp",
+      "/images/arcade-residences-catalog-2.webp",
+      "/images/arcade-residences-catalog-3.webp",
+      "/images/arcade-residences-catalog-4.webp"
+    ],
+    "heroImage": "/images/arcade-residences-catalog-1.webp",
+    "coverImage": "/images/arcade-residences-catalog-thumb.webp"
+  },
+  {
+    "slug": "white-city",
+    "title": "Baku White City",
+    "category": "Residential",
+    "categories": [
+      "Residential",
+      "Exterior",
+      "Street"
+    ],
+    "type": "Residential quarter · Baku",
+    "description": "Classical façades frame a generous landscaped courtyard in Baku White City. Street views, aerial perspectives and evening scenes connect the scale of the residential block with the gardens and shared spaces within.",
+    "images": [
+      "/images/white-city-catalog-1.webp",
+      "/images/white-city-catalog-2.webp",
+      "/images/white-city-catalog-3.webp",
+      "/images/white-city-catalog-4.webp",
+      "/images/white-city-catalog-5.webp",
+      "/images/white-city-catalog-6.webp",
+      "/images/white-city-catalog-7.webp",
+      "/images/white-city-catalog-8.webp",
+      "/images/white-city-catalog-9.webp"
+    ],
+    "heroImage": "/images/white-city-catalog-1.webp",
+    "coverImage": "/images/white-city-catalog-thumb.webp"
+  },
+  {
+    "slug": "perth-waterfront",
+    "title": "Perth Waterfront",
+    "category": "Residential",
+    "categories": [
+      "Residential",
+      "Building",
+      "Exterior"
+    ],
+    "type": "Waterfront masterplan · Urban visualization",
+    "description": "A waterfront study bringing towers, lower-rise buildings and public space into one urban composition. Golden-hour views describe the skyline, waterside promenade and the changing scale of the development.",
+    "images": [
+      "/images/perth-waterfront-catalog-1.webp",
+      "/images/perth-waterfront-catalog-2.webp",
+      "/images/perth-waterfront-catalog-3.webp",
+      "/images/perth-waterfront-catalog-4.webp"
+    ],
+    "heroImage": "/images/perth-waterfront-catalog-1.webp",
+    "coverImage": "/images/perth-waterfront-catalog-thumb.webp"
+  },
+  {
+    "slug": "marina-village",
+    "title": "Marina Village, Sea Breeze",
+    "category": "Residential",
+    "categories": [
+      "Residential",
+      "Exterior",
+      "Street"
+    ],
+    "type": "Waterfront quarter · Architectural visualization",
+    "description": "Arcaded façades, a clock tower and planted public spaces shape Marina Village at Sea Breeze. The series follows the waterfront, pedestrian streets and courtyards through a coherent architectural language.",
+    "images": [
+      "/images/marina-village-catalog-1.webp",
+      "/images/marina-village-catalog-2.webp",
+      "/images/marina-village-catalog-3.webp",
+      "/images/marina-village-catalog-4.webp",
+      "/images/marina-village-catalog-5.webp",
+      "/images/marina-village-catalog-6.webp",
+      "/images/marina-village-catalog-7.webp"
+    ],
+    "heroImage": "/images/marina-village-catalog-1.webp",
+    "coverImage": "/images/marina-village-catalog-thumb.webp"
+  },
+  {
+    "slug": "komfor-residences",
+    "title": "Komfor MTK",
+    "category": "Residential",
+    "categories": [
+      "Residential",
+      "Building",
+      "Exterior"
+    ],
+    "type": "Residential buildings · Baku façade study",
+    "description": "A study of a large residential frontage at the 3rd Microdistrict roundabout. Light façades, restrained yellow accents and a continuous ground-floor edge establish the rhythm of the street.",
+    "images": [
+      "/images/komfor-residences-catalog-1.webp",
+      "/images/komfor-residences-catalog-2.webp",
+      "/images/komfor-residences-catalog-3.webp",
+      "/images/komfor-residences-catalog-4.webp"
+    ],
+    "heroImage": "/images/komfor-residences-catalog-1.webp",
+    "coverImage": "/images/komfor-residences-catalog-thumb.webp"
+  },
+  {
+    "slug": "tebib-residences",
+    "title": "Tebib MTK",
+    "category": "Residential",
+    "categories": [
+      "Residential",
+      "Building",
+      "Exterior"
+    ],
+    "type": "Residential building · Baku façade study",
+    "description": "A curved residential block considered from its surrounding roads and approaches. The visualization studies façade proportion, the base of the building and its relationship to the changing street level.",
+    "images": [
+      "/images/tebib-residences-catalog-1.webp",
+      "/images/tebib-residences-catalog-2.webp",
+      "/images/tebib-residences-catalog-3.webp",
+      "/images/tebib-residences-catalog-4.webp"
+    ],
+    "heroImage": "/images/tebib-residences-catalog-1.webp",
+    "coverImage": "/images/tebib-residences-catalog-thumb.webp"
+  },
+  {
+    "slug": "winter-park-tower",
+    "title": "Winter Park — Narimanov",
+    "category": "Residential",
+    "categories": [
+      "Residential",
+      "Building",
+      "Exterior"
+    ],
+    "type": "Residential tower · N. Narimanov 277",
+    "description": "A slender residential tower framed by open sky and mature trees. Exterior and aerial views study its vertical proportions, material contrast and position within the surrounding city.",
+    "images": [
+      "/images/winter-park-tower-catalog-1.webp",
+      "/images/winter-park-tower-catalog-2.webp",
+      "/images/winter-park-tower-catalog-3.webp",
+      "/images/winter-park-tower-catalog-4.webp"
+    ],
+    "heroImage": "/images/winter-park-tower-catalog-1.webp",
+    "coverImage": "/images/winter-park-tower-catalog-thumb.webp"
+  },
+  {
+    "slug": "winter-park-corner",
+    "title": "Winter Park — M. Aliyev",
+    "category": "Residential",
+    "categories": [
+      "Residential",
+      "Building",
+      "Exterior"
+    ],
+    "type": "Residential tower · M. Aliyev 45",
+    "description": "Rounded balconies and a pale façade soften the profile of this residential tower. Views from the park, street and above explore the entrance, roofline and the building’s urban setting.",
+    "images": [
+      "/images/winter-park-corner-catalog-1.webp",
+      "/images/winter-park-corner-catalog-2.webp",
+      "/images/winter-park-corner-catalog-3.webp",
+      "/images/winter-park-corner-catalog-4.webp"
+    ],
+    "heroImage": "/images/winter-park-corner-catalog-1.webp",
+    "coverImage": "/images/winter-park-corner-catalog-thumb.webp"
+  },
+  {
+    "slug": "terrace-hotel",
+    "title": "Terrace Hotel Study",
+    "category": "Building",
+    "categories": [
+      "Building",
+      "Exterior",
+      "Interior"
+    ],
+    "type": "Hospitality building · Architectural visualization",
+    "description": "A hotel study organized around planted terraces and shared outdoor space. Building-scale views are paired with dining terraces, glass canopies and an aerial view of the pool and surrounding streets.",
+    "images": [
+      "/images/terrace-hotel-catalog-1.webp",
+      "/images/terrace-hotel-catalog-2.webp",
+      "/images/terrace-hotel-catalog-3.webp",
+      "/images/terrace-hotel-catalog-4.webp"
+    ],
+    "heroImage": "/images/terrace-hotel-catalog-1.webp",
+    "coverImage": "/images/terrace-hotel-catalog-thumb.webp"
+  },
+  {
+    "slug": "silver-diner",
+    "title": "Silver Diner",
+    "category": "Building",
+    "categories": [
+      "Building",
+      "Exterior",
+      "Interior",
+      "Street"
+    ],
+    "type": "Commercial frontage · Architectural visualization",
+    "description": "A glazed commercial frontage set beneath a residential building. Day and evening perspectives explore the street corner, projecting canopy and an interior dining space overlooking the city.",
+    "images": [
+      "/images/silver-diner-catalog-1.webp",
+      "/images/silver-diner-catalog-2.webp",
+      "/images/silver-diner-catalog-3.webp",
+      "/images/silver-diner-catalog-4.webp"
+    ],
+    "heroImage": "/images/silver-diner-catalog-1.webp",
+    "coverImage": "/images/silver-diner-catalog-thumb.webp"
+  },
+  {
+    "slug": "urban-corner",
+    "title": "Urban Corner Building",
+    "category": "Building",
+    "categories": [
+      "Building",
+      "Exterior",
+      "Interior",
+      "Street"
+    ],
+    "type": "Mixed-use building · Architectural visualization",
+    "description": "A compact corner building with a sheltered ground floor and terraces above. Street and aerial perspectives are complemented by the outdoor dining space and the connection between interior and terrace.",
+    "images": [
+      "/images/urban-corner-catalog-1.webp",
+      "/images/urban-corner-catalog-2.webp",
+      "/images/urban-corner-catalog-3.webp",
+      "/images/urban-corner-catalog-4.webp",
+      "/images/urban-corner-catalog-5.webp"
+    ],
+    "heroImage": "/images/urban-corner-catalog-1.webp",
+    "coverImage": "/images/urban-corner-catalog-thumb.webp"
+  },
+  {
+    "slug": "brick-corner",
+    "title": "Brick Corner Terrace",
+    "category": "Building",
+    "categories": [
+      "Building",
+      "Street",
+      "Exterior",
+      "Interior"
+    ],
+    "type": "Urban building · Hospitality terrace",
+    "description": "A brick corner building with a contemporary glazed terrace at street level. Exterior, aerial and interior views explore the junction of existing masonry, lightweight structure and outdoor dining.",
+    "images": [
+      "/images/brick-corner-catalog-1.webp",
+      "/images/brick-corner-catalog-2.webp",
+      "/images/brick-corner-catalog-3.webp",
+      "/images/brick-corner-catalog-4.webp"
+    ],
+    "heroImage": "/images/brick-corner-catalog-1.webp",
+    "coverImage": "/images/brick-corner-catalog-thumb.webp"
+  },
+  {
+    "slug": "jonathan",
+    "title": "Jonathan — Urban Infill",
+    "category": "Building",
+    "categories": [
+      "Building",
+      "Street",
+      "Exterior"
+    ],
+    "type": "Urban infill · Façade visualization",
+    "description": "A narrow glazed insertion sits between brick buildings along an established city street. A red entrance, reflected façades and evening light give this compact intervention its identity.",
+    "images": [
+      "/images/jonathan-catalog-1.webp",
+      "/images/jonathan-catalog-2.webp",
+      "/images/jonathan-catalog-3.webp",
+      "/images/jonathan-catalog-4.webp"
+    ],
+    "heroImage": "/images/jonathan-catalog-1.webp",
+    "coverImage": "/images/jonathan-catalog-thumb.webp"
+  },
+  {
+    "slug": "residential",
+    "title": "Residential Perspectives",
+    "category": "Residential",
+    "categories": [
+      "Residential",
+      "Building",
+      "Exterior"
+    ],
+    "type": "Residential building · Exterior visualization",
+    "description": "A compact residential building explored from the street, entrance and above. Pale façades, darker vertical elements and landscaped edges establish a quiet setting, with evening views adding another reading of the same design.",
+    "images": [
+      "/images/residential-catalog-1.webp",
+      "/images/residential-catalog-2.webp",
+      "/images/residential-catalog-3.webp",
+      "/images/residential-catalog-4.webp",
+      "/images/residential-catalog-5.webp",
+      "/images/residential-catalog-6.webp"
+    ],
+    "heroImage": "/images/residential-catalog-1.webp",
+    "coverImage": "/images/residential-catalog-thumb.webp"
+  },
+  {
+    "slug": "urban-facade",
+    "title": "Baku — Street Façades",
+    "category": "Street",
+    "categories": [
+      "Street",
+      "Building",
+      "Exterior"
+    ],
+    "type": "Urban renewal · Mothercare streetscape",
+    "description": "Two neighboring façades from the Baku Abadliq collection, presented as one streetscape study. The views examine balcony rhythm, ground-floor openings, planting and the relationship between the buildings and the pavement.",
+    "images": [
+      "/images/urban-facade-catalog-1.webp",
+      "/images/urban-facade-catalog-2.webp",
+      "/images/urban-facade-catalog-3.webp",
+      "/images/urban-facade-catalog-4.webp",
+      "/images/urban-facade-catalog-5.webp",
+      "/images/urban-facade-catalog-6.webp"
+    ],
+    "heroImage": "/images/urban-facade-catalog-1.webp",
+    "coverImage": "/images/urban-facade-catalog-thumb.webp"
+  },
+  {
+    "slug": "central-ave",
+    "title": "491 Central Avenue",
+    "category": "Residential",
+    "categories": [
+      "Residential",
+      "Exterior",
+      "Interior"
+    ],
+    "type": "Residential · Exterior & interior visualization",
+    "description": "A complete residential visualization series, from gabled rooflines and landscaped approaches to the living room, kitchen and dining space. Exterior and interior views are collected together to show one project at different scales.",
+    "images": [
+      "/images/central-ave-catalog-1.webp",
+      "/images/central-ave-catalog-2.webp",
+      "/images/central-ave-catalog-3.webp",
+      "/images/central-ave-catalog-4.webp",
+      "/images/central-ave-catalog-5.webp",
+      "/images/central-ave-catalog-6.webp",
+      "/images/central-ave-catalog-7.webp",
+      "/images/central-ave-catalog-8.webp",
+      "/images/central-ave-catalog-9.webp",
+      "/images/central-ave-catalog-10.webp"
+    ],
+    "heroImage": "/images/central-ave-catalog-1.webp",
+    "coverImage": "/images/central-ave-catalog-thumb.webp"
+  },
+  {
+    "slug": "garden-cafe",
+    "title": "Garden Café",
+    "category": "Building",
+    "categories": [
+      "Building",
+      "Exterior"
+    ],
+    "type": "Café pavilion · Architectural visualization",
+    "description": "A freestanding café pavilion surrounded by terraces and planting. Deep openings, pale stone and a planted roof are explored in daytime and evening views, with attention to the spaces for gathering around the building.",
+    "images": [
+      "/images/garden-cafe-catalog-1.webp",
+      "/images/garden-cafe-catalog-2.webp",
+      "/images/garden-cafe-catalog-3.webp",
+      "/images/garden-cafe-catalog-4.webp"
+    ],
+    "heroImage": "/images/garden-cafe-catalog-1.webp",
+    "coverImage": "/images/garden-cafe-catalog-thumb.webp"
+  },
+  {
+    "slug": "beverly-hills",
+    "title": "Beverly Hills Hotel",
+    "category": "Exterior",
+    "categories": [
+      "Exterior",
+      "Interior"
+    ],
+    "type": "Hospitality · Terrace visualization",
+    "description": "Layered timber, filtered daylight and greenery give shape to an open-air dining space. The same terrace is shown through daytime and evening lighting, bringing the material detail and atmosphere into focus.",
+    "images": [
+      "/images/beverly-hills-catalog-1.webp",
+      "/images/beverly-hills-catalog-2.webp",
+      "/images/beverly-hills-catalog-3.webp"
+    ],
+    "heroImage": "/images/beverly-hills-catalog-1.webp",
+    "coverImage": "/images/beverly-hills-catalog-thumb.webp"
+  },
+  {
+    "slug": "portobello",
+    "title": "Portobello",
+    "category": "Exterior",
+    "categories": [
+      "Exterior",
+      "Street"
+    ],
+    "type": "Hospitality · Pergola visualization",
+    "description": "An outdoor extension of the restaurant experience. Pergola structures frame the streetscape and create sheltered spaces for gathering, seen from the pavement and from within the dining terrace.",
+    "images": [
+      "/images/portobello-catalog-1.webp",
+      "/images/portobello-catalog-2.webp",
+      "/images/portobello-catalog-3.webp",
+      "/images/portobello-catalog-4.webp",
+      "/images/portobello-catalog-5.webp"
+    ],
+    "heroImage": "/images/portobello-catalog-1.webp",
+    "coverImage": "/images/portobello-catalog-thumb.webp"
+  },
+  {
+    "slug": "poolside-villa",
+    "title": "Poolside Villa",
+    "category": "Exterior",
+    "categories": [
+      "Exterior",
+      "Residential",
+      "Interior"
+    ],
+    "type": "Private residence · Outdoor living",
+    "description": "A contemporary villa and pool terrace studied with different shading and glazing arrangements. Wide exterior views lead into the covered living space, connecting the house, water and garden.",
+    "images": [
+      "/images/poolside-villa-catalog-1.webp",
+      "/images/poolside-villa-catalog-2.webp",
+      "/images/poolside-villa-catalog-3.webp",
+      "/images/poolside-villa-catalog-4.webp",
+      "/images/poolside-villa-catalog-5.webp",
+      "/images/poolside-villa-catalog-6.webp",
+      "/images/poolside-villa-catalog-7.webp"
+    ],
+    "heroImage": "/images/poolside-villa-catalog-1.webp",
+    "coverImage": "/images/poolside-villa-catalog-thumb.webp"
+  },
+  {
+    "slug": "gable-patio",
+    "title": "Gabled House Patio",
+    "category": "Exterior",
+    "categories": [
+      "Exterior",
+      "Residential"
+    ],
+    "type": "Private residence · Patio visualization",
+    "description": "A covered patio extends the living spaces of a gabled house into its garden. The views describe the roof structure, outdoor kitchen and seating area from the garden and above.",
+    "images": [
+      "/images/gable-patio-catalog-1.webp",
+      "/images/gable-patio-catalog-2.webp",
+      "/images/gable-patio-catalog-3.webp",
+      "/images/gable-patio-catalog-4.webp"
+    ],
+    "heroImage": "/images/gable-patio-catalog-1.webp",
+    "coverImage": "/images/gable-patio-catalog-thumb.webp"
+  },
+  {
+    "slug": "garden-deck",
+    "title": "Garden Deck Residence",
+    "category": "Exterior",
+    "categories": [
+      "Exterior",
+      "Residential"
+    ],
+    "type": "Private residence · Deck visualization",
+    "description": "A light pergola and deck sit alongside a traditional house. The project explores the scale of the extension, its connection to the lawn and the experience of sitting beneath the adjustable roof.",
+    "images": [
+      "/images/garden-deck-catalog-1.webp",
+      "/images/garden-deck-catalog-2.webp",
+      "/images/garden-deck-catalog-3.webp",
+      "/images/garden-deck-catalog-4.webp"
+    ],
+    "heroImage": "/images/garden-deck-catalog-1.webp",
+    "coverImage": "/images/garden-deck-catalog-thumb.webp"
+  },
+  {
+    "slug": "mountain-house",
+    "title": "Mountain House",
+    "category": "Exterior",
+    "categories": [
+      "Exterior",
+      "Residential",
+      "Interior"
+    ],
+    "type": "Private residence · Seasonal visualization",
+    "description": "A glazed balcony projects from a stone and plaster house in a mountain setting. Snow, autumn light and evening scenes explore the same architecture across seasons, with an interior view of the sheltered lounge.",
+    "images": [
+      "/images/mountain-house-catalog-1.webp",
+      "/images/mountain-house-catalog-2.webp",
+      "/images/mountain-house-catalog-3.webp",
+      "/images/mountain-house-catalog-4.webp",
+      "/images/mountain-house-catalog-5.webp",
+      "/images/mountain-house-catalog-6.webp"
+    ],
+    "heroImage": "/images/mountain-house-catalog-1.webp",
+    "coverImage": "/images/mountain-house-catalog-thumb.webp"
+  },
+  {
+    "slug": "winter-garden",
+    "title": "Winter Garden Pavilion",
+    "category": "Exterior",
+    "categories": [
+      "Exterior"
+    ],
+    "type": "Outdoor living · Seasonal visualization",
+    "description": "A freestanding glazed pavilion set into a timber deck. Winter and summer views explore the enclosure, roof and stepped landscape around a sheltered place to unwind.",
+    "images": [
+      "/images/winter-garden-catalog-1.webp",
+      "/images/winter-garden-catalog-2.webp",
+      "/images/winter-garden-catalog-3.webp",
+      "/images/winter-garden-catalog-4.webp",
+      "/images/winter-garden-catalog-5.webp"
+    ],
+    "heroImage": "/images/winter-garden-catalog-1.webp",
+    "coverImage": "/images/winter-garden-catalog-thumb.webp"
+  },
+  {
+    "slug": "pool-pavilion",
+    "title": "Poolside Pavilion",
+    "category": "Exterior",
+    "categories": [
+      "Exterior"
+    ],
+    "type": "Outdoor living · Pavilion visualization",
+    "description": "A light, open pavilion beside the water. Daylight and sunset views explore the structure and sliding enclosure, connecting poolside comfort with the surrounding landscape.",
+    "images": [
+      "/images/pool-pavilion-catalog-1.webp",
+      "/images/pool-pavilion-catalog-2.webp",
+      "/images/pool-pavilion-catalog-3.webp",
+      "/images/pool-pavilion-catalog-4.webp"
+    ],
+    "heroImage": "/images/pool-pavilion-catalog-1.webp",
+    "coverImage": "/images/pool-pavilion-catalog-thumb.webp"
+  },
+  {
+    "slug": "rooftop",
+    "title": "Above the City",
+    "category": "Exterior",
+    "categories": [
+      "Exterior"
+    ],
+    "type": "Rooftop pavilion · Outdoor living",
+    "description": "A compact rooftop pavilion framed by open sky and the city beyond. Daylight views establish the poolside setting, while a sunset perspective brings out the slender structure and warm interior light.",
+    "images": [
+      "/images/rooftop-catalog-1.webp",
+      "/images/rooftop-catalog-2.webp",
+      "/images/rooftop-catalog-3.webp",
+      "/images/rooftop-catalog-4.webp"
+    ],
+    "heroImage": "/images/rooftop-catalog-1.webp",
+    "coverImage": "/images/rooftop-catalog-thumb.webp"
+  },
+  {
+    "slug": "louver-mechanism",
+    "title": "Louver Mechanism",
+    "category": "Product Modeling",
+    "categories": [
+      "Product Modeling"
+    ],
+    "type": "Product modeling · Mechanical detail",
+    "description": "Detailed cutaway views of a louvered roof mechanism. The images focus on the relationship between the structural frame, moving components and concealed connections.",
+    "images": [
+      "/images/louver-mechanism-catalog-1.webp",
+      "/images/louver-mechanism-catalog-2.webp",
+      "/images/louver-mechanism-catalog-3.webp"
+    ],
+    "heroImage": "/images/louver-mechanism-catalog-1.webp",
+    "coverImage": "/images/louver-mechanism-catalog-thumb.webp"
+  },
+  {
+    "slug": "sliding-glass",
+    "title": "Sliding Glass System",
+    "category": "Product Modeling",
+    "categories": [
+      "Product Modeling"
+    ],
+    "type": "Product modeling · Sliding enclosure",
+    "description": "A sliding glass system presented through full assembly and configuration views. The render series studies frame proportion, opening arrangements and the slim profile of the enclosure.",
+    "images": [
+      "/images/sliding-glass-catalog-1.webp",
+      "/images/sliding-glass-catalog-2.webp",
+      "/images/sliding-glass-catalog-3.webp",
+      "/images/sliding-glass-catalog-4.webp"
+    ],
+    "heroImage": "/images/sliding-glass-catalog-1.webp",
+    "coverImage": "/images/sliding-glass-catalog-thumb.webp"
+  }
+]

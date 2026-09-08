@@ -1,0 +1,1194 @@
+[
+  {
+    "project": "skyline-residences",
+    "source": "artifacts\\pdf-review\\p01-01.jpg",
+    "output": "public\\images\\skyline-residences-catalog-1.webp",
+    "pixelHash": "c8625054f29d9dfd9b5ae1bd7b3a1a62a1477aacf10db8a9ae9b0c88e1a5e617",
+    "width": 1603,
+    "height": 1185
+  },
+  {
+    "project": "skyline-residences",
+    "source": "artifacts\\pdf-review\\p01-02.jpg",
+    "output": "public\\images\\skyline-residences-catalog-2.webp",
+    "pixelHash": "c8b46cc972eba2f514265be6527deaa4d9ac75ad65618c21d252ffd24f716a35",
+    "width": 1480,
+    "height": 1187
+  },
+  {
+    "project": "skyline-residences",
+    "source": "artifacts\\pdf-review\\p01-03.jpg",
+    "output": "public\\images\\skyline-residences-catalog-3.webp",
+    "pixelHash": "313829479681c68dd858c3908b8c197f58b145b2166c062b7e502a6bbeec22a6",
+    "width": 839,
+    "height": 975
+  },
+  {
+    "project": "skyline-residences",
+    "source": "artifacts\\pdf-review\\p01-04.jpg",
+    "output": "public\\images\\skyline-residences-catalog-4.webp",
+    "pixelHash": "a919eea4273a0aa26f5877fadcd62d6d121481b39b9be8214deebf0c41a6b4b8",
+    "width": 892,
+    "height": 975
+  },
+  {
+    "project": "skyline-residences",
+    "source": "artifacts\\pdf-review\\p01-05.jpg",
+    "output": "public\\images\\skyline-residences-catalog-5.webp",
+    "pixelHash": "e8a38963ae149cb3547acd445d5df9fa2bb98920170367b626693c73d9cc8781",
+    "width": 1352,
+    "height": 975
+  },
+  {
+    "project": "garden-residences",
+    "source": "artifacts\\pdf-review\\p03-02.jpg",
+    "output": "public\\images\\garden-residences-catalog-1.webp",
+    "pixelHash": "6fb92473b0766c5461639aa442d11cc14bfcfdc211489472f2dea6f7eb330a41",
+    "width": 1539,
+    "height": 1234
+  },
+  {
+    "project": "garden-residences",
+    "source": "artifacts\\pdf-review\\p03-04.jpg",
+    "output": "public\\images\\garden-residences-catalog-2.webp",
+    "pixelHash": "270dfa342dfc6d69e49f69ce843928b1b67432c19116887429fc730575a8c582",
+    "width": 1539,
+    "height": 1074
+  },
+  {
+    "project": "garden-residences",
+    "source": "artifacts\\pdf-review\\p03-01.jpg",
+    "output": "public\\images\\garden-residences-catalog-3.webp",
+    "pixelHash": "f43959bed5775dc39d9c610aa528a702c139297297f8f7dd282c3bdf834b6bea",
+    "width": 1539,
+    "height": 1154
+  },
+  {
+    "project": "garden-residences",
+    "source": "artifacts\\pdf-review\\p03-03.jpg",
+    "output": "public\\images\\garden-residences-catalog-4.webp",
+    "pixelHash": "90ecf192cff04b66e59f7c8a9ad7fb7f1b357877696c9c3d43353cfd8a038c6d",
+    "width": 1539,
+    "height": 1078
+  },
+  {
+    "project": "courtyard-quarter",
+    "source": "artifacts\\pdf-review\\p04-03.jpg",
+    "output": "public\\images\\courtyard-quarter-catalog-1.webp",
+    "pixelHash": "032c06df69c9de2bf77c2dd1c40876a99b0b0989f3527bfbddc86d6f1e71660a",
+    "width": 1539,
+    "height": 1154
+  },
+  {
+    "project": "courtyard-quarter",
+    "source": "artifacts\\pdf-review\\p04-02.jpg",
+    "output": "public\\images\\courtyard-quarter-catalog-2.webp",
+    "pixelHash": "b9ae8f27065319630a30700fd628a9f27ad9b98a3b07af73a55560121c1f5b6c",
+    "width": 1539,
+    "height": 1154
+  },
+  {
+    "project": "courtyard-quarter",
+    "source": "artifacts\\pdf-review\\p04-01.jpg",
+    "output": "public\\images\\courtyard-quarter-catalog-3.webp",
+    "pixelHash": "8c4b9ef035f25de079991989c1f55a047184ec18aa290641213e360861fc8229",
+    "width": 1539,
+    "height": 1154
+  },
+  {
+    "project": "courtyard-quarter",
+    "source": "artifacts\\pdf-review\\p04-04.jpg",
+    "output": "public\\images\\courtyard-quarter-catalog-4.webp",
+    "pixelHash": "4584067e4288d6d6468a347e109f0b5e81da16894c98411bf9ee860f61654e26",
+    "width": 1539,
+    "height": 1154
+  },
+  {
+    "project": "arcade-residences",
+    "source": "artifacts\\pdf-review\\p02-01.jpg",
+    "output": "public\\images\\arcade-residences-catalog-1.webp",
+    "pixelHash": "233578b2e0d8d089e4b9a233502589dd0a456ed8912b4fe474eed8a59308d820",
+    "width": 1543,
+    "height": 1027
+  },
+  {
+    "project": "arcade-residences",
+    "source": "artifacts\\pdf-review\\p02-02.jpg",
+    "output": "public\\images\\arcade-residences-catalog-2.webp",
+    "pixelHash": "082db01fe7c5026941539ee31cfe02ef92aaad223b8fdc24a26723f254c21fad",
+    "width": 1544,
+    "height": 1103
+  },
+  {
+    "project": "arcade-residences",
+    "source": "artifacts\\pdf-review\\p02-03.jpg",
+    "output": "public\\images\\arcade-residences-catalog-3.webp",
+    "pixelHash": "9bf8b8b600c5d2ce4f303b840a218d63630c796798481363ced4d2c4442bce70",
+    "width": 1539,
+    "height": 1101
+  },
+  {
+    "project": "arcade-residences",
+    "source": "artifacts\\pdf-review\\p02-04.jpg",
+    "output": "public\\images\\arcade-residences-catalog-4.webp",
+    "pixelHash": "d79d4888e53b057dea43da65d9b7bd8826385bfb3aa2e9a8eed792d1d42150ab",
+    "width": 1544,
+    "height": 1154
+  },
+  {
+    "project": "white-city",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku White City\\16.jpg",
+    "output": "public\\images\\white-city-catalog-1.webp",
+    "pixelHash": "d51834ad67ea7327e01507d2992838e62b753a4b6a7d8b558ea6f11e50418197",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "white-city",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku White City\\1.jpg",
+    "output": "public\\images\\white-city-catalog-2.webp",
+    "pixelHash": "7a3766f62277f9b23dc7f4e1b69805dd8dced286754c0bc2181012a62dd81d89",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "white-city",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku White City\\2.jpg",
+    "output": "public\\images\\white-city-catalog-3.webp",
+    "pixelHash": "5e3b6022f66bda011aae9b347e4e636aadd09192c98a834c05fff813c23f2e3c",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "white-city",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku White City\\4.jpg",
+    "output": "public\\images\\white-city-catalog-4.webp",
+    "pixelHash": "3b6f8bab4f37d910e021f3f34b7a324f6472790f61c2c6e4528c0f766e77bbfa",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "white-city",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku White City\\17.jpg",
+    "output": "public\\images\\white-city-catalog-5.webp",
+    "pixelHash": "9661a8b5ed2d219e2698d149bd6d94ff06b79bce1763ac919a6aa687bca2fc7b",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "white-city",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku White City\\19.jpg",
+    "output": "public\\images\\white-city-catalog-6.webp",
+    "pixelHash": "23b9d1a2277f09f0c8a3f8078dd14aed3ee07f76e5757d0f2ee9cce8a70b22f1",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "white-city",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku White City\\8.jpg",
+    "output": "public\\images\\white-city-catalog-7.webp",
+    "pixelHash": "0f86b2caa40ece4813ec63f18391176cf8f6acfa66f8426881e730ff990afa7c",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "white-city",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku White City\\11.jpg",
+    "output": "public\\images\\white-city-catalog-8.webp",
+    "pixelHash": "d6dcf7bce795e81aaa80d6a46b1832c4e4092d28e78807514a44ce6452631a8b",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "white-city",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku White City\\12.jpg",
+    "output": "public\\images\\white-city-catalog-9.webp",
+    "pixelHash": "3997eb8bf11caf1a286bae72f32e9c084fa61b05c1decab233164d8b305fdc2d",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "perth-waterfront",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Perth City\\Renders\\1.png",
+    "output": "public\\images\\perth-waterfront-catalog-1.webp",
+    "pixelHash": "5f60cbee8e82b9d22a383cffc1128fac4b26e8874e5c979feddad126f9a6f93b",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "project": "perth-waterfront",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Perth City\\Renders\\2.png",
+    "output": "public\\images\\perth-waterfront-catalog-2.webp",
+    "pixelHash": "9d664cca1898e732afb7737e2ce4737e60e3b294413dc3bf91ad3b583ea02eaa",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "project": "perth-waterfront",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Perth City\\Renders\\3.png",
+    "output": "public\\images\\perth-waterfront-catalog-3.webp",
+    "pixelHash": "1e80ca2556cd1303514a71112302adb6c4446eec1b1d8f77c6bb7834aa060c03",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "project": "perth-waterfront",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Perth City\\Renders\\4.png",
+    "output": "public\\images\\perth-waterfront-catalog-4.webp",
+    "pixelHash": "54db440750bb8c5a7337870ec92f408a793545fe4d1cf7bb7ed563f3d028c58f",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "project": "marina-village",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Marina Village Sea Breeze\\3.jpg",
+    "output": "public\\images\\marina-village-catalog-1.webp",
+    "pixelHash": "1f0b9f2569d0ab253e7cd13b598478a86bdc78fe0579e5af6eb4420c452ed3ae",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "marina-village",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Marina Village Sea Breeze\\2.jpg",
+    "output": "public\\images\\marina-village-catalog-2.webp",
+    "pixelHash": "37c80348674a6a66fdd8cfc33c3a90469eac53b96efe328f01c289efbfbdded4",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "marina-village",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Marina Village Sea Breeze\\4.jpg",
+    "output": "public\\images\\marina-village-catalog-3.webp",
+    "pixelHash": "688cf7fa14321b040c2ffc6c080aa2282a5f334002315430a4acb6342747ecd6",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "marina-village",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Marina Village Sea Breeze\\5.jpg",
+    "output": "public\\images\\marina-village-catalog-4.webp",
+    "pixelHash": "3227cc41b5c5cf2230af26be9695c881e8e40c3abd63515e0b07dcc90419aecf",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "marina-village",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Marina Village Sea Breeze\\7.jpg",
+    "output": "public\\images\\marina-village-catalog-5.webp",
+    "pixelHash": "9042ba25541df2eba18d9b5ee432e56172461380cda8c97b188af5389c512c86",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "marina-village",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Marina Village Sea Breeze\\8.jpg",
+    "output": "public\\images\\marina-village-catalog-6.webp",
+    "pixelHash": "ea0c35084a1bfaddabdb27c4bb219b487d1ee9dba8a9900fe2322229cd708214",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "marina-village",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Marina Village Sea Breeze\\6.jpg",
+    "output": "public\\images\\marina-village-catalog-7.webp",
+    "pixelHash": "a58276aefed61f4ed3770eabe7ea01e7f2d8037b4b99ad636697a52d508ad82f",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "komfor-residences",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku Abadliq\\3mkr Dairesi\\Komfor MTK - 1K\\1.jpg",
+    "output": "public\\images\\komfor-residences-catalog-1.webp",
+    "pixelHash": "1d9e876639f7a9d325a18151a6f5146bf1db7d6ae5ef6be54d472aa67f5f9ae3",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "komfor-residences",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku Abadliq\\3mkr Dairesi\\Komfor MTK - 1K\\2.jpg",
+    "output": "public\\images\\komfor-residences-catalog-2.webp",
+    "pixelHash": "7a0ba4012f33f54debfaa8017a9dea662693a599b12bcf4f4722fde28d36450f",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "komfor-residences",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku Abadliq\\3mkr Dairesi\\Komfor MTK - 1K\\3.jpg",
+    "output": "public\\images\\komfor-residences-catalog-3.webp",
+    "pixelHash": "1619ce73bdfbf091fa8f84c38225822f6d6dcaecc3838e86a6790f92f265112c",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "komfor-residences",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku Abadliq\\3mkr Dairesi\\Komfor MTK - 1K\\4.jpg",
+    "output": "public\\images\\komfor-residences-catalog-4.webp",
+    "pixelHash": "008b52db3280350a107f3c1cdb039cf777a75bf08da3c47042c8c9fa5e5091f5",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "tebib-residences",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku Abadliq\\3mkr Dairesi\\Tebib MTK - 1D\\1.jpg",
+    "output": "public\\images\\tebib-residences-catalog-1.webp",
+    "pixelHash": "9e6d9f3571dd1c320cb909490dbb42f267cacb9258aae9df827240d250a1d864",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "tebib-residences",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku Abadliq\\3mkr Dairesi\\Tebib MTK - 1D\\2.jpg",
+    "output": "public\\images\\tebib-residences-catalog-2.webp",
+    "pixelHash": "519cac15c8129411407a5b2493925eb6b4644aa2e2e116fb8a89c19a3943d144",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "tebib-residences",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku Abadliq\\3mkr Dairesi\\Tebib MTK - 1D\\3.jpg",
+    "output": "public\\images\\tebib-residences-catalog-3.webp",
+    "pixelHash": "7784e9fda20f05fa320d97f8b50ad4c568e6edd5539444ccf256cfbed26286f2",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "tebib-residences",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku Abadliq\\3mkr Dairesi\\Tebib MTK - 1D\\4.jpg",
+    "output": "public\\images\\tebib-residences-catalog-4.webp",
+    "pixelHash": "2e1e87a3b6713d510c272c8a80db6a6c5140116b0ef28c88281d9ac403ade1e7",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "winter-park-tower",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku Abadliq\\Qish Parki Bina\\Bina 1 (N.Nerimanov 277)\\1.jpg",
+    "output": "public\\images\\winter-park-tower-catalog-1.webp",
+    "pixelHash": "781a8273790d51ba63f779af0ebbd2d20b9c5789c858b04a112e6af25826ea4e",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "winter-park-tower",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku Abadliq\\Qish Parki Bina\\Bina 1 (N.Nerimanov 277)\\3.jpg",
+    "output": "public\\images\\winter-park-tower-catalog-2.webp",
+    "pixelHash": "6a20b4df2d4228e1c69dc3d649239b1682adf3ad9e8811e0d9cf161a5472b013",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "winter-park-tower",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku Abadliq\\Qish Parki Bina\\Bina 1 (N.Nerimanov 277)\\5.jpg",
+    "output": "public\\images\\winter-park-tower-catalog-3.webp",
+    "pixelHash": "82f1ff2ce8efda46d3ca53d4d96c5f3447fd0469009c25de97d938db37c60874",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "winter-park-tower",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku Abadliq\\Qish Parki Bina\\Bina 1 (N.Nerimanov 277)\\10.jpg",
+    "output": "public\\images\\winter-park-tower-catalog-4.webp",
+    "pixelHash": "df4f31630bb16f7212d7d408680db944164b4cfc188cc895ffe4d4c739876b80",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "winter-park-corner",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku Abadliq\\Qish Parki Bina\\Bina 2 ( M.Əliyev 45 )\\1.jpg",
+    "output": "public\\images\\winter-park-corner-catalog-1.webp",
+    "pixelHash": "028abcef1a466d36fa82b7c73f5a0443e101311c5a65c2b8556caa93bcc9c20b",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "winter-park-corner",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku Abadliq\\Qish Parki Bina\\Bina 2 ( M.Əliyev 45 )\\3.jpg",
+    "output": "public\\images\\winter-park-corner-catalog-2.webp",
+    "pixelHash": "eb5e8fef1200b14b8c6b59ec178e743c894bd2edaba7c8812b3daa317af834f6",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "winter-park-corner",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku Abadliq\\Qish Parki Bina\\Bina 2 ( M.Əliyev 45 )\\5.jpg",
+    "output": "public\\images\\winter-park-corner-catalog-3.webp",
+    "pixelHash": "f53e9aed4e2dbebfbedbc9acd1cce0ccfefe807b2558211dba3761afd8e8128e",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "winter-park-corner",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku Abadliq\\Qish Parki Bina\\Bina 2 ( M.Əliyev 45 )\\10.jpg",
+    "output": "public\\images\\winter-park-corner-catalog-4.webp",
+    "pixelHash": "55a7ced491851bd6c017aa5452c94758cc9c281473887ab43173f3bd181e2208",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "terrace-hotel",
+    "source": "artifacts\\pdf-review\\p22-01.jpg",
+    "output": "public\\images\\terrace-hotel-catalog-1.webp",
+    "pixelHash": "f7d1372904cf7bc04639504ddcbd6accd722a8bcc9199942cb03fa0606d3f116",
+    "width": 2200,
+    "height": 1085
+  },
+  {
+    "project": "terrace-hotel",
+    "source": "artifacts\\pdf-review\\p22-04.jpg",
+    "output": "public\\images\\terrace-hotel-catalog-2.webp",
+    "pixelHash": "85b77e19b520d1f8f032c450137ca49d785917dd4c164677fb7c1f7e9a92666c",
+    "width": 967,
+    "height": 542
+  },
+  {
+    "project": "terrace-hotel",
+    "source": "artifacts\\pdf-review\\p22-02.jpg",
+    "output": "public\\images\\terrace-hotel-catalog-3.webp",
+    "pixelHash": "f54ccc4d77213d436c96fc12e21f0b07d81b66d771f1998b144bf3afe85c41eb",
+    "width": 970,
+    "height": 542
+  },
+  {
+    "project": "terrace-hotel",
+    "source": "artifacts\\pdf-review\\p22-03.jpg",
+    "output": "public\\images\\terrace-hotel-catalog-4.webp",
+    "pixelHash": "0018a1a4604a034b4915620af67785a978b056a8604cc647f8e74518e4ebdbee",
+    "width": 965,
+    "height": 542
+  },
+  {
+    "project": "silver-diner",
+    "source": "artifacts\\pdf-review\\p20-01.jpg",
+    "output": "public\\images\\silver-diner-catalog-1.webp",
+    "pixelHash": "d20901bdb376410681f6781fe5df73e641b0cc90432dcc7c4296049dff36a366",
+    "width": 2200,
+    "height": 1109
+  },
+  {
+    "project": "silver-diner",
+    "source": "artifacts\\pdf-review\\p20-02.jpg",
+    "output": "public\\images\\silver-diner-catalog-2.webp",
+    "pixelHash": "d496f551a1e92aaec2d1070e89718acddb3cc2549942ea4958894a7cc7839b15",
+    "width": 997,
+    "height": 561
+  },
+  {
+    "project": "silver-diner",
+    "source": "artifacts\\pdf-review\\p20-03.jpg",
+    "output": "public\\images\\silver-diner-catalog-3.webp",
+    "pixelHash": "f9cc48c258f1706b5b6c1be7937bc1694ad1a9644b5e0502140b1e2074c1a2a5",
+    "width": 1001,
+    "height": 561
+  },
+  {
+    "project": "silver-diner",
+    "source": "artifacts\\pdf-review\\p20-04.jpg",
+    "output": "public\\images\\silver-diner-catalog-4.webp",
+    "pixelHash": "7bffe2338c6d3977fccc675db306893596173dd5449b404ab040a1cd9d324534",
+    "width": 987,
+    "height": 561
+  },
+  {
+    "project": "urban-corner",
+    "source": "artifacts\\pdf-review\\p21-05.jpg",
+    "output": "public\\images\\urban-corner-catalog-1.webp",
+    "pixelHash": "41d7a4600e9bd773b2b48e0c4755302c72ab26e05bc4e661e21e65d0e603cd3d",
+    "width": 2200,
+    "height": 1119
+  },
+  {
+    "project": "urban-corner",
+    "source": "artifacts\\pdf-review\\p21-04.jpg",
+    "output": "public\\images\\urban-corner-catalog-2.webp",
+    "pixelHash": "c9493f8bcf9637f9a283c77847250a437e7c0e8cf9cbc6a6561a0fb7568a8aae",
+    "width": 964,
+    "height": 527
+  },
+  {
+    "project": "urban-corner",
+    "source": "artifacts\\pdf-review\\p21-02.jpg",
+    "output": "public\\images\\urban-corner-catalog-3.webp",
+    "pixelHash": "c3577dee73ee16efd5bc73e9bb3b8e6edd710fb7026a8c79fe1b70db02e7281a",
+    "width": 964,
+    "height": 527
+  },
+  {
+    "project": "urban-corner",
+    "source": "artifacts\\pdf-review\\p21-03.jpg",
+    "output": "public\\images\\urban-corner-catalog-4.webp",
+    "pixelHash": "284a0f708f3e8dfdfe56d88fc048a6f54a892459b8cc69163b815d8c7372067c",
+    "width": 963,
+    "height": 525
+  },
+  {
+    "project": "urban-corner",
+    "source": "artifacts\\pdf-review\\p21-01.jpg",
+    "output": "public\\images\\urban-corner-catalog-5.webp",
+    "pixelHash": "281df8807990c02a4267d12bd7e2f1cba426a7e7c36f803f243ba6d5800aab27",
+    "width": 967,
+    "height": 526
+  },
+  {
+    "project": "brick-corner",
+    "source": "artifacts\\pdf-review\\p23-01.jpg",
+    "output": "public\\images\\brick-corner-catalog-1.webp",
+    "pixelHash": "de71dd46d4e010b44a37babd4d043759d22333858e53b3c4c73c910c61703635",
+    "width": 2200,
+    "height": 1108
+  },
+  {
+    "project": "brick-corner",
+    "source": "artifacts\\pdf-review\\p23-02.jpg",
+    "output": "public\\images\\brick-corner-catalog-2.webp",
+    "pixelHash": "43531b3a34f3121de1b43a6d087c108269175441a888fe7f2faee261cf65da78",
+    "width": 981,
+    "height": 543
+  },
+  {
+    "project": "brick-corner",
+    "source": "artifacts\\pdf-review\\p23-03.jpg",
+    "output": "public\\images\\brick-corner-catalog-3.webp",
+    "pixelHash": "f46f48cca29745c56af8b7ce8489d1158451ea9138c5500217a8b7cfa87061e7",
+    "width": 965,
+    "height": 542
+  },
+  {
+    "project": "brick-corner",
+    "source": "artifacts\\pdf-review\\p23-04.jpg",
+    "output": "public\\images\\brick-corner-catalog-4.webp",
+    "pixelHash": "1134710e40a666a7e92a898b972804f6a536900463291b2d206eafcdb87f3994",
+    "width": 965,
+    "height": 538
+  },
+  {
+    "project": "jonathan",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Jonathan\\4.jpg",
+    "output": "public\\images\\jonathan-catalog-1.webp",
+    "pixelHash": "5d6b38c8f63bc7e7934654e604745e36b2cf1ff80eeebc14e29f93015f687b2c",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "jonathan",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Jonathan\\5.jpg",
+    "output": "public\\images\\jonathan-catalog-2.webp",
+    "pixelHash": "58cc07db0c8b28b131e51ef136691bb5d4e6e247fd7345278e8089364cc0b576",
+    "width": 1012,
+    "height": 1800
+  },
+  {
+    "project": "jonathan",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Jonathan\\6.jpg",
+    "output": "public\\images\\jonathan-catalog-3.webp",
+    "pixelHash": "a860d949ab58ad0c888e6ad16216ba0bdcafc72f6b97183172e93e975fe6f1e0",
+    "width": 1012,
+    "height": 1800
+  },
+  {
+    "project": "jonathan",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Jonathan\\7.jpg",
+    "output": "public\\images\\jonathan-catalog-4.webp",
+    "pixelHash": "35b277940cb4f9eac98dbc5c34d98564f017171c3b69d3a5000ee2c7ca6ef9ae",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "residential",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Building\\1.jpg",
+    "output": "public\\images\\residential-catalog-1.webp",
+    "pixelHash": "0b18582e0c7eab56776c7de0234ad5026f3564ac4e2bbb658291b8e3febee694",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "residential",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Building\\10.jpg",
+    "output": "public\\images\\residential-catalog-2.webp",
+    "pixelHash": "9aa39b0b524f0d289817dacc424b8b8622c18ecb1d8154db13e3f65ff69ce4ab",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "residential",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Building\\11.jpg",
+    "output": "public\\images\\residential-catalog-3.webp",
+    "pixelHash": "cc38eeea98403d5fa2fe676ef17c646e82d8cd5bb46a25ddf27d867416110341",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "residential",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Building\\7.jpg",
+    "output": "public\\images\\residential-catalog-4.webp",
+    "pixelHash": "43eb6c1e883eb5c5ae3255a20153ab76fcbc1a37e28e57c44abe1358714074b0",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "residential",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Building\\16.jpg",
+    "output": "public\\images\\residential-catalog-5.webp",
+    "pixelHash": "6a5c0cae2eb45abea02a9807ade19353c646a4ed6a112fa0fe7da28cee74bfb5",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "residential",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Building\\19.jpg",
+    "output": "public\\images\\residential-catalog-6.webp",
+    "pixelHash": "5ca68e15420c69d883fbe11f1b0489ea21e07bf10f18037c36628e428d4d226e",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "urban-facade",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku Abadliq\\Mothercare\\Bina 3\\1.jpg",
+    "output": "public\\images\\urban-facade-catalog-1.webp",
+    "pixelHash": "d760b00ede030f78c9c2887fe88e4134343ab8f728013f9ac1380a67204c950a",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "urban-facade",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku Abadliq\\Mothercare\\Bina 3\\3.jpg",
+    "output": "public\\images\\urban-facade-catalog-2.webp",
+    "pixelHash": "cc0d40551c7f00e34782f66f85e14cb5186d7ca6f3c0c990e71f5311a93f76e2",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "urban-facade",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku Abadliq\\Mothercare\\Bina 3\\4.jpg",
+    "output": "public\\images\\urban-facade-catalog-3.webp",
+    "pixelHash": "b2cf51a27464c4fc318697cb77f99d0a342f9d3b8ba2d91e91de978e47be2a98",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "urban-facade",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku Abadliq\\Mothercare\\Bina 4\\1.jpg",
+    "output": "public\\images\\urban-facade-catalog-4.webp",
+    "pixelHash": "c949e33954b6d20a2836b5a7bfcfc1ba0efbc352ce497175aaf084f6ec12a86c",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "urban-facade",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku Abadliq\\Mothercare\\Bina 4\\3.jpg",
+    "output": "public\\images\\urban-facade-catalog-5.webp",
+    "pixelHash": "b1ed30560bc81e8d14b1cfe928f3588e641ab347c36c0ab7731a5d46e080c6e7",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "urban-facade",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Baku Abadliq\\Mothercare\\Bina 4\\4.jpg",
+    "output": "public\\images\\urban-facade-catalog-6.webp",
+    "pixelHash": "5e5c93e22b03395da13c5f2f5e778bc874d49124f86bdb33cd577b75cb9a29a3",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "central-ave",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\491 Central Ave\\Exterior - Final 2.jpg",
+    "output": "public\\images\\central-ave-catalog-1.webp",
+    "pixelHash": "99f54ab8a3175f6e1c565b12d8ccce09fcfb2509ea143a5720dfca869027a575",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "central-ave",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\491 Central Ave\\Exterior\\1.jpg",
+    "output": "public\\images\\central-ave-catalog-2.webp",
+    "pixelHash": "a6c789637aa9764e7bf0a58021c5742f0f40670523494561676dadf149592d43",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "central-ave",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\491 Central Ave\\Exterior\\10.jpg",
+    "output": "public\\images\\central-ave-catalog-3.webp",
+    "pixelHash": "e16c306d0e41847f922caba20dce4d6d89d20e6d688d3f87c116bf3c6fc97043",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "central-ave",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\491 Central Ave\\Exterior\\3.jpg",
+    "output": "public\\images\\central-ave-catalog-4.webp",
+    "pixelHash": "edacc328d242602d811404ec54e6bde9f59f34a86e1505789e180a023f696ade",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "central-ave",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\491 Central Ave\\Logosuz\\1_3.jpg",
+    "output": "public\\images\\central-ave-catalog-5.webp",
+    "pixelHash": "e656d526aac00545e435b82be02334b30ba49f3625bd6eca8cc23106d246487a",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "central-ave",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\491 Central Ave\\Logosuz\\0_zemin 1.jpg",
+    "output": "public\\images\\central-ave-catalog-6.webp",
+    "pixelHash": "2e80820b5173b1313818490a43beead31343d3e7bdfb38dd65fa176458b86f8c",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "central-ave",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\491 Central Ave\\Logosuz\\0_zemin 2.jpg",
+    "output": "public\\images\\central-ave-catalog-7.webp",
+    "pixelHash": "a9994ca1e1e2b9682db19d3397e81e480fa944163cdb8704e4e9deab2d057313",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "central-ave",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\491 Central Ave\\Logosuz\\0_zemin 3.jpg",
+    "output": "public\\images\\central-ave-catalog-8.webp",
+    "pixelHash": "b7334a507d4cd6d1c6dfa0c4393f4c7de63c6498c438a521a10cc34f418c20bb",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "central-ave",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\491 Central Ave\\Logosuz\\2_6.jpg",
+    "output": "public\\images\\central-ave-catalog-9.webp",
+    "pixelHash": "8ba04dbb51876b722e8c8b2137d5f477c2a39b54e285ee6a0cbba2f28b1ea61a",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "central-ave",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\491 Central Ave\\Logosuz\\6_52.jpg",
+    "output": "public\\images\\central-ave-catalog-10.webp",
+    "pixelHash": "2255ccc36e9cd81a67abef5ff48f6e9bee8875888bd123632f7ef263641641a6",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "garden-cafe",
+    "source": "artifacts\\pdf-review\\p05-03.jpg",
+    "output": "public\\images\\garden-cafe-catalog-1.webp",
+    "pixelHash": "fe7b9b219b6b57f42030a9996c823efd98250c87335dc2f6ed33930c4bdf86be",
+    "width": 1544,
+    "height": 1239
+  },
+  {
+    "project": "garden-cafe",
+    "source": "artifacts\\pdf-review\\p05-04.jpg",
+    "output": "public\\images\\garden-cafe-catalog-2.webp",
+    "pixelHash": "b83d1d438c50a004beef751940ed9682ec5a92d2cd4af256b353a502b6273839",
+    "width": 1544,
+    "height": 1239
+  },
+  {
+    "project": "garden-cafe",
+    "source": "artifacts\\pdf-review\\p05-01.jpg",
+    "output": "public\\images\\garden-cafe-catalog-3.webp",
+    "pixelHash": "c298ee873692af7181f364e80e4b9601512c3896775680beeef124916a42449e",
+    "width": 1544,
+    "height": 1239
+  },
+  {
+    "project": "garden-cafe",
+    "source": "artifacts\\pdf-review\\p05-02.jpg",
+    "output": "public\\images\\garden-cafe-catalog-4.webp",
+    "pixelHash": "48491785956d3b2a42826feb3790e053d3c4118f1846aead2bd3331e33bab691",
+    "width": 1544,
+    "height": 1239
+  },
+  {
+    "project": "beverly-hills",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Baverly Hills\\Beverly Hills Hotel 2.jpg",
+    "output": "public\\images\\beverly-hills-catalog-1.webp",
+    "pixelHash": "0ff5c3d5170769024eaf27bc8a02c4846e1cd7ca6a65ae4891425f550b7a752c",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "beverly-hills",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Baverly Hills\\Beverly Hills Hote 3.jpg",
+    "output": "public\\images\\beverly-hills-catalog-2.webp",
+    "pixelHash": "d390110ac30e685c204ef9ee05464265ea5dcd48ef5ebac0a8781303e363acac",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "beverly-hills",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Baverly Hills\\Beverly Hills Hotel 4.jpg",
+    "output": "public\\images\\beverly-hills-catalog-3.webp",
+    "pixelHash": "366ec6681ba7e60ea782fa2258504071105a02569fe78a470dde7ae89c21d1f5",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "portobello",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Portobello\\Pergola\\10.jpg",
+    "output": "public\\images\\portobello-catalog-1.webp",
+    "pixelHash": "fc4f45a660adf042800aabd00bdb23dbd0b6d2b1dadb0f773176d54fc9f87e54",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "portobello",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Portobello\\Pergola\\1.jpg",
+    "output": "public\\images\\portobello-catalog-2.webp",
+    "pixelHash": "6135dc3797e1c427670cb7adcb1d90688b99f94a321e0de9e8cf8121f66a7600",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "portobello",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Portobello\\Pergola\\13.jpg",
+    "output": "public\\images\\portobello-catalog-3.webp",
+    "pixelHash": "adb0d3be61b7e5bbd4be3a1a8c60dccdac7639309d0b888b875bc114abffe5e7",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "portobello",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Portobello\\Pergola\\3.jpg",
+    "output": "public\\images\\portobello-catalog-4.webp",
+    "pixelHash": "bc50ede35236714720e605e2a4ff96f03754868b017999ebd64e851d1a76f050",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "portobello",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Nights\\3.jpg",
+    "output": "public\\images\\portobello-catalog-5.webp",
+    "pixelHash": "390739633ce741fe58dee9ef8c123ff18b8e416b2f475e58c7fa1f8aef78d3a1",
+    "width": 2200,
+    "height": 1602
+  },
+  {
+    "project": "poolside-villa",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Option 1\\3.jpg",
+    "output": "public\\images\\poolside-villa-catalog-1.webp",
+    "pixelHash": "299295be0587cbb17668d4d351537fb89de70f1f030876672c8ec2dcfd0a24fa",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "poolside-villa",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Option 1\\1.jpg",
+    "output": "public\\images\\poolside-villa-catalog-2.webp",
+    "pixelHash": "33edafb3e56cde191721068a4b3a88c491aaf6f8b9079b968607caab5d900ea8",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "poolside-villa",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Option 1\\2.jpg",
+    "output": "public\\images\\poolside-villa-catalog-3.webp",
+    "pixelHash": "72510f72ce3e6e64804e0629fa36660c08aa4cd0193a5ce3400e4cf1c1e3b5fe",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "poolside-villa",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Option 1\\6.jpg",
+    "output": "public\\images\\poolside-villa-catalog-4.webp",
+    "pixelHash": "e63875114e3f87ad088cb5bf7544c2c0beff47d5e78b6bab6f88e9785a745ba4",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "poolside-villa",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Option 1\\9.jpg",
+    "output": "public\\images\\poolside-villa-catalog-5.webp",
+    "pixelHash": "65a2ef8926523e3c4b44bbb2ba91cd4c055d6a2d2e742e6ef2e2f1d815f46056",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "poolside-villa",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\White Realistic\\1.jpg",
+    "output": "public\\images\\poolside-villa-catalog-6.webp",
+    "pixelHash": "c63e805d3464659c901e689225723d4964603eaa74c2aab0bfba270bab861f85",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "poolside-villa",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\White Realistic\\2.jpg",
+    "output": "public\\images\\poolside-villa-catalog-7.webp",
+    "pixelHash": "b78e9ab9eb170b502d6016a72db9907185e91353164bb7203dc9ccd7b5e7d36e",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "gable-patio",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Patio Model\\1.jpg",
+    "output": "public\\images\\gable-patio-catalog-1.webp",
+    "pixelHash": "2fc85b12f67f3b7d88fef596e45e2bba5d6ad7e5b6e8c28a49f8a0267ebaff46",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "gable-patio",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Patio Model\\2.jpg",
+    "output": "public\\images\\gable-patio-catalog-2.webp",
+    "pixelHash": "e71b143a4d8a20e8e1784751a3894b78ed701d6c9a63759b2d652687b9691f97",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "gable-patio",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Patio Model\\3.jpg",
+    "output": "public\\images\\gable-patio-catalog-3.webp",
+    "pixelHash": "524b80a936bcd7da1a42c18b03b47346b052646a8d2cfe5b8c9b5a750e18031c",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "gable-patio",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Patio Model\\4.jpg",
+    "output": "public\\images\\gable-patio-catalog-4.webp",
+    "pixelHash": "126fca780ac8ef671cf7228ba47906c58f8898ee9ac3251b2fb43b90e837a1ad",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "garden-deck",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Deck Model\\2.jpg",
+    "output": "public\\images\\garden-deck-catalog-1.webp",
+    "pixelHash": "0541ffc9711c1e62be321d718987ddccc731c9dd6ce10cf4913cb8f24873c99d",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "garden-deck",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Deck Model\\1.jpg",
+    "output": "public\\images\\garden-deck-catalog-2.webp",
+    "pixelHash": "ea84db73cbe7f3a42d92b9fd6bf3a60d9f0bd948300b277ed98e2c381ed171df",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "garden-deck",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Deck Model\\3.jpg",
+    "output": "public\\images\\garden-deck-catalog-3.webp",
+    "pixelHash": "52e3b0ab76d195346091f5ba7c4664bb58f8f173a281c418bd2130e7f81a424b",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "garden-deck",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Deck Model\\4.jpg",
+    "output": "public\\images\\garden-deck-catalog-4.webp",
+    "pixelHash": "6a093912ee74ecea4fe801a5ad3afa7c66575cf1dd76d2e33f5078d329691cb3",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "mountain-house",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Option 3\\4.jpg",
+    "output": "public\\images\\mountain-house-catalog-1.webp",
+    "pixelHash": "15ca0d7245912b42cea8b910a9f48945d7085636ecb1ba2de4b72705d167d376",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "mountain-house",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Option 3\\3.jpg",
+    "output": "public\\images\\mountain-house-catalog-2.webp",
+    "pixelHash": "38a8137a60626e9787100c481be17acd81d1b0b66a3f604cb8f16dd354a41c5a",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "mountain-house",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Option 3\\5.jpg",
+    "output": "public\\images\\mountain-house-catalog-3.webp",
+    "pixelHash": "428697ba5081bc75eb0b0f1ba5452e42760e06226ef448e46f40fb7d39fe130e",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "mountain-house",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Option 3\\7.jpg",
+    "output": "public\\images\\mountain-house-catalog-4.webp",
+    "pixelHash": "2db59508ee35ef055df6a7bd3a011fb6db18244ff1756fb9699dca62bdb74bdd",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "mountain-house",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Option 3\\6.jpg",
+    "output": "public\\images\\mountain-house-catalog-5.webp",
+    "pixelHash": "0cb16da8dced13781264624a93f143fa9ae9553895f06d5195a46978541d4839",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "mountain-house",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Option 3\\2.jpg",
+    "output": "public\\images\\mountain-house-catalog-6.webp",
+    "pixelHash": "72d11584a0736246d22cf43899615c8568f9d30f04259059e8702bb527b67bc5",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "winter-garden",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Option 2\\1.jpg",
+    "output": "public\\images\\winter-garden-catalog-1.webp",
+    "pixelHash": "f6bb39e1f1b15741e1abaf954a08f63e0f28aca9a6626c9f0eb2a7f406210c87",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "winter-garden",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Option 2\\2.jpg",
+    "output": "public\\images\\winter-garden-catalog-2.webp",
+    "pixelHash": "6dd20658898f454a1b31efd509a78395346987a22d9bb13e6aa2a0bcaf9c31c2",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "winter-garden",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Option 2\\3.jpg",
+    "output": "public\\images\\winter-garden-catalog-3.webp",
+    "pixelHash": "80dc7f7f939cc7b1d0957fff9a71441751cd5daee2cd853b8e98af5b783aec6b",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "winter-garden",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Option 2\\4.jpg",
+    "output": "public\\images\\winter-garden-catalog-4.webp",
+    "pixelHash": "79a0c667c4d338b756c28fd8139398f03dfd17c7985e706aef468124db5ef0a3",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "winter-garden",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Option 2\\5.jpg",
+    "output": "public\\images\\winter-garden-catalog-5.webp",
+    "pixelHash": "70faa489969a3140ba76b1b5e258c5fc1db765d5e2448bbea47841fb7c1c941c",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "pool-pavilion",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Pool Model\\2.jpg",
+    "output": "public\\images\\pool-pavilion-catalog-1.webp",
+    "pixelHash": "232181107f6d935e0c77876f7acc4be5cff5faefce06cfc1846885dc34bd122e",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "pool-pavilion",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Pool Model\\1.jpg",
+    "output": "public\\images\\pool-pavilion-catalog-2.webp",
+    "pixelHash": "f4e42e9e52780083863c40f1f6dfbe8b7f1ad9dd4d4ff9b6ec82677f7cd47a96",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "pool-pavilion",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Pool Model\\3.jpg",
+    "output": "public\\images\\pool-pavilion-catalog-3.webp",
+    "pixelHash": "23dc02437f2cb44d9ed1439c539e474ddeec84f342550e69c483919624200715",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "pool-pavilion",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Nights\\7.jpg",
+    "output": "public\\images\\pool-pavilion-catalog-4.webp",
+    "pixelHash": "d1125c1aa36fc9b0b248ddcac88198da859cfa6ab46d36dbf0257e88cfcdb275",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "rooftop",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Roof Model\\1.jpg",
+    "output": "public\\images\\rooftop-catalog-1.webp",
+    "pixelHash": "feaa6e9d98bef71b16a075d9231664355baafae9a336210284a24af220d98718",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "rooftop",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Roof Model\\2.jpg",
+    "output": "public\\images\\rooftop-catalog-2.webp",
+    "pixelHash": "433f9b0aa54b82aa280b72fe7ef09cc892921decb55db783a88c92eb47c044df",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "rooftop",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Roof Model\\3.jpg",
+    "output": "public\\images\\rooftop-catalog-3.webp",
+    "pixelHash": "c2bb351cd7c10e4c4bd15b9abc16c8b47ab6a4fd0b01aee5b8c8c2b1abd2e16d",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "rooftop",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Projects\\Nights\\2.jpg",
+    "output": "public\\images\\rooftop-catalog-4.webp",
+    "pixelHash": "1bf5074433af716b44970ba255c6ae5ba7293334c11d70e8690a4bba0b4a979d",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "louver-mechanism",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Pergola - Louvers\\Yan Kesim\\New Louver (kesim)\\Jpeg\\Logosuz\\2.jpg",
+    "output": "public\\images\\louver-mechanism-catalog-1.webp",
+    "pixelHash": "aaa0f9bb06da22b0800fb2ca5683f56258c87205c28030a75745d75d7b03517a",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "louver-mechanism",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Pergola - Louvers\\Yan Kesim\\New Louver (kesim)\\Jpeg\\Logosuz\\1.jpg",
+    "output": "public\\images\\louver-mechanism-catalog-2.webp",
+    "pixelHash": "6cab6e43c2f8ba585ac7a9640385fd66a468419036e8120a7841b24e1a2a574b",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "louver-mechanism",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Pergola - Louvers\\Yan Kesim\\New Louver (kesim)\\Jpeg\\Logosuz\\3.jpg",
+    "output": "public\\images\\louver-mechanism-catalog-3.webp",
+    "pixelHash": "e416a61dcd680228d852038d2c6caaeb2bd1bb9c9ed389f20aa1ee7c603278b4",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "sliding-glass",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Pergola - Louvers\\ISicamli Sliding\\1.jpg",
+    "output": "public\\images\\sliding-glass-catalog-1.webp",
+    "pixelHash": "3ef8e17c35f0fc338081cf13b20eb73753cc00ff96a3f28247d1dac5b1a013cf",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "sliding-glass",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Pergola - Louvers\\ISicamli Sliding\\2.jpg",
+    "output": "public\\images\\sliding-glass-catalog-2.webp",
+    "pixelHash": "c27f1d4f749227e76dda37a72a23e5336b41af972be5ea53541b36e3eab5cf21",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "sliding-glass",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Pergola - Louvers\\ISicamli Sliding\\3.jpg",
+    "output": "public\\images\\sliding-glass-catalog-3.webp",
+    "pixelHash": "471d6dca50d80f10a550ca6c669e20f49f6ddc550e47cb69016cec2d38e6955c",
+    "width": 2200,
+    "height": 1238
+  },
+  {
+    "project": "sliding-glass",
+    "source": "E:\\Mirzazada Studio WEB\\Portfolio\\Renders\\Pergola - Louvers\\ISicamli Sliding\\4.jpg",
+    "output": "public\\images\\sliding-glass-catalog-4.webp",
+    "pixelHash": "8e75226de1c31d1132e70f3242b6de67f7c135fee07f03fe714a1a619673aa7a",
+    "width": 2200,
+    "height": 1238
+  }
+]

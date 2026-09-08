@@ -1,0 +1,48 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const ts = require('typescript');
+require.extensions['.ts'] = (module, filename) => module._compile(ts.transpileModule(fs.readFileSync(filename, 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022, esModuleInterop: true } }).outputText, filename);
+const { projects, projectCategories, hasCategory } = require('../lib/projects.ts');
+const { upgradeCatalog, CATALOG_VERSION } = require('../lib/catalog-upgrade.ts');
+const { validateContent } = require('../lib/content-validation.ts');
+const { siteConfig } = require('../lib/site-config.ts');
+const baseline = require('../lib/catalog-v1.json');
+const crops = require('../lib/image-crops.json');
+assert.equal(projects.length, 31);
+assert.equal(new Set(projects.map(p => p.slug)).size, projects.length);
+assert.equal(projects.reduce((n,p) => n+p.images.length,0), 149);
+assert.deepEqual(projects.slice(0,4).map(p=>p.slug), ['skyline-residences','garden-residences','courtyard-quarter','arcade-residences']);
+for(const category of projectCategories) assert.ok(projects.some(p=>hasCategory(p,category)), category+' is empty');
+for(const p of projects) {
+ assert.ok(p.description.length>60,p.slug);
+ assert.equal(new Set(p.images).size,p.images.length);
+ for(const src of [...p.images,p.coverImage,p.heroImage].filter(Boolean)) assert.ok(fs.existsSync('public'+src),src);
+}
+const sources=require('../artifacts/catalog-manifest.json');
+const used=new Map();
+for(const asset of sources){assert.ok(!used.has(asset.pixelHash)||used.get(asset.pixelHash)===asset.project,'Image repeated across projects');used.set(asset.pixelHash,asset.project);}
+const old={projects:structuredClone(baseline),settings:structuredClone(siteConfig),crops:{}};
+const upgraded=upgradeCatalog(old);
+assert.equal(upgraded.catalogVersion,CATALOG_VERSION);
+assert.equal(upgraded.projects.length,31);
+assert.ok(!upgraded.projects.some(p=>p.slug==='central-interiors'));
+assert.ok(hasCategory(upgraded.projects.find(p=>p.slug==='central-ave'),'Interior'));
+assert.ok(upgraded.projects.find(p=>p.slug==='rooftop').images.every(src=>src.includes('rooftop-catalog')));
+const customized=structuredClone(old);
+customized.settings.contact.email='studio@example.com';
+customized.projects.find(p=>p.slug==='white-city').description='Owner-written project description.';
+customized.projects=customized.projects.filter(p=>p.slug!=='portobello');
+customized.projects.push({slug:'owner-project',title:'Owner project',category:'Interior',description:'Owner entry',type:'Interior',images:['/media/abc.jpg']});
+const migrated=upgradeCatalog(customized);
+assert.equal(migrated.settings.contact.email,'hello@mirzazadastudio.com','Master brief corrects the previous placeholder address');
+assert.equal(migrated.projects.find(p=>p.slug==='white-city').description,'Owner-written project description.');
+assert.ok(!migrated.projects.some(p=>p.slug==='portobello'));
+assert.ok(migrated.projects.some(p=>p.slug==='owner-project'));
+const edited=structuredClone(upgraded);edited.projects.reverse();edited.projects=edited.projects.filter(p=>p.slug!=='garden-residences');
+assert.deepEqual(upgradeCatalog(edited),edited,'Saved removals and ordering must not reset');
+const validated=validateContent({...upgraded,crops});
+assert.equal(validated.catalogVersion,CATALOG_VERSION);
+assert.deepEqual(validated.projects.find(p=>p.slug==='central-ave').categories,['Residential','Exterior','Interior']);
+const invalid=structuredClone(validated);invalid.projects[0].categories=['Unsupported'];
+assert.throws(()=>validateContent(invalid));
+console.log('PASS: 31 unique projects, 149 assets, all eight categories, source deduplication, legacy migration, owner edits retained, no resurrection after saving, and category validation.');
