@@ -119,3 +119,21 @@
 .contact-studio strong{display:block;font-size:25px;font-weight:400;letter-spacing:-.5px}
 .contact-studio small{display:block;font-size:15px;line-height:1.7;color:#c2c8bf;margin-top:10px;max-width:440px}
 .contact-studio em{display:block;font-size:14px;font-style:normal;margin-top:16px}
+
+/* The homepage backdrop travels with its section; text exits before imagery. */
+@media (prefers-reduced-motion: no-preference) {
+  .home-scroll-motion [data-scroll-layer] {
+    opacity: var(--scroll-opacity, 1);
+    transform: translate3d(0, var(--scroll-y, 0px), 0);
+  }
+  .home-scroll-motion [data-scroll-layer="image"],
+  .home-scroll-motion [data-scroll-layer="backdrop"] {
+    filter: blur(var(--scroll-blur, 0px));
+  }
+  .home-scroll-motion .live-grid-backdrop canvas { position: absolute; }
+  .home-scroll-motion [data-scroll-layer]:focus-within {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
