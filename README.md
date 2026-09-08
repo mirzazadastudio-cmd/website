@@ -32,3 +32,7 @@ The frontend Supabase key is intentionally publishable. The service-role key is 
 Set four A records at @: 185.199.108.153, 185.199.109.153, 185.199.110.153 and 185.199.111.153. Set www CNAME to mirzazadastudio-cmd.github.io. Preserve mail/MX records. GitHub Pages is configured with mirzazadastudio.com. Enable Enforce HTTPS when GitHub finishes issuing the certificate.
 
 [GitHub domain instructions](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
+
+## Google Search Console
+
+See [Google verification and indexing](GOOGLE-SEARCH-CONSOLE.md) for account verification, sitemap submission, and the relevant Google links. The account-specific verification tag is still required.
