@@ -49,4 +49,6 @@ The navigation hides on downward scrolling and returns on upward scrolling; focu
 
 Validation: `pnpm run typecheck`, `pnpm run build`, `pnpm test`, `pnpm run test:content`.
 
-The homepage opens with a full-width video banner (about 40–42% of the viewport height). Its silent 20-second studio-loop.mp4 combines the four five-second films with 0.7-second crossfades, including the last-to-first transition. It starts automatically in view, pauses off screen/in background tabs, and uses a static poster by default with reduced motion. The four individual films remain on /animation/.
+The homepage opens with a full-width video banner (about 40–42% of the viewport height). Its silent 20-second studio-loop-hd.mp4 combines the four five-second films with 0.7-second crossfades, including the last-to-first transition. It starts automatically in view, pauses off screen/in background tabs, and uses a static poster by default with reduced motion. The four individual films remain on /animation/.
+
+Animation export: 1920x1080, H.264, directly from original source videos (individual films: CRF 18; banner: CRF 19 with an 8 Mbps ceiling). Sequence: Showroom -> Patio -> Sea Breeze / Marina Village -> Day into night.

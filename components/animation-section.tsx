@@ -19,10 +19,10 @@ function MotionClip({clip}:{clip:(typeof animationClips)[number]}){
   try{await element.play();setFailed(false);}catch{setFailed(true);}
  };
  return <article className="motion-card"><div className="motion-frame">
-  <video ref={video} src={'/animations/'+clip.slug+'.mp4'} poster={'/animations/'+clip.slug+'.webp'} preload="none" muted playsInline loop aria-label={clip.title+' — five-second animation'} onPlay={()=>setPlaying(true)} onPause={()=>setPlaying(false)} onError={()=>setFailed(true)}/>
+  <video ref={video} src={'/animations/'+clip.slug+'.mp4?v=hd2'} poster={'/animations/'+clip.slug+'.webp?v=hd2'} preload="none" muted playsInline loop aria-label={clip.title+' — five-second animation'} onPlay={()=>setPlaying(true)} onPause={()=>setPlaying(false)} onError={()=>setFailed(true)}/>
   <span className="motion-duration">00:05 / {clip.kind}</span>
   <button className="motion-toggle" onClick={toggle} aria-label={(playing?'Pause ':'Play ')+clip.title} aria-pressed={playing}>{playing?<Pause size={19}/>:<Play size={19}/>}<span>{playing?'Pause':'Play film'}</span></button>
- </div><div className="motion-caption"><h3>{clip.title}</h3><p>{clip.description}</p></div>{failed&&<a className="text-link" href={'/animations/'+clip.slug+'.mp4'}>Open the film ↗</a>}</article>;
+ </div><div className="motion-caption"><h3>{clip.title}</h3><p>{clip.description}</p></div>{failed&&<a className="text-link" href={'/animations/'+clip.slug+'.mp4?v=hd2'}>Open the film ↗</a>}</article>;
 }
 export function AnimationSection({compact=false}:{compact?:boolean}){
  return <section id="animation" className={'section animation-section'+(compact?' animation-preview':'')}>
