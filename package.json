@@ -12,7 +12,7 @@
     "lint": "oxlint",
     "format": "oxfmt",
     "typecheck": "tsc --noEmit",
-    "test": "node tests/deployment.mjs",
+    "test": "node tests/deployment.mjs && node tests/recovery.cjs",
     "test:content": "vite build --ssr tests/content-features.ts --outDir .content-check && node .content-check/content-features.js"
   },
   "dependencies": {

@@ -6,6 +6,10 @@ import {publicContent} from '@/lib/editorial-validation';
 import type {ContentRecord} from '@/lib/content-types';
 import '@/app/globals.css';
 import {OwnerSetup} from './setup';
+import {PasswordRecovery} from './recovery';
+const recoveryHash=new URLSearchParams(location.hash.slice(1));
+const recoveryLink=recoveryHash.get('type')==='recovery';
+const recoveryFailure=recoveryHash.has('error')||recoveryHash.has('error_code');
 async function boot(){
  if(location.protocol!=='https:'&&!['localhost','127.0.0.1'].includes(location.hostname)){
   location.replace('https://'+location.host+location.pathname+location.search+location.hash);return;
@@ -18,6 +22,7 @@ async function boot(){
   history.replaceState(history.state,'',cleanUrl.pathname+cleanUrl.search+cleanUrl.hash);
  }
  const path=window.location.pathname;const root=createRoot(document.getElementById('root')!);
+ if(recoveryLink||((path.replace(/\/$/,'')==='/admin')&&(new URLSearchParams(location.search).get('recovery')==='1'||recoveryFailure))){root.render(<PasswordRecovery fromLink={recoveryLink}/>);return;}
  if(path.replace(/\/$/,'')==='/admin'){
   const incoming=new URLSearchParams(location.hash.slice(1)).get('setup');if(incoming){sessionStorage.setItem('studio-owner-setup',incoming);history.replaceState(null,'',location.pathname);}
   const token=sessionStorage.getItem('studio-owner-setup');if(token){root.render(<OwnerSetup token={token}/>);return;}
