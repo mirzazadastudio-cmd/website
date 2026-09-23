@@ -1,4 +1,5 @@
 'use client';
+import {t} from '@/lib/i18n';
 import {useEffect,useRef,useState} from 'react';
 import {Pause,Play,ArrowUpRight} from 'lucide-react';
 import {FADE_SECONDS,videoUrl,type AnimationVideo} from '@/lib/animation-playlist';
@@ -60,9 +61,9 @@ export function AnimationPlayer({videos,preview=false}:{videos:AnimationVideo[];
   return()=>{disposed=true;cancelAnimationFrame(frame);observer.disconnect();motion.removeEventListener('change',update);document.removeEventListener('visibilitychange',update);players.forEach(v=>{v.removeEventListener('playing',onPlay);v.removeEventListener('pause',onPause);v.pause();v.removeAttribute('src');v.load();});sync.current=()=>{};};
  },[signature,preview]);
  if(!videos.length)return null;
- return <section id={preview?undefined:"animations"} ref={section} className="animation-banner" aria-label={preview?'Video keçidlərinin önbaxışı':'Architecture in motion'}>
+ return <section id={preview?undefined:"animations"} ref={section} className="animation-banner" aria-label={t(preview?'Video keçidlərinin önbaxışı':'Architecture in motion')}>
   {[0,1].map(slot=><video key={slot} ref={v=>{layers.current[slot]=v;}} muted playsInline preload="auto" poster={slot===0?videos[0].poster:undefined} style={{opacity:slot===0?1:0}} aria-hidden="true"/>)}
-  <div className="animation-banner-caption"><a href="/animation"><span>{preview?'ÖNBAXIŞ / 0,5 SAN. KEÇİD':'THE STUDIO / IN MOTION'}</span><span>{preview?'Saxlamadan əvvəl videoları izləyin.':'Perspectives in motion. One continuous story.'} <ArrowUpRight size={19}/></span></a><button type="button" disabled={failed} onClick={()=>{manual.current=!playing;sync.current();}} aria-label={playing?'Pause background animation':'Play background animation'} aria-pressed={playing}>{playing?<Pause size={17}/>:<Play size={17}/>}<span>{playing?(preview?'Dayandır':'Pause'):(preview?'Oynat':'Play')}</span></button></div>
-  {failed&&<p className="animation-playback-error" role="status">Videolar yüklənmədi. Səhifəni yeniləyərək yenidən yoxlayın.</p>}
+  <div className="animation-banner-caption"><div className="animation-banner-copy"><span>{t(preview?'ÖNBAXIŞ / 0,5 SAN. KEÇİD':'THE STUDIO / IN MOTION')}</span>{preview?<p>{t("Saxlamadan əvvəl videoları izləyin.")}</p>:<a className="more-animation-link" href="/animation/">{t("More animation")} <ArrowUpRight size={20}/></a>}</div><button type="button" disabled={failed} onClick={()=>{manual.current=!playing;sync.current();}} aria-label={t(playing?'Pause background animation':'Play background animation')} aria-pressed={playing}>{playing?<Pause size={17}/>:<Play size={17}/>}<span>{t(playing?(preview?'Dayandır':'Pause'):(preview?'Oynat':'Play'))}</span></button></div>
+  {failed&&<p className="animation-playback-error" role="status">{t("Videos could not load. Refresh the page to try again.")}</p>}
  </section>;
 }

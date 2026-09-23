@@ -11,4 +11,4 @@ import {defaultProfile,defaultJournal,defaultTestimonials} from './studio-conten
 import type {ContentRecord,SiteContent} from './content-types';
 export const initialContent:SiteContent=upgradeCatalog({catalogVersion:3,projects,settings:siteConfig,crops,collections:defaultCollections,profile:defaultProfile,journal:defaultJournal,testimonials:defaultTestimonials});
 
-export const initialRecord={data:{...initialContent,media:mediaDefaults},revision:0};
+export const initialRecord={data:{...initialContent,media:{...mediaDefaults,...initialContent.media}},revision:0};

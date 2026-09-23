@@ -1,3 +1,4 @@
+import {validateSiteTexts} from './content-texts';
 import {validateAnimations} from './animation-playlist';
 import type {SiteContent} from './content-types';
 import {siteConfig} from './site-config';
@@ -32,5 +33,6 @@ export function validateContent(raw:unknown):SiteContent{
  for(const [src,crop] of Object.entries(d.crops)){image(src);if(!crop||![crop.width,crop.height,crop.bottom].every(Number.isFinite)||crop.width<1||crop.height<1||crop.width>20000||crop.height>20000||crop.bottom<0||crop.bottom>.35)throw Error('Kəsmə ölçüsü düzgün deyil.');crops[src]={width:crop.width,height:crop.height,bottom:crop.bottom};}
  const ids=projects.map(p=>p.id);if(new Set(ids).size!==ids.length)throw Error('Layihə identifikatoru təkrarlanır.');
  const projectRedirects:Record<string,string>={};for(const [from,to] of Object.entries(d.projectRedirects||{})){if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(from)||typeof to!=='string'||!ids.includes(to))continue;projectRedirects[from]=to;}
- return {animations:validateAnimations(d.animations),catalogVersion:CATALOG_VERSION,projectRedirects,projects,settings,crops,...validateEditorial(d,image,projects)};
+ const validated:SiteContent={animations:validateAnimations(d.animations),catalogVersion:CATALOG_VERSION,projectRedirects,projects,settings,crops,...validateEditorial(d,image,projects)};
+ return {...validated,texts:validateSiteTexts(d.texts,validated)};
 }

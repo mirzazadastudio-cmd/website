@@ -1,3 +1,4 @@
+import {publicSiteTexts} from './content-texts';
 import type {SiteContent} from './content-types';
 import type {StudioProfile} from './studio-content';
 import {defaultCollections} from './collections';
@@ -41,5 +42,5 @@ export function validateEditorial(d:SiteContent,image:(v:unknown)=>string,projec
 export function publicContent(data:SiteContent):SiteContent {
  const projects=data.projects.filter(isPublished);const slugs=new Set(projects.map(p=>p.slug));
  const result={...data,projectRedirects:Object.fromEntries(Object.entries(data.projectRedirects||{}).filter(([,id])=>projects.some(p=>p.id===id))),projects,settings:{...data.settings,homepage:{...data.settings.homepage,projectOrder:data.settings.homepage.projectOrder.filter(slug=>slugs.has(slug))}},journal:data.journal.filter(post=>post.published).map(post=>({...post,projectSlug:slugs.has(post.projectSlug)?post.projectSlug:''})),testimonials:data.testimonials.filter(review=>review.published&&!review.sample)};
- const used=mediaSources(result);return {...result,media:Object.fromEntries(Object.entries(data.media||{}).filter(([src])=>used.has(src))),crops:Object.fromEntries(Object.entries(data.crops).filter(([src])=>used.has(src)))};
+ const used=mediaSources(result);return {...result,texts:publicSiteTexts(data.texts,result),media:Object.fromEntries(Object.entries(data.media||{}).filter(([src])=>used.has(src))),crops:Object.fromEntries(Object.entries(data.crops).filter(([src])=>used.has(src)))};
 }

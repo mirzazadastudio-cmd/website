@@ -1,0 +1,2037 @@
+{
+  "Choose language": [
+    "Dili seçin",
+    "Выберите язык",
+    "Dil seçin"
+  ],
+  "Selected language": [
+    "Seçilmiş dil",
+    "Выбранный язык",
+    "Seçili dil"
+  ],
+  "Projects": [
+    "Layihələr",
+    "Проекты",
+    "Projeler"
+  ],
+  "Animation": [
+    "Animasiya",
+    "Анимация",
+    "Animasyon"
+  ],
+  "About": [
+    "Haqqımızda",
+    "О студии",
+    "Hakkımızda"
+  ],
+  "Services": [
+    "Xidmətlər",
+    "Услуги",
+    "Hizmetler"
+  ],
+  "Contact": [
+    "Əlaqə",
+    "Контакты",
+    "İletişim"
+  ],
+  "Let's talk": [
+    "Danışaq",
+    "Обсудим проект",
+    "Konuşalım"
+  ],
+  "Imagined with purpose.": [
+    "Məqsədlə düşünülmüş.",
+    "Задумано со смыслом.",
+    "Amaçla tasarlandı."
+  ],
+  "Rendered with feeling.": [
+    "Duyğu ilə canlandırılmış.",
+    "Воплощено с чувством.",
+    "Duyguyla canlandırıldı."
+  ],
+  "We turn architectural ideas into images that feel real. Thoughtful spaces. Compelling perspectives.": [
+    "Memarlıq ideyalarını reallıq hissi yaradan görüntülərə çeviririk. Düşünülmüş məkanlar. Təsirli baxışlar.",
+    "Мы превращаем архитектурные идеи в изображения, которые ощущаются реальными. Продуманные пространства. Выразительные ракурсы.",
+    "Mimari fikirleri gerçeklik hissi veren görüntülere dönüştürüyoruz. Özenle düşünülmüş mekânlar. Etkileyici bakış açıları."
+  ],
+  "Architecture & visualization": [
+    "Memarlıq və vizuallaşdırma",
+    "Архитектура и визуализация",
+    "Mimarlık ve görselleştirme"
+  ],
+  "Explore our work": [
+    "İşlərimizi kəşf edin",
+    "Смотреть наши работы",
+    "Çalışmalarımızı keşfedin"
+  ],
+  "SPACES. STORIES. NEW PERSPECTIVES.": [
+    "MƏKANLAR. HEKAYƏLƏR. YENİ BAXIŞLAR.",
+    "ПРОСТРАНСТВА. ИСТОРИИ. НОВЫЕ РАКУРСЫ.",
+    "MEKÂNLAR. HİKÂYELER. YENİ BAKIŞ AÇILARI."
+  ],
+  "SELECTED WORK /": [
+    "SEÇİLMİŞ İŞLƏR /",
+    "ИЗБРАННЫЕ РАБОТЫ /",
+    "SEÇİLİ ÇALIŞMALAR /"
+  ],
+  "Drag to explore": [
+    "Baxmaq üçün sürüşdürün",
+    "Перетащите для просмотра",
+    "Keşfetmek için sürükleyin"
+  ],
+  "Play motion": [
+    "Hərəkəti başlat",
+    "Включить движение",
+    "Hareketi başlat"
+  ],
+  "Pause motion": [
+    "Hərəkəti dayandır",
+    "Остановить движение",
+    "Hareketi duraklat"
+  ],
+  "Play project animation": [
+    "Layihə animasiyasını başlat",
+    "Запустить анимацию проектов",
+    "Proje animasyonunu başlat"
+  ],
+  "Pause project animation": [
+    "Layihə animasiyasını dayandır",
+    "Остановить анимацию проектов",
+    "Proje animasyonunu duraklat"
+  ],
+  "Studio introduction and featured projects": [
+    "Studiya və seçilmiş layihələr",
+    "Студия и избранные проекты",
+    "Stüdyo ve seçili projeler"
+  ],
+  "Main navigation": [
+    "Əsas naviqasiya",
+    "Основная навигация",
+    "Ana gezinme"
+  ],
+  "Mobile navigation": [
+    "Mobil naviqasiya",
+    "Мобильная навигация",
+    "Mobil gezinme"
+  ],
+  "Open navigation": [
+    "Menyunu aç",
+    "Открыть меню",
+    "Menüyü aç"
+  ],
+  "Close": [
+    "Bağla",
+    "Закрыть",
+    "Kapat"
+  ],
+  "Skip to content": [
+    "Məzmuna keç",
+    "Перейти к содержимому",
+    "İçeriğe geç"
+  ],
+  "Architecture": [
+    "Memarlıq",
+    "Архитектура",
+    "Mimarlık"
+  ],
+  "Interiors": [
+    "İnteryerlər",
+    "Интерьеры",
+    "İç mekânlar"
+  ],
+  "Visualization": [
+    "Vizuallaşdırma",
+    "Визуализация",
+    "Görselleştirme"
+  ],
+  "Outdoor living": [
+    "Açıq hava məkanları",
+    "Жизнь на открытом воздухе",
+    "Açık hava yaşamı"
+  ],
+  "Residential": [
+    "Yaşayış",
+    "Жилые здания",
+    "Konut"
+  ],
+  "Large Buildings": [
+    "İri binalar",
+    "Крупные здания",
+    "Büyük yapılar"
+  ],
+  "Restoration": [
+    "Bərpa",
+    "Реставрация",
+    "Restorasyon"
+  ],
+  "Outdoor Systems": [
+    "Açıq məkan sistemləri",
+    "Уличные системы",
+    "Dış mekân sistemleri"
+  ],
+  "Street": [
+    "Küçə",
+    "Улица",
+    "Sokak"
+  ],
+  "Exterior": [
+    "Eksteryer",
+    "Экстерьер",
+    "Dış mekân"
+  ],
+  "Interior": [
+    "İnteryer",
+    "Интерьер",
+    "İç mekân"
+  ],
+  "Product & Technical": [
+    "Məhsul və texniki",
+    "Продукт и техника",
+    "Ürün ve teknik"
+  ],
+  "AI": [
+    "Süni intellekt",
+    "ИИ",
+    "Yapay zekâ"
+  ],
+  "All": [
+    "Hamısı",
+    "Все",
+    "Tümü"
+  ],
+  "All projects": [
+    "Bütün layihələr",
+    "Все проекты",
+    "Tüm projeler"
+  ],
+  "project": [
+    "layihə",
+    "проект",
+    "proje"
+  ],
+  "projects": [
+    "layihə",
+    "проектов",
+    "proje"
+  ],
+  "Detail": [
+    "Detal",
+    "Деталь",
+    "Detay"
+  ],
+  "Explore project": [
+    "Layihəni kəşf edin",
+    "Смотреть проект",
+    "Projeyi keşfedin"
+  ],
+  "View": [
+    "Bax",
+    "Смотреть",
+    "Görüntüle"
+  ],
+  "Enlarge": [
+    "Böyüt",
+    "Увеличить",
+    "Büyüt"
+  ],
+  "Explore": [
+    "Kəşf edin",
+    "Смотреть",
+    "Keşfedin"
+  ],
+  "01 / PORTFOLIO": [
+    "01 / PORTFOLİO",
+    "01 / ПОРТФОЛИО",
+    "01 / PORTFOLYO"
+  ],
+  "02 / THE STUDIO": [
+    "02 / STUDİYA",
+    "02 / СТУДИЯ",
+    "02 / STÜDYO"
+  ],
+  "03 / WHAT WE DO": [
+    "03 / XİDMƏTLƏRİMİZ",
+    "03 / ЧЕМ МЫ ЗАНИМАЕМСЯ",
+    "03 / NELER YAPIYORUZ"
+  ],
+  "04 / STUDIO NOTES": [
+    "04 / STUDİYA QEYDLƏRİ",
+    "04 / ЗАМЕТКИ СТУДИИ",
+    "04 / STÜDYO NOTLARI"
+  ],
+  "Selected perspectives.": [
+    "Seçilmiş baxışlar.",
+    "Избранные ракурсы.",
+    "Seçili bakış açıları."
+  ],
+  "A collection of spaces, materials": [
+    "Məkanlar, materiallar",
+    "Пространства, материалы",
+    "Mekânlar, malzemeler"
+  ],
+  "and the stories between them.": [
+    "və onları birləşdirən hekayələr.",
+    "и связывающие их истории.",
+    "ve aralarındaki hikâyeler."
+  ],
+  "Filter projects": [
+    "Layihələri filtrlə",
+    "Фильтр проектов",
+    "Projeleri filtrele"
+  ],
+  "Explore specialist collections": [
+    "Xüsusi kolleksiyaları kəşf edin",
+    "Смотреть тематические коллекции",
+    "Tematik koleksiyonları keşfedin"
+  ],
+  "Explore the full collection": [
+    "Bütün kolleksiyaya bax",
+    "Смотреть всю коллекцию",
+    "Tüm koleksiyonu keşfedin"
+  ],
+  "New perspectives are taking shape.": [
+    "Yeni baxışlar formalaşır.",
+    "Новые ракурсы обретают форму.",
+    "Yeni bakış açıları şekilleniyor."
+  ],
+  "AI-generated projects and concepts will appear here as they are published.": [
+    "Süni intellektlə hazırlanmış layihə və konseptlər yayımlandıqca burada görünəcək.",
+    "Проекты и концепции, созданные с ИИ, появятся здесь после публикации.",
+    "Yapay zekâyla oluşturulan proje ve konseptler yayımlandıkça burada görünecek."
+  ],
+  "Explore the AI collection": [
+    "Süni intellekt kolleksiyasına bax",
+    "Смотреть коллекцию ИИ",
+    "Yapay zekâ koleksiyonunu keşfedin"
+  ],
+  "The complete collection.": [
+    "Tam kolleksiya.",
+    "Полная коллекция.",
+    "Tüm koleksiyon."
+  ],
+  "Different scales. One considered approach.": [
+    "Fərqli miqyaslar. Vahid düşünülmüş yanaşma.",
+    "Разные масштабы. Единый продуманный подход.",
+    "Farklı ölçekler. Özenli bir yaklaşım."
+  ],
+  "Show selected projects": [
+    "Seçilmiş layihələri göstər",
+    "Показать избранные проекты",
+    "Seçili projeleri göster"
+  ],
+  "View all {count} projects": [
+    "Bütün {count} layihəyə bax",
+    "Все проекты: {count}",
+    "{count} projenin tümünü gör"
+  ],
+  "LIGHT. MATERIAL. ATMOSPHERE.": [
+    "İŞIQ. MATERİAL. ATMOSFER.",
+    "СВЕТ. МАТЕРИАЛ. АТМОСФЕРА.",
+    "IŞIK. MALZEME. ATMOSFER."
+  ],
+  "More than an image.": [
+    "Bir görüntüdən daha artıq.",
+    "Больше, чем изображение.",
+    "Bir görüntüden fazlası."
+  ],
+  "A sense of place.": [
+    "Məkanın duyğusu.",
+    "Ощущение места.",
+    "Mekânın hissi."
+  ],
+  "Mirzazada Studio brings architecture, visualization and product storytelling together. We collaborate with design studios, developers and manufacturers to communicate spaces and ideas.": [
+    "Mirzazada Studio memarlığı, vizuallaşdırmanı və məhsulun vizual təqdimatını birləşdirir. Məkan və ideyaları çatdırmaq üçün dizayn studiyaları, tikinti şirkətləri və istehsalçılarla əməkdaşlıq edirik.",
+    "Mirzazada Studio объединяет архитектуру, визуализацию и визуальные истории о продуктах. Мы сотрудничаем с дизайн-студиями, девелоперами и производителями, чтобы представлять пространства и идеи.",
+    "Mirzazada Studio mimarlığı, görselleştirmeyi ve ürünün görsel anlatımını bir araya getirir. Mekânları ve fikirleri anlatmak için tasarım stüdyoları, geliştiriciler ve üreticilerle çalışıyoruz."
+  ],
+  "We look beyond the geometry. The way light falls, the texture of a surface, the feeling of being there — these are the details that bring a design to life.": [
+    "Biz həndəsədən daha artığını görürük. İşığın düşməsi, səthin teksturası, orada olma hissi — dizaynı canlandıran bu detallardır.",
+    "Мы смотрим глубже геометрии. Падение света, фактура поверхности, ощущение присутствия — эти детали оживляют дизайн.",
+    "Geometrinin ötesine bakıyoruz. Işığın düşüşü, yüzeyin dokusu, orada bulunma hissi; tasarımı hayata geçiren ayrıntılar bunlardır."
+  ],
+  "About our studio": [
+    "Studiyamız haqqında",
+    "О нашей студии",
+    "Stüdyomuz hakkında"
+  ],
+  "From the first concept to the final presentation.": [
+    "İlk konseptdən son təqdimata qədər.",
+    "От первого замысла до финальной презентации.",
+    "İlk konseptten son sunuma kadar."
+  ],
+  "Your vision, made visible.": [
+    "İdeyanız görünən olsun.",
+    "Ваш замысел становится видимым.",
+    "Vizyonunuz görünür olsun."
+  ],
+  "From the first concept": [
+    "İlk konseptdən",
+    "От первого замысла",
+    "İlk konseptten"
+  ],
+  "to the final perspective.": [
+    "son baxışa qədər.",
+    "до финального ракурса.",
+    "son bakış açısına."
+  ],
+  "THE STUDIO / IN MOTION": [
+    "STUDİYA / HƏRƏKƏTDƏ",
+    "СТУДИЯ / В ДВИЖЕНИИ",
+    "STÜDYO / HAREKETTE"
+  ],
+  "More animation": [
+    "Daha çox animasiya",
+    "Больше анимации",
+    "Daha fazla animasyon"
+  ],
+  "Architecture in motion.": [
+    "Memarlıq hərəkətdə.",
+    "Архитектура в движении.",
+    "Hareket hâlindeki mimarlık."
+  ],
+  "Architecture in motion": [
+    "Memarlıq hərəkətdə",
+    "Архитектура в движении",
+    "Hareket hâlindeki mimarlık"
+  ],
+  "A new perspective in motion.": [
+    "Hərəkətdə yeni baxış.",
+    "Новый ракурс в движении.",
+    "Hareketle yeni bir bakış açısı."
+  ],
+  "Short films of spaces, systems and changing light.": [
+    "Məkanlar, sistemlər və dəyişən işıq haqqında qısa filmlər.",
+    "Короткие фильмы о пространствах, системах и меняющемся свете.",
+    "Mekânlar, sistemler ve değişen ışık üzerine kısa filmler."
+  ],
+  "Explore animation": [
+    "Animasiyaları kəşf edin",
+    "Смотреть анимацию",
+    "Animasyonları keşfedin"
+  ],
+  "Play film": [
+    "Videonu oynat",
+    "Смотреть фильм",
+    "Filmi oynat"
+  ],
+  "Open the film": [
+    "Videonu aç",
+    "Открыть фильм",
+    "Filmi aç"
+  ],
+  "Play": [
+    "Oynat",
+    "Воспроизвести",
+    "Oynat"
+  ],
+  "Pause": [
+    "Dayandır",
+    "Пауза",
+    "Duraklat"
+  ],
+  "Play background animation": [
+    "Fon videosunu oynat",
+    "Запустить фоновое видео",
+    "Arka plan videosunu oynat"
+  ],
+  "Pause background animation": [
+    "Fon videosunu dayandır",
+    "Остановить фоновое видео",
+    "Arka plan videosunu duraklat"
+  ],
+  "sec.": [
+    "san.",
+    "сек.",
+    "sn."
+  ],
+  "Showroom perspectives": [
+    "Şouruma baxışlar",
+    "Ракурсы шоурума",
+    "Showroom perspektifleri"
+  ],
+  "Materials, displays and the spaces between.": [
+    "Materiallar, ekspozisiyalar və aralarındakı məkanlar.",
+    "Материалы, экспозиции и пространства между ними.",
+    "Malzemeler, sergiler ve aralarındaki mekânlar."
+  ],
+  "Patio in motion": [
+    "Veranda hərəkətdə",
+    "Патио в движении",
+    "Hareket hâlindeki veranda"
+  ],
+  "An outdoor space seen through movement.": [
+    "Hərəkətlə açılan açıq hava məkanı.",
+    "Открытое пространство через движение.",
+    "Hareketle keşfedilen bir açık hava mekânı."
+  ],
+  "A moving perspective on the waterfront.": [
+    "Sahil məkanına hərəkətli baxış.",
+    "Движущийся взгляд на набережную.",
+    "Sahil mekânına hareketli bir bakış."
+  ],
+  "Day into night": [
+    "Gündüzdən gecəyə",
+    "От дня к ночи",
+    "Gündüzden geceye"
+  ],
+  "Light & atmosphere": [
+    "İşıq və atmosfer",
+    "Свет и атмосфера",
+    "Işık ve atmosfer"
+  ],
+  "A change in light. A different sense of place.": [
+    "Dəyişən işıq. Məkanın fərqli duyğusu.",
+    "Смена света. Иное ощущение места.",
+    "Değişen ışık. Farklı bir mekân hissi."
+  ],
+  "Architecture imagined.": [
+    "Xəyal edilən memarlıq.",
+    "Архитектура в воображении.",
+    "Hayal edilen mimarlık."
+  ],
+  "Atmosphere made visible.": [
+    "Görünən atmosfer.",
+    "Атмосфера в изображении.",
+    "Görünür kılınan atmosfer."
+  ],
+  "Back to top": [
+    "Yuxarı qayıt",
+    "Наверх",
+    "Başa dön"
+  ],
+  "by": [
+    "müəllif:",
+    "автор:",
+    "tasarım:"
+  ],
+  "LET’S WORK TOGETHER": [
+    "BİRLİKDƏ İŞLƏYƏK",
+    "ДАВАЙТЕ РАБОТАТЬ ВМЕСТЕ",
+    "BİRLİKTE ÇALIŞALIM"
+  ],
+  "Every great space": [
+    "Hər gözəl məkan",
+    "Каждое прекрасное пространство",
+    "Her güzel mekân"
+  ],
+  "starts with an idea": [
+    "bir ideyadan başlayır",
+    "начинается с идеи",
+    "bir fikirle başlar"
+  ],
+  "Work with our studio.": [
+    "Studiyamızla əməkdaşlıq edin.",
+    "Работайте с нашей студией.",
+    "Stüdyomuzla çalışın."
+  ],
+  "Together, we’ll shape the right visual story for your project.": [
+    "Birlikdə layihəniz üçün uyğun vizual hekayə yaradacağıq.",
+    "Вместе мы создадим визуальную историю вашего проекта.",
+    "Birlikte projeniz için doğru görsel hikâyeyi oluşturacağız."
+  ],
+  "Start a project": [
+    "Layihəyə başla",
+    "Начать проект",
+    "Bir proje başlat"
+  ],
+  "Architecture, visualization and product storytelling. A collaborative studio for spaces and ideas.": [
+    "Memarlıq, vizuallaşdırma və məhsul təqdimatı. Məkanlar və ideyalar üçün əməkdaşlıq studiyası.",
+    "Архитектура, визуализация и истории о продуктах. Студия сотрудничества для пространств и идей.",
+    "Mimarlık, görselleştirme ve ürün anlatımı. Mekânlar ve fikirler için ortak çalışan bir stüdyo."
+  ],
+  "Email": [
+    "E-poçt",
+    "Эл. почта",
+    "E-posta"
+  ],
+  "Based in": [
+    "Yerləşdiyimiz şəhər",
+    "Мы находимся в",
+    "Konumumuz"
+  ],
+  "Baku, Azerbaijan": [
+    "Bakı, Azərbaycan",
+    "Баку, Азербайджан",
+    "Bakü, Azerbaycan"
+  ],
+  "UTC+4 · Working internationally": [
+    "UTC+4 · Beynəlxalq əməkdaşlıq",
+    "UTC+4 · Работаем по всему миру",
+    "UTC+4 · Uluslararası çalışma"
+  ],
+  "START A CONVERSATION": [
+    "SÖHBƏTƏ BAŞLAYAQ",
+    "НАЧНЁМ ОБСУЖДЕНИЕ",
+    "BİR SOHBET BAŞLATALIM"
+  ],
+  "A new project.": [
+    "Yeni layihə.",
+    "Новый проект.",
+    "Yeni bir proje."
+  ],
+  "A shared perspective.": [
+    "Ortaq baxış.",
+    "Общий взгляд.",
+    "Ortak bir bakış açısı."
+  ],
+  "Share the context, the spaces and the images you need. We’ll use your brief to discuss the right scope for the project.": [
+    "Layihənin kontekstini, məkanları və lazım olan görüntüləri bölüşün. Müraciətiniz əsasında uyğun iş həcmini müzakirə edəcəyik.",
+    "Расскажите о контексте, пространствах и необходимых изображениях. Это поможет обсудить подходящий объём работ.",
+    "Projenin bağlamını, mekânları ve ihtiyaç duyduğunuz görselleri paylaşın. Bilgilerinizle uygun iş kapsamını birlikte belirleyelim."
+  ],
+  "Name": [
+    "Ad",
+    "Имя",
+    "Ad"
+  ],
+  "Company": [
+    "Şirkət",
+    "Компания",
+    "Şirket"
+  ],
+  "Project type": [
+    "Layihə növü",
+    "Тип проекта",
+    "Proje türü"
+  ],
+  "Estimated deadline": [
+    "Təxmini bitmə tarixi",
+    "Ориентировочный срок",
+    "Tahmini teslim tarihi"
+  ],
+  "Project brief": [
+    "Layihə haqqında",
+    "Описание проекта",
+    "Proje özeti"
+  ],
+  "e.g. Residential exterior visualization": [
+    "Məsələn, yaşayış binasının eksteryer vizuallaşdırması",
+    "Например, визуализация экстерьера жилого здания",
+    "Örn. konut dış mekân görselleştirmesi"
+  ],
+  "A date or approximate timeframe": [
+    "Tarix və ya təxmini müddət",
+    "Дата или примерный период",
+    "Bir tarih veya yaklaşık süre"
+  ],
+  "Tell us about the project, the views you need and what you would like to achieve.": [
+    "Layihəni, lazım olan baxışları və istədiyiniz nəticəni təsvir edin.",
+    "Расскажите о проекте, нужных ракурсах и желаемом результате.",
+    "Projeyi, ihtiyaç duyduğunuz bakış açılarını ve ulaşmak istediğiniz sonucu anlatın."
+  ],
+  "Website": [
+    "Veb-sayt",
+    "Сайт",
+    "Web sitesi"
+  ],
+  "Your details are used to respond to this inquiry.": [
+    "Məlumatlarınız bu müraciətə cavab vermək üçün istifadə olunur.",
+    "Ваши данные используются для ответа на этот запрос.",
+    "Bilgileriniz bu talebe yanıt vermek için kullanılır."
+  ],
+  "Sending…": [
+    "Göndərilir…",
+    "Отправка…",
+    "Gönderiliyor…"
+  ],
+  "Send project brief": [
+    "Müraciəti göndər",
+    "Отправить описание",
+    "Proje özetini gönder"
+  ],
+  "Please try again.": [
+    "Yenidən cəhd edin.",
+    "Попробуйте ещё раз.",
+    "Lütfen tekrar deneyin."
+  ],
+  "Thank you. Your project brief has been received.": [
+    "Təşəkkür edirik. Müraciətiniz qəbul olundu.",
+    "Спасибо. Описание вашего проекта получено.",
+    "Teşekkürler. Proje özetiniz alındı."
+  ],
+  "Reference": [
+    "Müraciət nömrəsi",
+    "Номер обращения",
+    "Başvuru numarası"
+  ],
+  "Location": [
+    "Məkan",
+    "Местоположение",
+    "Konum"
+  ],
+  "Year": [
+    "İl",
+    "Год",
+    "Yıl"
+  ],
+  "Client": [
+    "Müştəri",
+    "Клиент",
+    "Müşteri"
+  ],
+  "Architect / designer": [
+    "Memar / dizayner",
+    "Архитектор / дизайнер",
+    "Mimar / tasarımcı"
+  ],
+  "NEXT PERSPECTIVE": [
+    "NÖVBƏTİ BAXIŞ",
+    "СЛЕДУЮЩИЙ РАКУРС",
+    "SONRAKİ BAKIŞ AÇISI"
+  ],
+  "Discuss a similar project": [
+    "Oxşar layihəni müzakirə edək",
+    "Обсудить похожий проект",
+    "Benzer bir projeyi görüşelim"
+  ],
+  "Explore related collections": [
+    "Əlaqəli kolleksiyalara bax",
+    "Связанные коллекции",
+    "İlgili koleksiyonları keşfedin"
+  ],
+  "Use the arrows to explore. Press Escape to close.": [
+    "Baxmaq üçün oxlardan istifadə edin. Bağlamaq üçün Escape basın.",
+    "Используйте стрелки для просмотра. Нажмите Escape, чтобы закрыть.",
+    "Gezinmek için okları kullanın. Kapatmak için Escape tuşuna basın."
+  ],
+  "Previous image": [
+    "Əvvəlki şəkil",
+    "Предыдущее изображение",
+    "Önceki görsel"
+  ],
+  "Next image": [
+    "Növbəti şəkil",
+    "Следующее изображение",
+    "Sonraki görsel"
+  ],
+  "Project video": [
+    "Layihə videosu",
+    "Видео проекта",
+    "Proje videosu"
+  ],
+  "Play project video": [
+    "Layihə videosunu oynat",
+    "Смотреть видео проекта",
+    "Proje videosunu oynat"
+  ],
+  "Loads from": [
+    "Mənbə:",
+    "Загружается с",
+    "Kaynak:"
+  ],
+  "when you choose to play.": [
+    "oynatdığınız zaman yüklənir.",
+    "при запуске воспроизведения.",
+    "oynatmayı seçtiğinizde yüklenir."
+  ],
+  "MIRZAZADA STUDIO / PORTFOLIO": [
+    "MIRZAZADA STUDIO / PORTFOLİO",
+    "MIRZAZADA STUDIO / ПОРТФОЛИО",
+    "MIRZAZADA STUDIO / PORTFOLYO"
+  ],
+  "A considered perspective.": [
+    "Düşünülmüş baxış.",
+    "Продуманный ракурс.",
+    "Özenli bir bakış açısı."
+  ],
+  "At every scale.": [
+    "Hər miqyasda.",
+    "В любом масштабе.",
+    "Her ölçekte."
+  ],
+  "No published projects in this collection yet.": [
+    "Bu kolleksiyada hələ yayımlanmış layihə yoxdur.",
+    "В этой коллекции пока нет опубликованных проектов.",
+    "Bu koleksiyonda henüz yayımlanmış proje yok."
+  ],
+  "THE COLLECTION /": [
+    "KOLLEKSİYA /",
+    "КОЛЛЕКЦИЯ /",
+    "KOLEKSİYON /"
+  ],
+  "Project collections": [
+    "Layihə kolleksiyaları",
+    "Коллекции проектов",
+    "Proje koleksiyonları"
+  ],
+  "FEATURED PERSPECTIVE": [
+    "SEÇİLMİŞ BAXIŞ",
+    "ИЗБРАННЫЙ РАКУРС",
+    "ÖNE ÇIKAN BAKIŞ AÇISI"
+  ],
+  "EXPLORE THE COLLECTION": [
+    "KOLLEKSİYANI KƏŞF EDİN",
+    "СМОТРЕТЬ КОЛЛЕКЦИЮ",
+    "KOLEKSİYONU KEŞFEDİN"
+  ],
+  "Every perspective.": [
+    "Hər baxış.",
+    "Каждый ракурс.",
+    "Her bakış açısı."
+  ],
+  "Filter system views": [
+    "Sistem baxışlarını filtrlə",
+    "Фильтр видов систем",
+    "Sistem görünümlerini filtrele"
+  ],
+  "New perspectives are on their way.": [
+    "Yeni baxışlar hazırlanır.",
+    "Новые ракурсы уже в работе.",
+    "Yeni bakış açıları hazırlanıyor."
+  ],
+  "A project in this field?": [
+    "Bu sahədə layihəniz var?",
+    "Есть проект в этой области?",
+    "Bu alanda bir projeniz mi var?"
+  ],
+  "Let’s work together": [
+    "Birlikdə işləyək",
+    "Давайте работать вместе",
+    "Birlikte çalışalım"
+  ],
+  "Pergolas": [
+    "Perqolalar",
+    "Перголы",
+    "Pergolalar"
+  ],
+  "Bioclimatic roofs": [
+    "Bioklimatik damlar",
+    "Биоклиматические крыши",
+    "Biyoklimatik çatılar"
+  ],
+  "Glass systems": [
+    "Şüşə sistemləri",
+    "Стеклянные системы",
+    "Cam sistemleri"
+  ],
+  "Exterior views": [
+    "Eksteryer baxışları",
+    "Виды экстерьера",
+    "Dış mekân görünümleri"
+  ],
+  "Interior views": [
+    "İnteryer baxışları",
+    "Виды интерьера",
+    "İç mekân görünümleri"
+  ],
+  "Assembly & cutaways": [
+    "Quraşdırma və kəsiklər",
+    "Сборки и разрезы",
+    "Montaj ve kesitler"
+  ],
+  "A different perspective.": [
+    "Fərqli bir baxış.",
+    "Другой ракурс.",
+    "Farklı bir bakış açısı."
+  ],
+  "This page could not be found.": [
+    "Bu səhifə tapılmadı.",
+    "Страница не найдена.",
+    "Bu sayfa bulunamadı."
+  ],
+  "Return to the studio": [
+    "Studiyaya qayıt",
+    "Вернуться в студию",
+    "Stüdyoya dön"
+  ],
+  "THE PERSON BEHIND THE PERSPECTIVE": [
+    "BU BAXIŞIN MÜƏLLİFİ",
+    "ЧЕЛОВЕК ЗА ЭТИМ ВЗГЛЯДОМ",
+    "BU BAKIŞIN ARDINDAKİ İSİM"
+  ],
+  "Professional experience": [
+    "Peşəkar təcrübə",
+    "Профессиональный опыт",
+    "Mesleki deneyim"
+  ],
+  "Based in · working internationally": [
+    "Yerləşdiyi şəhər · beynəlxalq əməkdaşlıq",
+    "Базируется здесь · работает по всему миру",
+    "Konum · uluslararası çalışma"
+  ],
+  "Professional profile on LinkedIn": [
+    "LinkedIn-də peşəkar profil",
+    "Профессиональный профиль в LinkedIn",
+    "LinkedIn profesyonel profili"
+  ],
+  "ARCHITECTURE / PRODUCTS / ATMOSPHERE": [
+    "MEMARLIQ / MƏHSULLAR / ATMOSFER",
+    "АРХИТЕКТУРА / ПРОДУКТЫ / АТМОСФЕРА",
+    "MİMARLIK / ÜRÜNLER / ATMOSFER"
+  ],
+  "One eye for detail.": [
+    "Detallara diqqət.",
+    "Внимание к деталям.",
+    "Ayrıntılara odaklanma."
+  ],
+  "Many scales of work.": [
+    "Müxtəlif miqyaslı işlər.",
+    "Разные масштабы работы.",
+    "Farklı ölçeklerde çalışmalar."
+  ],
+  "FOCUS": [
+    "İXTİSASLAŞMA",
+    "СПЕЦИАЛИЗАЦИЯ",
+    "UZMANLIK"
+  ],
+  "EDUCATION": [
+    "TƏHSİL",
+    "ОБРАЗОВАНИЕ",
+    "EĞİTİM"
+  ],
+  "Career details from": [
+    "Peşəkar məlumatların mənbəyi:",
+    "Сведения о карьере из",
+    "Kariyer bilgilerinin kaynakları:"
+  ],
+  "and": [
+    "və",
+    "и",
+    "ve"
+  ],
+  "SELECTED COLLABORATION": [
+    "SEÇİLMİŞ ƏMƏKDAŞLIQ",
+    "ИЗБРАННОЕ СОТРУДНИЧЕСТВО",
+    "SEÇİLİ İŞ BİRLİĞİ"
+  ],
+  "View the project": [
+    "Layihəyə bax",
+    "Смотреть проект",
+    "Projeyi görüntüle"
+  ],
+  "MIRZAZADA STUDIO / SERVICES": [
+    "MIRZAZADA STUDIO / XİDMƏTLƏR",
+    "MIRZAZADA STUDIO / УСЛУГИ",
+    "MIRZAZADA STUDIO / HİZMETLER"
+  ],
+  "Your design.": [
+    "Sizin dizaynınız.",
+    "Ваш дизайн.",
+    "Sizin tasarımınız."
+  ],
+  "Clearly communicated.": [
+    "Aydın təqdimat.",
+    "Ясное представление.",
+    "Net bir anlatım."
+  ],
+  "From the scale of a neighborhood to the detail of a louver mechanism. A considered visual approach, shaped around your project.": [
+    "Məhəllə miqyasından jalüz mexanizminin detalına qədər. Layihənizə uyğun düşünülmüş vizual yanaşma.",
+    "От масштаба района до детали ламельного механизма. Продуманный визуальный подход с учётом вашего проекта.",
+    "Mahalle ölçeğinden bir panjur mekanizmasının ayrıntısına kadar. Projenize göre şekillenen özenli bir görsel yaklaşım."
+  ],
+  "For": [
+    "Kimlər üçün",
+    "Для кого",
+    "Kimler için"
+  ],
+  "Deliverables": [
+    "Təhvil verilən işlər",
+    "Результат работы",
+    "Teslim edilecekler"
+  ],
+  "Discuss your project": [
+    "Layihənizi müzakirə edək",
+    "Обсудить ваш проект",
+    "Projenizi görüşelim"
+  ],
+  "Architecture and design teams": [
+    "Memarlıq və dizayn komandaları",
+    "Архитектурные и дизайн-команды",
+    "Mimarlık ve tasarım ekipleri"
+  ],
+  "A tailored set of project visuals.": [
+    "Layihəyə uyğun hazırlanmış görüntülər.",
+    "Индивидуальный набор изображений проекта.",
+    "Projeye özel hazırlanan görseller."
+  ],
+  "MIRZAZADA STUDIO / BLOG": [
+    "MIRZAZADA STUDIO / BLOQ",
+    "MIRZAZADA STUDIO / БЛОГ",
+    "MIRZAZADA STUDIO / BLOG"
+  ],
+  "Behind the": [
+    "Görüntünün",
+    "За кадром:",
+    "Görüntünün"
+  ],
+  "perspective.": [
+    "arxasında.",
+    "новый взгляд.",
+    "ardında."
+  ],
+  "Behind the perspective.": [
+    "Görüntünün arxasında.",
+    "За кадром.",
+    "Görüntünün ardında."
+  ],
+  "Notes on architecture, outdoor living": [
+    "Memarlıq, açıq məkanlar",
+    "Заметки об архитектуре, открытых пространствах",
+    "Mimarlık, açık hava yaşamı"
+  ],
+  "and the details that make an image.": [
+    "və görüntünü yaradan detallar haqqında qeydlər.",
+    "и деталях, создающих изображение.",
+    "ve görüntüyü oluşturan ayrıntılar üzerine notlar."
+  ],
+  "New studio notes are on their way.": [
+    "Yeni studiya qeydləri hazırlanır.",
+    "Новые заметки студии уже в работе.",
+    "Yeni stüdyo notları hazırlanıyor."
+  ],
+  "Let’s create the next perspective.": [
+    "Növbəti baxışı birlikdə yaradaq.",
+    "Создадим следующий ракурс вместе.",
+    "Sonraki bakış açısını birlikte oluşturalım."
+  ],
+  "Start a conversation": [
+    "Söhbətə başlayaq",
+    "Начать обсуждение",
+    "Sohbet başlat"
+  ],
+  "Studio notes": [
+    "Studiya qeydləri",
+    "Заметки студии",
+    "Stüdyo notları"
+  ],
+  "Explore the blog": [
+    "Bloqa bax",
+    "Читать блог",
+    "Blogu keşfedin"
+  ],
+  "IDEAS / PROCESS / PERSPECTIVE": [
+    "İDEYALAR / PROSES / BAXIŞ",
+    "ИДЕИ / ПРОЦЕСС / РАКУРС",
+    "FİKİRLER / SÜREÇ / BAKIŞ AÇISI"
+  ],
+  "AI / STUDIO NOTES": [
+    "SÜNİ İNTELLEKT / STUDİYA QEYDLƏRİ",
+    "ИИ / ЗАМЕТКИ СТУДИИ",
+    "YAPAY ZEKÂ / STÜDYO NOTLARI"
+  ],
+  "Ideas beyond the image.": [
+    "Görüntüdən kənar ideyalar.",
+    "Идеи за пределами изображения.",
+    "Görüntünün ötesindeki fikirler."
+  ],
+  "Explore AI concepts": [
+    "Süni intellekt konseptlərinə bax",
+    "Смотреть концепции ИИ",
+    "Yapay zekâ konseptlerini keşfedin"
+  ],
+  "/ FIELD NOTES": [
+    "/ İŞ QEYDLƏRİ",
+    "/ РАБОЧИЕ ЗАМЕТКИ",
+    "/ ÇALIŞMA NOTLARI"
+  ],
+  "Read the note": [
+    "Qeydi oxu",
+    "Читать заметку",
+    "Notu oku"
+  ],
+  "WORKING TOGETHER": [
+    "BİRGƏ ƏMƏKDAŞLIQ",
+    "СОВМЕСТНАЯ РАБОТА",
+    "BİRLİKTE ÇALIŞMA"
+  ],
+  "Client perspectives.": [
+    "Müştəri rəyləri.",
+    "Взгляд клиентов.",
+    "Müşteri görüşleri."
+  ],
+  "Sample reviews are labeled below.": [
+    "Nümunə rəylər aşağıda işarələnib.",
+    "Примеры отзывов отмечены ниже.",
+    "Örnek yorumlar aşağıda belirtilmiştir."
+  ],
+  "They illustrate the future review section.": [
+    "Onlar gələcək rəylər bölməsini nümayiş etdirir.",
+    "Они иллюстрируют будущий раздел отзывов.",
+    "Gelecekteki yorum bölümünü gösterirler."
+  ],
+  "SAMPLE · NOT A REAL CLIENT REVIEW": [
+    "NÜMUNƏ · HƏQİQİ MÜŞTƏRİ RƏYİ DEYİL",
+    "ПРИМЕР · НЕ НАСТОЯЩИЙ ОТЗЫВ КЛИЕНТА",
+    "ÖRNEK · GERÇEK MÜŞTERİ YORUMU DEĞİLDİR"
+  ],
+  "Architectural visualization": [
+    "Memarlıq vizuallaşdırması",
+    "Архитектурная визуализация",
+    "Mimari görselleştirme"
+  ],
+  "Exterior visualization": [
+    "Eksteryer vizuallaşdırması",
+    "Визуализация экстерьера",
+    "Dış mekân görselleştirmesi"
+  ],
+  "Exterior images that communicate scale, context and the character of a building.": [
+    "Binanın miqyasını, kontekstini və xarakterini çatdıran eksteryer görüntüləri.",
+    "Изображения экстерьера, передающие масштаб, контекст и характер здания.",
+    "Yapının ölçeğini, bağlamını ve karakterini anlatan dış mekân görselleri."
+  ],
+  "EXTERIORS": [
+    "EKSTERYERLƏR",
+    "ЭКСТЕРЬЕРЫ",
+    "DIŞ MEKÂNLAR"
+  ],
+  "Interior visualization": [
+    "İnteryer vizuallaşdırması",
+    "Визуализация интерьера",
+    "İç mekân görselleştirmesi"
+  ],
+  "Material, light and composition. Images that let you experience a space before it exists.": [
+    "Material, işıq və kompozisiya. Məkan yaranmadan onu hiss etməyə imkan verən görüntülər.",
+    "Материал, свет и композиция. Изображения, позволяющие почувствовать пространство ещё до его появления.",
+    "Malzeme, ışık ve kompozisyon. Bir mekânı henüz var olmadan deneyimlemenizi sağlayan görseller."
+  ],
+  "Outdoor & product visuals": [
+    "Açıq məkan və məhsul vizualları",
+    "Визуализация уличных пространств и продуктов",
+    "Dış mekân ve ürün görselleri"
+  ],
+  "Pergolas, terraces and outdoor living. Detailed visuals that place your product in its world.": [
+    "Perqolalar, terraslar və açıq məkanlar. Məhsulunuzu öz mühitində göstərən detallı görüntülər.",
+    "Перголы, террасы и жизнь на открытом воздухе. Детальные изображения продукта в его окружении.",
+    "Pergolalar, teraslar ve açık hava yaşamı. Ürününüzü kendi ortamında gösteren ayrıntılı görseller."
+  ],
+  "Animation & visual storytelling": [
+    "Animasiya və vizual hekayə",
+    "Анимация и визуальные истории",
+    "Animasyon ve görsel anlatım"
+  ],
+  "From precise models to moving perspectives, a fuller way to present your design.": [
+    "Dəqiq modellərdən hərəkətli baxışlara — dizaynınızı daha dolğun təqdim etməyin yolu.",
+    "От точных моделей до движущихся ракурсов — более полное представление вашего дизайна.",
+    "Hassas modellerden hareketli bakış açılarına, tasarımınızı daha kapsamlı sunmanın yolu."
+  ],
+  "IN MOTION": [
+    "HƏRƏKƏTDƏ",
+    "В ДВИЖЕНИИ",
+    "HAREKETTE"
+  ],
+  "3D Modeling": [
+    "3D modelləşdirmə",
+    "3D-моделирование",
+    "3B modelleme"
+  ],
+  "Detailed architectural and product models for visualization and presentation.": [
+    "Vizuallaşdırma və təqdimat üçün detallı memarlıq və məhsul modelləri.",
+    "Детальные архитектурные и продуктовые модели для визуализации и презентаций.",
+    "Görselleştirme ve sunum için ayrıntılı mimari ve ürün modelleri."
+  ],
+  "Masterplan & Landscape Visualization": [
+    "Baş plan və landşaft vizuallaşdırması",
+    "Визуализация генплана и ландшафта",
+    "Vaziyet planı ve peyzaj görselleştirmesi"
+  ],
+  "Neighborhoods, public spaces and landscapes communicated through clear master views.": [
+    "Məhəllələr, ictimai məkanlar və landşaftların aydın ümumi baxışlarla təqdimatı.",
+    "Районы, общественные пространства и ландшафты в наглядных общих видах.",
+    "Mahalleler, kamusal alanlar ve peyzajların anlaşılır genel görünümlerle sunumu."
+  ],
+  "MASTERPLAN": [
+    "BAŞ PLAN",
+    "ГЕНПЛАН",
+    "VAZİYET PLANI"
+  ],
+  "Façade & Concept Development": [
+    "Fasad və konsept hazırlanması",
+    "Разработка фасадов и концепций",
+    "Cephe ve konsept geliştirme"
+  ],
+  "Façade renewal, material alternatives and architectural concepts explored through visualization.": [
+    "Fasad yenilənməsi, material alternativləri və memarlıq konseptlərinin vizuallaşdırma vasitəsilə araşdırılması.",
+    "Обновление фасадов, варианты материалов и архитектурные концепции через визуализацию.",
+    "Cephe yenileme, malzeme alternatifleri ve mimari konseptlerin görselleştirmeyle incelenmesi."
+  ],
+  "FAÇADE": [
+    "FASAD",
+    "ФАСАД",
+    "CEPHE"
+  ],
+  "Architecture studios and developers": [
+    "Memarlıq studiyaları və tikinti şirkətləri",
+    "Архитектурные студии и девелоперы",
+    "Mimarlık stüdyoları ve geliştiriciler"
+  ],
+  "Interior designers and hospitality teams": [
+    "İnteryer dizaynerləri və qonaqpərvərlik sektoru",
+    "Дизайнеры интерьеров и гостиничные команды",
+    "İç mimarlar ve konaklama ekipleri"
+  ],
+  "Outdoor-living and glazing manufacturers": [
+    "Açıq məkan və şüşə sistemləri istehsalçıları",
+    "Производители уличных и стеклянных систем",
+    "Dış mekân ve cam sistemleri üreticileri"
+  ],
+  "Teams presenting a space or product in motion": [
+    "Məkan və məhsulları hərəkətdə təqdim edən komandalar",
+    "Команды, представляющие пространство или продукт в движении",
+    "Mekân veya ürünü hareketle sunan ekipler"
+  ],
+  "Manufacturers and design studios": [
+    "İstehsalçılar və dizayn studiyaları",
+    "Производители и дизайн-студии",
+    "Üreticiler ve tasarım stüdyoları"
+  ],
+  "Developers and landscape architects": [
+    "Tikinti şirkətləri və landşaft memarları",
+    "Девелоперы и ландшафтные архитекторы",
+    "Geliştiriciler ve peyzaj mimarları"
+  ],
+  "Architects and façade development teams": [
+    "Memarlar və fasad layihələndirmə komandaları",
+    "Архитекторы и команды разработки фасадов",
+    "Mimarlar ve cephe geliştirme ekipleri"
+  ],
+  "Exterior perspectives and material studies.": [
+    "Eksteryer baxışları və material araşdırmaları.",
+    "Виды экстерьера и исследования материалов.",
+    "Dış mekân perspektifleri ve malzeme çalışmaları."
+  ],
+  "Interior perspectives, lighting and material-focused views.": [
+    "İnteryer baxışları, işıq və materiala yönəlmiş görüntülər.",
+    "Виды интерьера, освещения и материалов.",
+    "İç mekân perspektifleri, ışık ve malzeme odaklı görünümler."
+  ],
+  "Pergolas and glass systems in context, product and detail views.": [
+    "Mühitdə perqola və şüşə sistemləri, məhsul və detal görüntüləri.",
+    "Перголы и стеклянные системы в окружении, виды продуктов и деталей.",
+    "Pergola ve cam sistemlerinin ortam, ürün ve detay görünümleri."
+  ],
+  "Animated perspectives and AI-assisted visual presentations.": [
+    "Hərəkətli baxışlar və süni intellekt dəstəkli vizual təqdimatlar.",
+    "Анимированные ракурсы и визуальные презентации с помощью ИИ.",
+    "Hareketli perspektifler ve yapay zekâ destekli görsel sunumlar."
+  ],
+  "Detailed 3D models and presentation-ready product assets.": [
+    "Detallı 3D modellər və təqdimata hazır məhsul materialları.",
+    "Детальные 3D-модели и готовые к презентации материалы продукта.",
+    "Ayrıntılı 3B modeller ve sunuma hazır ürün varlıkları."
+  ],
+  "Master views, aerial perspectives and landscape visualization.": [
+    "Ümumi baxışlar, havadan görüntülər və landşaft vizuallaşdırması.",
+    "Общие виды, ракурсы с высоты и визуализация ландшафта.",
+    "Genel görünümler, hava perspektifleri ve peyzaj görselleştirmesi."
+  ],
+  "Façade concepts, renewal studies and material alternatives.": [
+    "Fasad konseptləri, yenilənmə araşdırmaları və material alternativləri.",
+    "Концепции фасадов, исследования обновления и варианты материалов.",
+    "Cephe konseptleri, yenileme çalışmaları ve malzeme alternatifleri."
+  ],
+  "Architect & 3D Visualization Specialist": [
+    "Memar və 3D vizuallaşdırma mütəxəssisi",
+    "Архитектор и специалист по 3D-визуализации",
+    "Mimar ve 3B görselleştirme uzmanı"
+  ],
+  "12+ years": [
+    "12+ il",
+    "12+ лет",
+    "12+ yıl"
+  ],
+  "I’m Ilkin Mirzazada, an architect and 3D visualization specialist. I create images that help people understand architecture, experience a space and see the potential of a product.": [
+    "Mən İlkin Mirzəzadəyəm, memar və 3D vizuallaşdırma mütəxəssisiyəm. İnsanlara memarlığı anlamağa, məkanı hiss etməyə və məhsulun potensialını görməyə kömək edən görüntülər yaradıram.",
+    "Я Илькин Мирзазаде, архитектор и специалист по 3D-визуализации. Я создаю изображения, помогающие понять архитектуру, почувствовать пространство и увидеть потенциал продукта.",
+    "Ben İlkin Mirzazada, mimar ve 3B görselleştirme uzmanıyım. İnsanların mimarlığı anlamasına, mekânı deneyimlemesine ve ürünün potansiyelini görmesine yardımcı olan görseller oluşturuyorum."
+  ],
+  "My work moves between large urban developments, residential and hospitality spaces, and detailed outdoor systems. Lighting, materials and composition connect these different scales.": [
+    "İşlərim iri şəhər layihələrini, yaşayış və qonaqpərvərlik məkanlarını, detallı açıq məkan sistemlərini əhatə edir. İşıq, material və kompozisiya bu fərqli miqyasları birləşdirir.",
+    "Моя работа охватывает крупные городские комплексы, жилые и гостиничные пространства, детальные уличные системы. Свет, материалы и композиция объединяют эти масштабы.",
+    "Çalışmalarım büyük kentsel projelerden konut ve konaklama mekânlarına, ayrıntılı dış mekân sistemlerine uzanır. Işık, malzemeler ve kompozisyon bu farklı ölçekleri birleştirir."
+  ],
+  "Alongside architectural visualization, I create product presentations and 3D assets for marketing, web configurators and client presentations. My workflow includes SketchUp, Lumion, V-Ray and Adobe Photoshop, supported by AI-assisted processes where useful.": [
+    "Memarlıq vizuallaşdırması ilə yanaşı marketinq, veb konfiquratorlar və müştəri təqdimatları üçün məhsul təqdimatları və 3D materiallar hazırlayıram. SketchUp, Lumion, V-Ray və Adobe Photoshop ilə işləyir, uyğun hallarda süni intellektdən istifadə edirəm.",
+    "Помимо архитектурной визуализации, я создаю продуктовые презентации и 3D-материалы для маркетинга, веб-конфигураторов и клиентов. Работаю в SketchUp, Lumion, V-Ray и Adobe Photoshop, при необходимости используя ИИ.",
+    "Mimari görselleştirmenin yanında pazarlama, web yapılandırıcıları ve müşteri sunumları için ürün sunumları ve 3B varlıklar hazırlıyorum. SketchUp, Lumion, V-Ray ve Adobe Photoshop kullanıyor, yararlı olduğu durumlarda yapay zekâdan destek alıyorum."
+  ],
+  "Working with clients across the USA, Europe, the Middle East and Australia.": [
+    "ABŞ, Avropa, Yaxın Şərq və Avstraliyadakı müştərilərlə əməkdaşlıq.",
+    "Работаю с клиентами из США, Европы, Ближнего Востока и Австралии.",
+    "ABD, Avrupa, Orta Doğu ve Avustralya'daki müşterilerle çalışıyorum."
+  ],
+  "Interior & exterior rendering": [
+    "İnteryer və eksteryer vizuallaşdırması",
+    "Визуализация интерьера и экстерьера",
+    "İç ve dış mekân görselleştirmesi"
+  ],
+  "Pergolas, louvered roofs & glass systems": [
+    "Perqolalar, jalüzlü damlar və şüşə sistemləri",
+    "Перголы, ламельные крыши и стеклянные системы",
+    "Pergolalar, lamelli çatılar ve cam sistemleri"
+  ],
+  "Product modeling & animation": [
+    "Məhsul modelləşdirməsi və animasiya",
+    "Моделирование продуктов и анимация",
+    "Ürün modelleme ve animasyon"
+  ],
+  "3D assets for web configurators": [
+    "Veb konfiquratorlar üçün 3D materiallar",
+    "3D-материалы для веб-конфигураторов",
+    "Web yapılandırıcıları için 3B varlıklar"
+  ],
+  "Azerbaijan University of Architecture and Construction": [
+    "Azərbaycan Memarlıq və İnşaat Universiteti",
+    "Азербайджанский архитектурно-строительный университет",
+    "Azerbaycan Mimarlık ve İnşaat Üniversitesi"
+  ],
+  "Sea Breeze — Marina Village, Baku. Architectural visualization in collaboration with Qala Group, with a focus on pedestrian areas, public spaces and the waterfront connection.": [
+    "Sea Breeze — Marina Village, Bakı. Piyada zonaları, ictimai məkanlar və sahillə əlaqəyə diqqət yetirilərək Qala Group ilə birgə memarlıq vizuallaşdırması.",
+    "Sea Breeze — Marina Village, Баку. Архитектурная визуализация совместно с Qala Group с акцентом на пешеходные зоны, общественные пространства и связь с набережной.",
+    "Sea Breeze — Marina Village, Bakü. Yaya alanları, kamusal mekânlar ve sahil bağlantısına odaklanan Qala Group iş birliğiyle mimari görselleştirme."
+  ],
+  "Example client": [
+    "Nümunə müştəri",
+    "Пример клиента",
+    "Örnek müşteri"
+  ],
+  "sample review": [
+    "nümunə rəy",
+    "пример отзыва",
+    "örnek yorum"
+  ],
+  "Architecture · sample review": [
+    "Memarlıq · nümunə rəy",
+    "Архитектура · пример отзыва",
+    "Mimarlık · örnek yorum"
+  ],
+  "Outdoor systems · sample review": [
+    "Açıq məkan sistemləri · nümunə rəy",
+    "Уличные системы · пример отзыва",
+    "Dış mekân sistemleri · örnek yorum"
+  ],
+  "The images helped us present the space clearly, with a strong sense of light and material.": [
+    "Görüntülər məkanı aydın təqdim etməyə, işıq və materialı hiss etdirməyə kömək etdi.",
+    "Изображения помогли ясно представить пространство, передав свет и материалы.",
+    "Görseller, ışık ve malzeme hissini güçlü biçimde aktararak mekânı net sunmamıza yardımcı oldu."
+  ],
+  "Seeing the system in context made the design much easier to discuss and understand.": [
+    "Sistemi öz mühitində görmək dizaynı müzakirə etməyi və anlamağı xeyli asanlaşdırdı.",
+    "Вид системы в окружении значительно упростил обсуждение и понимание дизайна.",
+    "Sistemi ortamında görmek, tasarımı tartışmayı ve anlamayı çok kolaylaştırdı."
+  ],
+  "A multi-building residential ensemble with tall glazed bays, dark vertical frames and landscaped entrances. The views move from the overall massing to the sheltered street edge and arrival spaces.": [
+    "Hündür şüşəli çıxıntıları, tünd şaquli çərçivələri və yaşıllaşdırılmış girişləri olan çoxbinalı yaşayış ansamblı. Baxışlar ümumi həcm quruluşundan qorunan küçə kənarına və giriş məkanlarına keçir.",
+    "Жилой ансамбль из нескольких зданий с высокими остеклёнными эркерами, тёмными вертикальными рамами и озеленёнными входами. Ракурсы переходят от общей композиции к защищённой границе улицы и входным пространствам.",
+    "Yüksek camlı çıkmaları, koyu düşey çerçeveleri ve peyzajlı girişleri olan çok binalı konut topluluğu. Görünümler genel kütleden korunaklı sokak kenarına ve giriş alanlarına uzanır."
+  ],
+  "Layered balconies and a light structural grid give these residences a calm, open character. Garden paths, planted courtyards and illuminated ground-floor spaces connect the buildings to everyday life.": [
+    "Pilləli balkonlar və yüngül konstruktiv tor bu yaşayış binalarına sakit, açıq xarakter verir. Bağ yolları, yaşıllaşdırılmış həyətlər və işıqlı birinci mərtəbə məkanları binaları gündəlik həyatla bağlayır.",
+    "Многоуровневые балконы и лёгкая конструктивная сетка придают жилым зданиям спокойный, открытый характер. Садовые дорожки, озеленённые дворы и освещённые первые этажи связывают здания с повседневной жизнью.",
+    "Katmanlı balkonlar ve hafif taşıyıcı ızgara konutlara sakin, açık bir karakter kazandırır. Bahçe yolları, yeşil avlular ve aydınlık zemin katlar yapıları günlük yaşamla birleştirir."
+  ],
+  "A connected residential quarter organized around shared courtyards and pedestrian space. Aerial and street-level views show the relationship between the blocks, their stone façades and the surrounding landscape.": [
+    "Ortaq həyətlər və piyada məkanları ətrafında qurulmuş bir-birinə bağlı yaşayış məhəlləsi. Havadan və küçə səviyyəsindən baxışlar binalar, daş fasadlar və ətraf landşaft arasındakı əlaqəni göstərir.",
+    "Связанный жилой квартал вокруг общих дворов и пешеходных пространств. Виды с высоты и уровня улицы показывают связь корпусов, каменных фасадов и окружающего ландшафта.",
+    "Ortak avlular ve yaya alanları çevresinde düzenlenmiş bağlantılı bir konut bölgesi. Hava ve sokak görünümleri bloklar, taş cepheler ve çevredeki peyzaj arasındaki ilişkiyi gösterir."
+  ],
+  "Warm stone, arched openings and softly lit balconies define this residential study. The render series explores the street façade, landscaped forecourt and the detail of the main entrance.": [
+    "İsti tonlu daş, tağlı açılışlar və yumşaq işıqlandırılmış balkonlar bu yaşayış layihəsinin xarakterini yaradır. Görüntülər küçə fasadını, yaşıllaşdırılmış ön həyəti və əsas girişin detallarını araşdırır.",
+    "Тёплый камень, арочные проёмы и мягко освещённые балконы определяют характер жилого проекта. Серия показывает уличный фасад, озеленённый двор перед зданием и детали главного входа.",
+    "Sıcak tonlu taş, kemerli açıklıklar ve yumuşak aydınlatılmış balkonlar bu konut çalışmasını tanımlar. Görseller sokak cephesini, peyzajlı ön avluyu ve ana giriş detaylarını inceler."
+  ],
+  "Classical façades frame a generous landscaped courtyard in Baku White City. Street views, aerial perspectives and evening scenes connect the scale of the residential block with the gardens and shared spaces within.": [
+    "Bakı Ağ Şəhərdə klassik fasadlar geniş yaşıllaşdırılmış həyəti əhatə edir. Küçə, havadan və axşam baxışları yaşayış məhəlləsinin miqyasını daxili bağlar və ortaq məkanlarla bağlayır.",
+    "Классические фасады обрамляют просторный зелёный двор в Baku White City. Уличные виды, ракурсы с высоты и вечерние сцены связывают масштаб квартала с садами и общими пространствами внутри.",
+    "Bakü Beyaz Şehir'de klasik cepheler geniş, peyzajlı bir avluyu çevreler. Sokak, hava ve akşam görünümleri konut bloğunun ölçeğini içindeki bahçeler ve ortak alanlarla birleştirir."
+  ],
+  "A waterfront study bringing towers, lower-rise buildings and public space into one urban composition. Golden-hour views describe the skyline, waterside promenade and the changing scale of the development.": [
+    "Qüllələri, alçaqmərtəbəli binaları və ictimai məkanları vahid şəhər kompozisiyasında birləşdirən sahil layihəsi. Günbatımı işığındakı görüntülər silueti, sahil gəzinti yolunu və dəyişən miqyası göstərir.",
+    "Прибрежный проект объединяет башни, невысокие здания и общественные пространства в единую городскую композицию. Виды в золотом свете раскрывают силуэт, набережную и смену масштаба застройки.",
+    "Kuleleri, alçak yapıları ve kamusal alanları tek bir kentsel kompozisyonda birleştiren sahil çalışması. Altın saat görünümleri silueti, sahil yürüyüş yolunu ve değişen yapı ölçeğini anlatır."
+  ],
+  "Arcaded façades, a clock tower and planted public spaces shape Marina Village at Sea Breeze. The series follows the waterfront, pedestrian streets and courtyards through a coherent architectural language.": [
+    "Tağlı fasadlar, saat qülləsi və yaşıllaşdırılmış ictimai məkanlar Sea Breeze-də Marina Village-in görünüşünü formalaşdırır. Seriya sahili, piyada küçələrini və həyətləri vahid memarlıq dili ilə izləyir.",
+    "Аркадные фасады, часовая башня и озеленённые общественные пространства формируют Marina Village в Sea Breeze. Серия объединяет набережную, пешеходные улицы и дворы единым архитектурным языком.",
+    "Kemerli cepheler, saat kulesi ve yeşil kamusal alanlar Sea Breeze'deki Marina Village'i şekillendirir. Seri, sahili, yaya sokaklarını ve avluları tutarlı bir mimari dille ele alır."
+  ],
+  "A study of a large residential frontage at the 3rd Microdistrict roundabout. Light façades, restrained yellow accents and a continuous ground-floor edge establish the rhythm of the street.": [
+    "3-cü mikrorayon dairəsində iri yaşayış fasadının araşdırması. Açıq rəngli fasadlar, ölçülü sarı vurğular və davamlı birinci mərtəbə xətti küçənin ritmini yaradır.",
+    "Исследование крупного жилого фронта у кольца 3-го микрорайона. Светлые фасады, сдержанные жёлтые акценты и непрерывная линия первого этажа задают ритм улицы.",
+    "3. Mikro Bölge kavşağındaki büyük konut cephesinin incelenmesi. Açık cepheler, ölçülü sarı vurgular ve kesintisiz zemin kat çizgisi sokağın ritmini oluşturur."
+  ],
+  "A curved residential block considered from its surrounding roads and approaches. The visualization studies façade proportion, the base of the building and its relationship to the changing street level.": [
+    "Ətraf yollar və yaxınlaşma istiqamətlərindən nəzərdən keçirilən əyri yaşayış bloku. Vizuallaşdırma fasad nisbətlərini, binanın əsasını və dəyişən küçə səviyyəsi ilə əlaqəsini araşdırır.",
+    "Изогнутый жилой блок показан с окружающих дорог и подходов. Визуализация исследует пропорции фасада, основание здания и связь с меняющимся уровнем улицы.",
+    "Çevredeki yollar ve yaklaşım yönlerinden incelenen kavisli konut bloğu. Görselleştirme cephe oranlarını, yapının tabanını ve değişen sokak kotuyla ilişkisini araştırır."
+  ],
+  "A slender residential tower framed by open sky and mature trees. Exterior and aerial views study its vertical proportions, material contrast and position within the surrounding city.": [
+    "Açıq səma və iri ağaclarla əhatələnmiş zərif yaşayış qülləsi. Eksteryer və havadan baxışlar şaquli nisbətləri, material kontrastını və şəhərdəki mövqeyini araşdırır.",
+    "Стройная жилая башня на фоне открытого неба и взрослых деревьев. Внешние виды и ракурсы с высоты исследуют вертикальные пропорции, контраст материалов и положение в городе.",
+    "Açık gökyüzü ve olgun ağaçlarla çevrelenen ince konut kulesi. Dış ve hava görünümleri düşey oranları, malzeme kontrastını ve şehir içindeki konumunu inceler."
+  ],
+  "Rounded balconies and a pale façade soften the profile of this residential tower. Views from the park, street and above explore the entrance, roofline and the building’s urban setting.": [
+    "Yumru balkonlar və açıq rəngli fasad bu yaşayış qülləsinin siluetini yumşaldır. Parkdan, küçədən və havadan baxışlar girişi, dam xəttini və şəhər mühitini göstərir.",
+    "Скруглённые балконы и светлый фасад смягчают силуэт жилой башни. Виды из парка, с улицы и сверху раскрывают вход, линию кровли и городское окружение.",
+    "Yuvarlak balkonlar ve açık cephe konut kulesinin siluetini yumuşatır. Parktan, sokaktan ve yukarıdan görünümler girişi, çatı çizgisini ve kentsel çevreyi inceler."
+  ],
+  "A hotel study organized around planted terraces and shared outdoor space. Building-scale views are paired with dining terraces, glass canopies and an aerial view of the pool and surrounding streets.": [
+    "Yaşıllaşdırılmış terraslar və ortaq açıq məkanlar ətrafında qurulmuş otel layihəsi. Ümumi bina baxışları yemək terrasları, şüşə örtüklər, hovuz və ətraf küçələrin havadan görüntüləri ilə tamamlanır.",
+    "Проект отеля вокруг озеленённых террас и общих открытых пространств. Общие виды дополнены террасами для обедов, стеклянными навесами и видом сверху на бассейн и окружающие улицы.",
+    "Yeşil teraslar ve ortak açık alanlar çevresinde düzenlenen otel çalışması. Genel yapı görünümlerini yemek terasları, cam örtüler, havuzun ve çevre sokakların hava görünümü tamamlar."
+  ],
+  "A glazed commercial frontage set beneath a residential building. Day and evening perspectives explore the street corner, projecting canopy and an interior dining space overlooking the city.": [
+    "Yaşayış binasının altında yerləşən şüşəli kommersiya fasadı. Gündüz və axşam baxışları küçə küncünü, çıxıntılı örtüyü və şəhərə baxan daxili yemək məkanını göstərir.",
+    "Остеклённый коммерческий фасад под жилым зданием. Дневные и вечерние ракурсы раскрывают уличный угол, выступающий навес и обеденное пространство с видом на город.",
+    "Bir konut yapısının altında yer alan camlı ticari cephe. Gündüz ve akşam perspektifleri sokak köşesini, çıkmalı saçağı ve şehre bakan iç yemek alanını inceler."
+  ],
+  "A compact corner building with a sheltered ground floor and terraces above. Street and aerial perspectives are complemented by the outdoor dining space and the connection between interior and terrace.": [
+    "Qorunan birinci mərtəbəsi və üst terrasları olan kompakt künc binası. Küçə və havadan baxışlar açıq yemək məkanı, interyerlə terras arasındakı əlaqə ilə tamamlanır.",
+    "Компактное угловое здание с защищённым первым этажом и террасами выше. Уличные и воздушные ракурсы дополнены открытой обеденной зоной и связью интерьера с террасой.",
+    "Korunaklı zemin katı ve üst terasları olan kompakt köşe yapısı. Sokak ve hava görünümlerini açık yemek alanı ve iç mekânla teras arasındaki bağlantı tamamlar."
+  ],
+  "A brick corner building with a contemporary glazed terrace at street level. Exterior, aerial and interior views explore the junction of existing masonry, lightweight structure and outdoor dining.": [
+    "Küçə səviyyəsində müasir şüşəli terrası olan kərpic künc binası. Eksteryer, havadan və interyer baxışları mövcud hörgü, yüngül konstruksiya və açıq yemək məkanının qovuşmasını araşdırır.",
+    "Кирпичное угловое здание с современной остеклённой террасой на уровне улицы. Внешние, воздушные и интерьерные виды исследуют сочетание существующей кладки, лёгкой конструкции и открытого обеденного пространства.",
+    "Sokak seviyesinde çağdaş camlı terası olan tuğla köşe yapısı. Dış, hava ve iç görünümler mevcut duvar, hafif taşıyıcı ve açık yemek alanının birleşimini inceler."
+  ],
+  "A narrow glazed insertion sits between brick buildings along an established city street. A red entrance, reflected façades and evening light give this compact intervention its identity.": [
+    "Şəhər küçəsində kərpic binalar arasında dar şüşəli əlavə yerləşir. Qırmızı giriş, fasad əksləri və axşam işığı bu kompakt müdaxiləyə özünəməxsus xarakter verir.",
+    "Узкая остеклённая вставка между кирпичными зданиями городской улицы. Красный вход, отражения фасадов и вечерний свет придают этому небольшому вмешательству собственный характер.",
+    "Yerleşik bir şehir sokağında tuğla binalar arasına dar, camlı bir ek yerleşir. Kırmızı giriş, yansıyan cepheler ve akşam ışığı bu küçük müdahaleye kimlik kazandırır."
+  ],
+  "A compact residential building explored from the street, entrance and above. Pale façades, darker vertical elements and landscaped edges establish a quiet setting, with evening views adding another reading of the same design.": [
+    "Küçədən, girişdən və havadan araşdırılan kompakt yaşayış binası. Açıq fasadlar, tünd şaquli elementlər və yaşıllaşdırılmış kənarlar sakit mühit yaradır; axşam baxışları eyni dizaynın fərqli oxunuşunu verir.",
+    "Компактное жилое здание показано с улицы, у входа и сверху. Светлые фасады, тёмные вертикальные элементы и озеленение создают спокойную среду; вечерние виды предлагают иное прочтение дизайна.",
+    "Sokaktan, girişten ve yukarıdan incelenen kompakt konut yapısı. Açık cepheler, koyu düşey elemanlar ve yeşil kenarlar sakin bir ortam oluşturur; akşam görünümleri aynı tasarıma farklı bir yorum katar."
+  ],
+  "Two neighboring façades from the Baku Abadliq collection, presented as one streetscape study. The views examine balcony rhythm, ground-floor openings, planting and the relationship between the buildings and the pavement.": [
+    "Bakı Abadlıq kolleksiyasından iki qonşu fasad vahid küçə mənzərəsi kimi təqdim olunur. Baxışlar balkon ritmini, birinci mərtəbə açılışlarını, yaşıllığı və binaların səkilərlə əlaqəsini araşdırır.",
+    "Два соседних фасада из коллекции Baku Abadliq представлены как единое исследование улицы. Виды показывают ритм балконов, проёмы первого этажа, озеленение и связь зданий с тротуаром.",
+    "Bakü Abadlık koleksiyonundan iki komşu cephe, tek bir sokak çalışması olarak sunulur. Görünümler balkon ritmini, zemin kat açıklıklarını, bitkilendirmeyi ve yapıların kaldırımla ilişkisini inceler."
+  ],
+  "A complete residential visualization series, from gabled rooflines and landscaped approaches to the living room, kitchen and dining space. Exterior and interior views are collected together to show one project at different scales.": [
+    "Maili dam xətləri və yaşıllaşdırılmış girişlərdən qonaq otağına, mətbəxə və yemək məkanına qədər tam yaşayış vizuallaşdırması seriyası. Eksteryer və interyer baxışları eyni layihəni fərqli miqyaslarda göstərmək üçün birləşdirilir.",
+    "Полная серия жилой визуализации: от скатных крыш и озеленённых подходов до гостиной, кухни и столовой. Внешние и интерьерные виды объединены, чтобы показать один проект в разных масштабах.",
+    "Eğimli çatı hatları ve peyzajlı yaklaşımlardan oturma odası, mutfak ve yemek alanına uzanan eksiksiz konut görselleştirme serisi. Dış ve iç görünümler aynı projeyi farklı ölçeklerde göstermek için bir araya gelir."
+  ],
+  "A freestanding café pavilion surrounded by terraces and planting. Deep openings, pale stone and a planted roof are explored in daytime and evening views, with attention to the spaces for gathering around the building.": [
+    "Terraslar və yaşıllıqla əhatələnmiş müstəqil kafe pavilyonu. Dərin açılışlar, açıq rəngli daş və yaşıl dam gündüz və axşam görüntülərində, bina ətrafındakı toplanma məkanlarına diqqətlə təqdim olunur.",
+    "Отдельно стоящий павильон кафе среди террас и зелени. Глубокие проёмы, светлый камень и зелёная кровля показаны днём и вечером с вниманием к местам встреч вокруг здания.",
+    "Teraslar ve bitkilerle çevrili bağımsız kafe pavyonu. Derin açıklıklar, açık taş ve yeşil çatı gündüz ve akşam görünümlerinde, yapı çevresindeki buluşma alanlarına odaklanılarak incelenir."
+  ],
+  "Layered timber, filtered daylight and greenery give shape to an open-air dining space. The same terrace is shown through daytime and evening lighting, bringing the material detail and atmosphere into focus.": [
+    "Laylı taxta, süzülən gün işığı və yaşıllıq açıq yemək məkanını formalaşdırır. Eyni terras gündüz və axşam işıqlandırmasında göstərilərək material detallarını və atmosferi önə çıxarır.",
+    "Многослойное дерево, рассеянный дневной свет и зелень формируют открытое обеденное пространство. Одна терраса показана днём и вечером, подчёркивая детали материалов и атмосферу.",
+    "Katmanlı ahşap, süzülen gün ışığı ve yeşillik açık yemek mekânını şekillendirir. Aynı teras gündüz ve akşam ışığında gösterilerek malzeme ayrıntıları ve atmosfer öne çıkarılır."
+  ],
+  "An outdoor extension of the restaurant experience. Pergola structures frame the streetscape and create sheltered spaces for gathering, seen from the pavement and from within the dining terrace.": [
+    "Restoran təcrübəsinin açıq havada davamı. Perqola konstruksiyaları küçə mənzərəsini çərçivəyə alır və toplanmaq üçün qorunan məkanlar yaradır; həm səkidən, həm də yemək terrasından baxışlar təqdim olunur.",
+    "Продолжение ресторанного опыта на открытом воздухе. Перголы обрамляют улицу и создают защищённые места для встреч, показанные с тротуара и изнутри обеденной террасы.",
+    "Restoran deneyiminin açık havadaki uzantısı. Pergola yapıları sokak görünümünü çerçeveler ve korunaklı buluşma alanları oluşturur; kaldırımdan ve yemek terasının içinden gösterilir."
+  ],
+  "A contemporary villa and pool terrace studied with different shading and glazing arrangements. Wide exterior views lead into the covered living space, connecting the house, water and garden.": [
+    "Müxtəlif kölgələndirmə və şüşələmə variantları ilə araşdırılan müasir villa və hovuz terrası. Geniş eksteryer baxışları ev, su və bağı birləşdirən örtülü yaşayış məkanına keçir.",
+    "Современная вилла и терраса у бассейна с разными вариантами затенения и остекления. Широкие внешние виды переходят в крытое жилое пространство, связывающее дом, воду и сад.",
+    "Farklı gölgeleme ve cam düzenlemeleriyle incelenen çağdaş villa ve havuz terası. Geniş dış görünümler evi, suyu ve bahçeyi bağlayan örtülü yaşam alanına uzanır."
+  ],
+  "A covered patio extends the living spaces of a gabled house into its garden. The views describe the roof structure, outdoor kitchen and seating area from the garden and above.": [
+    "Örtülü veranda maili damlı evin yaşayış məkanlarını bağa uzadır. Baxışlar dam konstruksiyasını, açıq mətbəxi və oturma zonasını bağdan və yuxarıdan göstərir.",
+    "Крытое патио продолжает жилые пространства дома со скатной крышей в сад. Виды из сада и сверху показывают конструкцию кровли, летнюю кухню и зону отдыха.",
+    "Örtülü veranda, beşik çatılı evin yaşam alanlarını bahçeye taşır. Görünümler çatı yapısını, açık mutfağı ve oturma alanını bahçeden ve yukarıdan gösterir."
+  ],
+  "A light pergola and deck sit alongside a traditional house. The project explores the scale of the extension, its connection to the lawn and the experience of sitting beneath the adjustable roof.": [
+    "Ənənəvi evin yanında yüngül perqola və taxta terras yerləşir. Layihə əlavənin miqyasını, çəmənliklə əlaqəsini və tənzimlənən dam altında oturma təcrübəsini araşdırır.",
+    "Лёгкая пергола и настил примыкают к традиционному дому. Проект исследует масштаб пристройки, связь с газоном и ощущение пребывания под регулируемой крышей.",
+    "Geleneksel evin yanında hafif pergola ve ahşap teras yer alır. Proje ekin ölçeğini, çim alanla bağlantısını ve ayarlanabilir çatı altında oturma deneyimini inceler."
+  ],
+  "A glazed balcony projects from a stone and plaster house in a mountain setting. Snow, autumn light and evening scenes explore the same architecture across seasons, with an interior view of the sheltered lounge.": [
+    "Dağ mühitində daş və suvaqlı evdən şüşəli balkon irəli çıxır. Qar, payız işığı və axşam səhnələri eyni memarlığı fərqli fəsillərdə göstərir; qorunan istirahət məkanının interyeri də təqdim olunur.",
+    "Остеклённый балкон выступает из каменно-штукатурного дома в горах. Снег, осенний свет и вечерние сцены показывают архитектуру в разные сезоны, дополненные интерьером защищённой зоны отдыха.",
+    "Dağ ortamındaki taş ve sıvalı evden camlı balkon uzanır. Kar, sonbahar ışığı ve akşam sahneleri aynı mimarlığı farklı mevsimlerde inceler; korunaklı salonun iç görünümüyle tamamlanır."
+  ],
+  "A freestanding glazed pavilion set into a timber deck. Winter and summer views explore the enclosure, roof and stepped landscape around a sheltered place to unwind.": [
+    "Taxta terras üzərində yerləşən müstəqil şüşəli pavilyon. Qış və yay baxışları istirahət üçün qorunan məkanın örtüyünü, damını və ətraf pilləli landşaftı araşdırır.",
+    "Отдельный остеклённый павильон на деревянном настиле. Зимние и летние виды исследуют ограждение, кровлю и ступенчатый ландшафт вокруг защищённого места отдыха.",
+    "Ahşap teras üzerine yerleşen bağımsız camlı pavyon. Kış ve yaz görünümleri korunaklı dinlenme alanının çevresindeki cam kapamayı, çatıyı ve kademeli peyzajı inceler."
+  ],
+  "A light, open pavilion beside the water. Daylight and sunset views explore the structure and sliding enclosure, connecting poolside comfort with the surrounding landscape.": [
+    "Su kənarında yüngül, açıq pavilyon. Gündüz və günbatımı baxışları konstruksiyanı və sürüşən örtüyü araşdıraraq hovuz kənarı rahatlığı ətraf landşaftla birləşdirir.",
+    "Лёгкий открытый павильон у воды. Дневные и закатные виды исследуют конструкцию и раздвижное ограждение, связывая комфорт у бассейна с окружающим ландшафтом.",
+    "Su kenarında hafif, açık bir pavyon. Gün ışığı ve günbatımı görünümleri yapıyı ve sürgülü kapamayı inceleyerek havuz konforunu çevredeki peyzajla birleştirir."
+  ],
+  "A compact rooftop pavilion framed by open sky and the city beyond. Daylight views establish the poolside setting, while a sunset perspective brings out the slender structure and warm interior light.": [
+    "Açıq səma və şəhər mənzərəsi ilə çərçivələnmiş kompakt dam pavilyonu. Gündüz baxışları hovuz kənarındakı mühiti göstərir, günbatımı isə incə konstruksiyanı və isti interyer işığını vurğulayır.",
+    "Компактный павильон на крыше на фоне неба и города. Дневные виды показывают окружение бассейна, а закатный ракурс подчёркивает тонкую конструкцию и тёплый внутренний свет.",
+    "Açık gökyüzü ve şehirle çevrelenen kompakt çatı pavyonu. Gündüz görünümleri havuz ortamını tanıtırken günbatımı ince yapıyı ve sıcak iç ışığı öne çıkarır."
+  ],
+  "Detailed cutaway views of a louvered roof mechanism. The images focus on the relationship between the structural frame, moving components and concealed connections.": [
+    "Jalüzlü dam mexanizminin detallı kəsik görüntüləri. Şəkillər daşıyıcı çərçivə, hərəkətli hissələr və gizli birləşmələr arasındakı əlaqəyə diqqət yetirir.",
+    "Детальные разрезы механизма ламельной крыши. Изображения показывают связь несущей рамы, подвижных компонентов и скрытых соединений.",
+    "Lamelli çatı mekanizmasının ayrıntılı kesit görünümleri. Görseller taşıyıcı çerçeve, hareketli parçalar ve gizli bağlantılar arasındaki ilişkiye odaklanır."
+  ],
+  "A sliding glass system presented through full assembly and configuration views. The render series studies frame proportion, opening arrangements and the slim profile of the enclosure.": [
+    "Tam quraşdırma və konfiqurasiya baxışları ilə təqdim olunan sürüşən şüşə sistemi. Görüntü seriyası çərçivə nisbətlərini, açılma variantlarını və sistemin incə profilini araşdırır.",
+    "Раздвижная стеклянная система представлена в собранном виде и разных конфигурациях. Серия исследует пропорции рамы, варианты открывания и тонкий профиль ограждения.",
+    "Tam montaj ve yapılandırma görünümleriyle sunulan sürgülü cam sistemi. Görsel seri çerçeve oranlarını, açılma düzenlerini ve ince kapama profilini inceler."
+  ],
+  "Places to live, from entire residential quarters to intimate private homes. Architecture in its everyday setting.": [
+    "Bütöv yaşayış məhəllələrindən kiçik fərdi evlərə qədər yaşamaq üçün məkanlar. Memarlıq gündəlik mühitində.",
+    "Места для жизни: от целых жилых кварталов до камерных частных домов. Архитектура в повседневной среде.",
+    "Konut bölgelerinden küçük özel evlere, yaşam alanları. Günlük ortamında mimarlık."
+  ],
+  "Architecture at a larger scale. Residential developments, waterfront destinations and hospitality buildings, seen in their wider context.": [
+    "Daha böyük miqyasda memarlıq. Yaşayış kompleksləri, sahil məkanları və qonaqpərvərlik binaları geniş kontekstdə.",
+    "Архитектура крупного масштаба. Жилые комплексы, прибрежные объекты и гостиничные здания в широком контексте.",
+    "Daha büyük ölçekte mimarlık. Konut projeleri, sahil mekânları ve konaklama yapıları geniş bağlamlarında."
+  ],
+  "A new perspective on existing architecture. Façade renewal studies exploring proportion, materials and a building’s relationship with the street.": [
+    "Mövcud memarlığa yeni baxış. Nisbətləri, materialları və binanın küçə ilə əlaqəsini araşdıran fasad yenilənməsi işləri.",
+    "Новый взгляд на существующую архитектуру. Исследования обновления фасадов, пропорций, материалов и связи здания с улицей.",
+    "Mevcut mimarlığa yeni bir bakış. Oranları, malzemeleri ve yapının sokakla ilişkisini araştıran cephe yenileme çalışmaları."
+  ],
+  "Outdoor living, made visible. Pergolas, bioclimatic roofs and glass systems presented in homes, hospitality spaces and product settings.": [
+    "Açıq hava həyatının vizual təqdimatı. Evlərdə, qonaqpərvərlik məkanlarında və məhsul mühitlərində perqolalar, bioklimatik damlar və şüşə sistemləri.",
+    "Жизнь на открытом воздухе в изображениях. Перголы, биоклиматические крыши и стеклянные системы в жилых, гостиничных и продуктовых пространствах.",
+    "Açık hava yaşamının görsel anlatımı. Evlerde, konaklama mekânlarında ve ürün ortamlarında pergolalar, biyoklimatik çatılar ve cam sistemleri."
+  ],
+  "Buildings as part of the city. Street-level perspectives, active frontages and the spaces connecting architecture to daily life.": [
+    "Binalar şəhərin bir hissəsi kimi. Küçə səviyyəsindən baxışlar, canlı fasadlar və memarlığı gündəlik həyata bağlayan məkanlar.",
+    "Здания как часть города. Уличные ракурсы, активные фасады и пространства, связывающие архитектуру с повседневной жизнью.",
+    "Şehrin bir parçası olarak yapılar. Sokak perspektifleri, canlı cepheler ve mimarlığı günlük yaşama bağlayan alanlar."
+  ],
+  "Light, material and context. Exterior perspectives that communicate a design from its place in the landscape down to the façade.": [
+    "İşıq, material və kontekst. Landşaftdakı mövqedən fasada qədər dizaynı çatdıran eksteryer baxışları.",
+    "Свет, материал и контекст. Внешние ракурсы, раскрывающие дизайн от положения в ландшафте до фасада.",
+    "Işık, malzeme ve bağlam. Peyzaj içindeki konumundan cephesine kadar tasarımı anlatan dış mekân perspektifleri."
+  ],
+  "A closer view of a space. Interior perspectives shaped by natural light, material relationships and the way people inhabit a room.": [
+    "Məkana daha yaxın baxış. Təbii işıq, material əlaqələri və insanların məkanı istifadə etməsi ilə formalaşan interyer baxışları.",
+    "Более близкий взгляд на пространство. Интерьерные ракурсы, созданные естественным светом, сочетанием материалов и жизнью людей в комнате.",
+    "Mekâna daha yakından bakış. Doğal ışık, malzeme ilişkileri ve insanların odada yaşama biçimiyle şekillenen iç mekân perspektifleri."
+  ],
+  "From the complete system to the smallest connection. Product renderings, assembly views and cutaways that make mechanisms easier to understand.": [
+    "Tam sistemdən ən kiçik birləşməyə qədər. Mexanizmləri anlamağı asanlaşdıran məhsul vizualları, quraşdırma baxışları və kəsiklər.",
+    "От целой системы до мельчайшего соединения. Визуализации продуктов, сборочные виды и разрезы, помогающие понять механизмы.",
+    "Tam sistemden en küçük bağlantıya. Mekanizmaları anlamayı kolaylaştıran ürün görselleri, montaj görünümleri ve kesitler."
+  ],
+  "A dedicated collection for AI-generated architectural ideas and visual concepts. Explorations of atmosphere, materials and possible spaces.": [
+    "Süni intellektlə yaradılmış memarlıq ideyaları və vizual konseptlər üçün xüsusi kolleksiya. Atmosfer, materiallar və mümkün məkanların araşdırılması.",
+    "Коллекция архитектурных идей и визуальных концепций, созданных с ИИ. Исследования атмосферы, материалов и возможных пространств.",
+    "Yapay zekâyla üretilen mimari fikirlere ve görsel konseptlere ayrılmış koleksiyon. Atmosfer, malzemeler ve olası mekânların araştırılması."
+  ],
+  "Residential complex": [
+    "Yaşayış kompleksi",
+    "Жилой комплекс",
+    "Konut kompleksi"
+  ],
+  "Residential complexes": [
+    "Yaşayış kompleksləri",
+    "Жилые комплексы",
+    "Konut kompleksleri"
+  ],
+  "Landscape & architecture": [
+    "Landşaft və memarlıq",
+    "Ландшафт и архитектура",
+    "Peyzaj ve mimarlık"
+  ],
+  "Residential masterplan": [
+    "Yaşayış baş planı",
+    "Генплан жилого комплекса",
+    "Konut vaziyet planı"
+  ],
+  "Urban visualization": [
+    "Şəhər vizuallaşdırması",
+    "Городская визуализация",
+    "Kentsel görselleştirme"
+  ],
+  "Residential building": [
+    "Yaşayış binası",
+    "Жилое здание",
+    "Konut yapısı"
+  ],
+  "Residential buildings": [
+    "Yaşayış binaları",
+    "Жилые здания",
+    "Konut yapıları"
+  ],
+  "Residential quarter": [
+    "Yaşayış məhəlləsi",
+    "Жилой квартал",
+    "Konut bölgesi"
+  ],
+  "Baku": [
+    "Bakı",
+    "Баку",
+    "Bakü"
+  ],
+  "Waterfront masterplan": [
+    "Sahil baş planı",
+    "Генплан набережной",
+    "Sahil vaziyet planı"
+  ],
+  "Waterfront quarter": [
+    "Sahil məhəlləsi",
+    "Прибрежный квартал",
+    "Sahil bölgesi"
+  ],
+  "Baku façade study": [
+    "Bakı fasad araşdırması",
+    "Исследование фасадов Баку",
+    "Bakü cephe çalışması"
+  ],
+  "Residential tower": [
+    "Yaşayış qülləsi",
+    "Жилая башня",
+    "Konut kulesi"
+  ],
+  "Hospitality building": [
+    "Qonaqpərvərlik binası",
+    "Гостиничное здание",
+    "Konaklama yapısı"
+  ],
+  "Commercial frontage": [
+    "Kommersiya fasadı",
+    "Коммерческий фасад",
+    "Ticari cephe"
+  ],
+  "Mixed-use building": [
+    "Çoxfunksiyalı bina",
+    "Многофункциональное здание",
+    "Karma kullanımlı yapı"
+  ],
+  "Urban building": [
+    "Şəhər binası",
+    "Городское здание",
+    "Kentsel yapı"
+  ],
+  "Hospitality terrace": [
+    "Qonaqpərvərlik terrası",
+    "Гостиничная терраса",
+    "Konaklama terası"
+  ],
+  "Urban infill": [
+    "Şəhərdaxili əlavə tikili",
+    "Вставка в городскую застройку",
+    "Kentsel dolgu yapısı"
+  ],
+  "Façade visualization": [
+    "Fasad vizuallaşdırması",
+    "Визуализация фасада",
+    "Cephe görselleştirmesi"
+  ],
+  "Urban renewal": [
+    "Şəhər yenilənməsi",
+    "Обновление городской среды",
+    "Kentsel yenileme"
+  ],
+  "Mothercare streetscape": [
+    "Mothercare küçə mənzərəsi",
+    "Уличный вид Mothercare",
+    "Mothercare sokak görünümü"
+  ],
+  "Exterior & interior visualization": [
+    "Eksteryer və interyer vizuallaşdırması",
+    "Визуализация экстерьера и интерьера",
+    "Dış ve iç mekân görselleştirmesi"
+  ],
+  "Café pavilion": [
+    "Kafe pavilyonu",
+    "Павильон кафе",
+    "Kafe pavyonu"
+  ],
+  "Hospitality": [
+    "Qonaqpərvərlik",
+    "Гостиничные пространства",
+    "Konaklama"
+  ],
+  "Terrace visualization": [
+    "Terras vizuallaşdırması",
+    "Визуализация террасы",
+    "Teras görselleştirmesi"
+  ],
+  "Pergola visualization": [
+    "Perqola vizuallaşdırması",
+    "Визуализация перголы",
+    "Pergola görselleştirmesi"
+  ],
+  "Private residence": [
+    "Fərdi ev",
+    "Частный дом",
+    "Özel konut"
+  ],
+  "Patio visualization": [
+    "Veranda vizuallaşdırması",
+    "Визуализация патио",
+    "Veranda görselleştirmesi"
+  ],
+  "Deck visualization": [
+    "Taxta terras vizuallaşdırması",
+    "Визуализация настила",
+    "Ahşap teras görselleştirmesi"
+  ],
+  "Seasonal visualization": [
+    "Mövsümi vizuallaşdırma",
+    "Сезонная визуализация",
+    "Mevsimsel görselleştirme"
+  ],
+  "Pavilion visualization": [
+    "Pavilyon vizuallaşdırması",
+    "Визуализация павильона",
+    "Pavyon görselleştirmesi"
+  ],
+  "Rooftop pavilion": [
+    "Dam pavilyonu",
+    "Павильон на крыше",
+    "Çatı pavyonu"
+  ],
+  "Product modeling": [
+    "Məhsul modelləşdirməsi",
+    "Моделирование продукта",
+    "Ürün modelleme"
+  ],
+  "Mechanical detail": [
+    "Mexaniki detal",
+    "Механическая деталь",
+    "Mekanik detay"
+  ],
+  "Sliding enclosure": [
+    "Sürüşən örtük",
+    "Раздвижное ограждение",
+    "Sürgülü kapama"
+  ],
+  "Apartments": [
+    "Mənzillər",
+    "Квартиры",
+    "Daireler"
+  ],
+  "Private homes": [
+    "Fərdi evlər",
+    "Частные дома",
+    "Özel evler"
+  ],
+  "Large developments": [
+    "İri komplekslər",
+    "Крупные комплексы",
+    "Büyük projeler"
+  ],
+  "Urban architecture": [
+    "Şəhər memarlığı",
+    "Городская архитектура",
+    "Kent mimarlığı"
+  ],
+  "Façade renewal": [
+    "Fasad yenilənməsi",
+    "Обновление фасадов",
+    "Cephe yenileme"
+  ],
+  "Urban rehabilitation": [
+    "Şəhər mühitinin bərpası",
+    "Реабилитация городской среды",
+    "Kentsel iyileştirme"
+  ],
+  "Material studies": [
+    "Material araşdırmaları",
+    "Исследования материалов",
+    "Malzeme çalışmaları"
+  ],
+  "Streetscapes": [
+    "Küçə mənzərələri",
+    "Уличные виды",
+    "Sokak görünümleri"
+  ],
+  "Urban corners": [
+    "Şəhər küncləri",
+    "Городские углы",
+    "Kentsel köşeler"
+  ],
+  "Public spaces": [
+    "İctimai məkanlar",
+    "Общественные пространства",
+    "Kamusal alanlar"
+  ],
+  "Architectural exteriors": [
+    "Memarlıq eksteryerləri",
+    "Архитектурные экстерьеры",
+    "Mimari dış mekânlar"
+  ],
+  "Landscape": [
+    "Landşaft",
+    "Ландшафт",
+    "Peyzaj"
+  ],
+  "Atmosphere": [
+    "Atmosfer",
+    "Атмосфера",
+    "Atmosfer"
+  ],
+  "Living spaces": [
+    "Yaşayış məkanları",
+    "Жилые пространства",
+    "Yaşam alanları"
+  ],
+  "Hospitality interiors": [
+    "Qonaqpərvərlik interyerləri",
+    "Гостиничные интерьеры",
+    "Konaklama iç mekânları"
+  ],
+  "Enclosed terraces": [
+    "Qapalı terraslar",
+    "Закрытые террасы",
+    "Kapalı teraslar"
+  ],
+  "Louver mechanisms": [
+    "Jalüz mexanizmləri",
+    "Ламельные механизмы",
+    "Lamel mekanizmaları"
+  ],
+  "Glass assemblies": [
+    "Şüşə quraşdırmaları",
+    "Стеклянные сборки",
+    "Cam montajları"
+  ],
+  "AI-generated concepts": [
+    "Süni intellektlə yaradılmış konseptlər",
+    "Концепции, созданные ИИ",
+    "Yapay zekâyla üretilen konseptler"
+  ],
+  "Architectural ideas": [
+    "Memarlıq ideyaları",
+    "Архитектурные идеи",
+    "Mimari fikirler"
+  ],
+  "Visual experiments": [
+    "Vizual təcrübələr",
+    "Визуальные эксперименты",
+    "Görsel deneyler"
+  ],
+  "Architecture at street level.": [
+    "Küçə səviyyəsində memarlıq.",
+    "Архитектура на уровне улицы.",
+    "Sokak seviyesinde mimarlık."
+  ],
+  "Why the space around a building matters as much as the building itself.": [
+    "Binanın ətrafındakı məkan niyə binanın özü qədər vacibdir.",
+    "Почему пространство вокруг здания так же важно, как само здание.",
+    "Yapının çevresindeki alan neden yapının kendisi kadar önemlidir."
+  ],
+  "A building is rarely experienced in isolation. Its character also comes from the pavement, planting, entrances and the spaces between façades. A street-level view brings those relationships into focus.": [
+    "Bina nadir hallarda təcrid olunmuş şəkildə qavranılır. Onun xarakteri səkidən, yaşıllıqdan, girişlərdən və fasadlar arasındakı məkanlardan da yaranır. Küçə səviyyəsindən baxış bu əlaqələri ön plana çıxarır.",
+    "Здание редко воспринимается изолированно. Его характер создают также тротуар, озеленение, входы и пространства между фасадами. Вид с уровня улицы раскрывает эти связи.",
+    "Bir yapı nadiren tek başına deneyimlenir. Karakterini kaldırım, bitkiler, girişler ve cepheler arasındaki alanlar da oluşturur. Sokak seviyesinden bakış bu ilişkileri öne çıkarır."
+  ],
+  "In an architectural image, people and landscape help establish scale. The direction of light reveals depth; a carefully chosen viewpoint makes circulation and the public realm easier to read.": [
+    "Memarlıq görüntüsündə insanlar və landşaft miqyası anlamağa kömək edir. İşığın istiqaməti dərinliyi göstərir; diqqətlə seçilmiş baxış nöqtəsi hərəkət yollarını və ictimai məkanı daha aydın edir.",
+    "В архитектурном изображении люди и ландшафт помогают понять масштаб. Направление света раскрывает глубину, а тщательно выбранный ракурс делает движение и общественные пространства понятнее.",
+    "Mimari bir görselde insanlar ve peyzaj ölçeği anlamaya yardımcı olur. Işığın yönü derinliği ortaya çıkarır; dikkatle seçilmiş bir bakış noktası dolaşımı ve kamusal alanı daha anlaşılır kılar."
+  ],
+  "The Marina Village collection explores waterfront architecture through these connected perspectives. Open the project to see the broader setting and individual views.": [
+    "Marina Village kolleksiyası sahil memarlığını bu əlaqəli baxışlarla araşdırır. Ümumi mühiti və ayrı-ayrı görüntüləri görmək üçün layihəni açın.",
+    "Коллекция Marina Village исследует прибрежную архитектуру через эти взаимосвязанные ракурсы. Откройте проект, чтобы увидеть окружение и отдельные виды.",
+    "Marina Village koleksiyonu sahil mimarlığını bu bağlantılı perspektiflerle inceler. Genel ortamı ve tekil görünümleri görmek için projeyi açın."
+  ],
+  "Outdoor spaces, through light.": [
+    "İşıqla açılan açıq məkanlar.",
+    "Открытые пространства через свет.",
+    "Işıkla görülen açık mekânlar."
+  ],
+  "Pergolas and glass systems seen as part of the space they create.": [
+    "Perqola və şüşə sistemləri yaratdıqları məkanın bir hissəsi kimi.",
+    "Перголы и стеклянные системы как часть создаваемого ими пространства.",
+    "Oluşturdukları mekânın parçası olarak pergolalar ve cam sistemleri."
+  ],
+  "A pergola is both a product and a place. The frame, roof and glazing define the system, while light and its setting explain how that system might feel in use.": [
+    "Perqola həm məhsul, həm də məkandır. Çərçivə, dam və şüşələmə sistemi müəyyən edir, işıq və mühit isə onun istifadə zamanı necə hiss olunacağını göstərir.",
+    "Пергола — одновременно продукт и место. Рама, крыша и остекление определяют систему, а свет и окружение объясняют ощущения от её использования.",
+    "Pergola hem bir ürün hem de bir mekândır. Çerçeve, çatı ve cam sistemi tanımlar; ışık ve çevresi ise kullanımda nasıl hissedileceğini anlatır."
+  ],
+  "Exterior views show the relationship to a house, terrace or landscape. Views from within the enclosure help communicate transparency, shade and proportions at a more personal scale.": [
+    "Eksteryer baxışları ev, terras və ya landşaftla əlaqəni göstərir. Örtüyün daxilindən baxışlar şəffaflığı, kölgəni və nisbətləri daha insani miqyasda çatdırır.",
+    "Внешние виды показывают связь с домом, террасой или ландшафтом. Виды изнутри помогают передать прозрачность, тень и пропорции в более личном масштабе.",
+    "Dış görünümler ev, teras veya peyzajla ilişkiyi gösterir. Kapalı alanın içinden bakışlar şeffaflığı, gölgeyi ve oranları daha kişisel bir ölçekte anlatır."
+  ],
+  "A useful set of renders moves between those perspectives. Explore the Outdoor Systems collection for pergolas, bioclimatic roofs and glazed spaces in different settings.": [
+    "Faydalı vizual seriya bu baxışlar arasında keçid edir. Müxtəlif mühitlərdə perqolalar, bioklimatik damlar və şüşəli məkanlar üçün Açıq məkan sistemləri kolleksiyasına baxın.",
+    "Полезная серия визуализаций переходит между этими ракурсами. В коллекции уличных систем представлены перголы, биоклиматические крыши и остеклённые пространства в разных условиях.",
+    "İşlevsel bir görsel serisi bu perspektifler arasında geçiş yapar. Farklı ortamlardaki pergolalar, biyoklimatik çatılar ve camlı alanlar için Dış Mekân Sistemleri koleksiyonunu keşfedin."
+  ],
+  "From system to detail.": [
+    "Sistemdən detala.",
+    "От системы к детали.",
+    "Sistemden ayrıntıya."
+  ],
+  "A closer look at product assemblies, louver mechanisms and cutaway views.": [
+    "Məhsul quraşdırmaları, jalüz mexanizmləri və kəsik görüntülərinə yaxından baxış.",
+    "Крупный план сборок продукта, ламельных механизмов и разрезов.",
+    "Ürün montajları, lamel mekanizmaları ve kesitlere yakından bakış."
+  ],
+  "A complete product view explains the silhouette. A closer view can explain how parts relate to one another: a profile, a moving louver or a connection hidden inside an assembly.": [
+    "Məhsulun tam görünüşü silueti izah edir. Yaxın baxış isə hissələrin əlaqəsini göstərir: profil, hərəkətli jalüz və ya quraşdırmanın daxilində gizlənən birləşmə.",
+    "Общий вид продукта объясняет силуэт. Более близкий ракурс показывает связь деталей: профиль, подвижную ламель или соединение, скрытое внутри сборки.",
+    "Ürünün bütün görünümü silueti açıklar. Yakın bir bakış parçaların ilişkisini gösterebilir: bir profil, hareketli lamel veya montaj içinde gizlenen bağlantı."
+  ],
+  "Cutaway and assembly renders make those relationships visible. Consistent materials and a clear viewpoint help the viewer move from the finished system to its individual elements.": [
+    "Kəsik və quraşdırma vizualları bu əlaqələri görünən edir. Ardıcıl materiallar və aydın baxış nöqtəsi izləyicini hazır sistemdən onun ayrı-ayrı elementlərinə aparır.",
+    "Разрезы и сборочные визуализации делают эти связи видимыми. Единые материалы и ясный ракурс помогают перейти от готовой системы к её отдельным элементам.",
+    "Kesit ve montaj görselleri bu ilişkileri görünür kılar. Tutarlı malzemeler ve net bir bakış noktası izleyiciyi tamamlanmış sistemden ayrı elemanlara taşır."
+  ],
+  "These visualizations support product communication and presentations. The Product & Technical collection brings together the available mechanism and glass-system studies.": [
+    "Bu vizuallaşdırmalar məhsulun izahını və təqdimatını dəstəkləyir. Məhsul və texniki kolleksiyası mövcud mexanizm və şüşə sistemi işlərini bir araya gətirir.",
+    "Эти визуализации помогают объяснять и представлять продукты. Коллекция «Продукт и техника» объединяет доступные исследования механизмов и стеклянных систем.",
+    "Bu görselleştirmeler ürün iletişimini ve sunumları destekler. Ürün ve Teknik koleksiyonu mevcut mekanizma ve cam sistemi çalışmalarını bir araya getirir."
+  ],
+  "From a prompt to a direction.": [
+    "Sorğudan istiqamətə.",
+    "От запроса к направлению.",
+    "Komuttan tasarım yönüne."
+  ],
+  "AI is useful at the beginning of a design conversation: a way to compare possibilities before committing to one.": [
+    "Süni intellekt dizayn söhbətinin əvvəlində faydalıdır: qərar verməzdən əvvəl imkanları müqayisə etməyin yolu.",
+    "ИИ полезен в начале обсуждения дизайна: он позволяет сравнить возможности до выбора направления.",
+    "Yapay zekâ tasarım görüşmesinin başında faydalıdır: bir seçeneğe karar vermeden olasılıkları karşılaştırmanın yolu."
+  ],
+  "A concept starts with a question. What should this space feel like? Which material gives the façade its character? How could a courtyard hold light? A useful AI study stays close to that question instead of trying to solve the entire project in one image.": [
+    "Konsept sualdan başlayır. Bu məkan necə hiss olunmalıdır? Hansı material fasada xarakter verir? Həyət işığı necə saxlaya bilər? Faydalı süni intellekt araşdırması bütün layihəni bir görüntüdə həll etməyə çalışmaq əvəzinə həmin suala yaxın qalır.",
+    "Концепция начинается с вопроса. Как должно ощущаться это пространство? Какой материал придаёт фасаду характер? Как двор может удерживать свет? Полезное исследование с ИИ остаётся близко к вопросу, не пытаясь решить весь проект одним изображением.",
+    "Konsept bir soruyla başlar. Bu mekân nasıl hissettirmeli? Cepheye hangi malzeme karakter verir? Avlu ışığı nasıl tutabilir? Yararlı bir yapay zekâ çalışması tüm projeyi tek görselle çözmeye çalışmak yerine bu soruya bağlı kalır."
+  ],
+  "Begin with a small brief: the type of space, its setting, a material palette and a clear viewpoint. Explore a few variations while keeping those decisions consistent. Comparing related images makes it easier to explain why one direction works.": [
+    "Kiçik tapşırıqla başlayın: məkanın növü, mühiti, material palitrası və aydın baxış nöqtəsi. Bu qərarları sabit saxlayaraq bir neçə variant araşdırın. Əlaqəli görüntüləri müqayisə etmək bir istiqamətin niyə uyğun olduğunu izah etməyi asanlaşdırır.",
+    "Начните с краткого задания: тип пространства, окружение, палитра материалов и ясный ракурс. Изучите несколько вариантов, сохраняя эти решения. Сравнение связанных изображений помогает объяснить, почему работает определённое направление.",
+    "Kısa bir tanımla başlayın: mekân türü, çevresi, malzeme paleti ve net bir bakış noktası. Bu kararları koruyarak birkaç varyasyon deneyin. İlişkili görselleri karşılaştırmak bir yönün neden işe yaradığını açıklamayı kolaylaştırır."
+  ],
+  "An evocative image is a starting point. Proportions, circulation, structure and details still need to be developed and checked in the design process. Our AI collection is reserved for work created with AI, with concepts kept distinct from resolved project visualizations.": [
+    "Təsirli görüntü başlanğıc nöqtəsidir. Nisbətlər, hərəkət yolları, konstruksiya və detallar dizayn prosesində yenə hazırlanmalı və yoxlanmalıdır. Süni intellekt kolleksiyamız bu alətlə yaradılmış işlər üçündür; konseptlər tamamlanmış layihə vizuallaşdırmalarından ayrı təqdim olunur.",
+    "Выразительное изображение — отправная точка. Пропорции, движение, конструкцию и детали ещё нужно разработать и проверить. Наша коллекция ИИ предназначена для работ, созданных с ИИ; концепции отделены от проработанных визуализаций проектов.",
+    "Etkileyici bir görsel başlangıç noktasıdır. Oranlar, dolaşım, yapı ve ayrıntılar tasarım sürecinde geliştirilmeli ve kontrol edilmelidir. Yapay zekâ koleksiyonumuz bu araçlarla üretilen işlere ayrılmıştır; konseptler çözülmüş proje görsellerinden ayrı sunulur."
+  ],
+  "Atmosphere before detail.": [
+    "Detaldan əvvəl atmosfer.",
+    "Атмосфера прежде деталей.",
+    "Ayrıntıdan önce atmosfer."
+  ],
+  "Light, material and framing can turn an early concept into a more focused discussion.": [
+    "İşıq, material və kadr erkən konsepti daha dəqiq müzakirəyə çevirə bilər.",
+    "Свет, материал и кадрирование помогают сделать обсуждение ранней концепции более предметным.",
+    "Işık, malzeme ve kadraj erken bir konsepti daha odaklı bir görüşmeye dönüştürebilir."
+  ],
+  "Atmosphere is often the first thing someone notices in an architectural image. A low evening sun, a quiet courtyard or a bright interior can suggest how a place might feel before every detail has been decided.": [
+    "Memarlıq görüntüsündə çox vaxt ilk diqqət çəkən atmosferdir. Alçaq axşam günəşi, sakit həyət və ya işıqlı interyer bütün detallar həll edilməzdən əvvəl məkanın necə hiss olunacağını göstərə bilər.",
+    "Атмосфера часто первой привлекает внимание в архитектурном изображении. Низкое вечернее солнце, тихий двор или светлый интерьер подсказывают ощущение места ещё до решения всех деталей.",
+    "Mimari bir görselde çoğu zaman ilk fark edilen atmosferdir. Alçak akşam güneşi, sakin avlu veya aydınlık iç mekân tüm ayrıntılar belirlenmeden mekânın hissini aktarabilir."
+  ],
+  "For an AI concept study, change one variable at a time. Keep the camera and massing consistent while exploring warm and cool light, or compare a small set of material palettes under the same lighting. That makes the differences easier to judge.": [
+    "Süni intellekt konsepti üzərində işləyərkən hər dəfə bir dəyişəni dəyişin. İsti və soyuq işığı araşdırarkən kamera və həcmləri sabit saxlayın, yaxud eyni işıqlandırmada bir neçə material palitrasını müqayisə edin. Bu, fərqləri qiymətləndirməyi asanlaşdırır.",
+    "В концептуальном исследовании с ИИ меняйте по одной переменной. Сохраняйте камеру и объёмы, сравнивая тёплый и холодный свет, или исследуйте несколько палитр при одном освещении. Так различия легче оценить.",
+    "Yapay zekâ konsept çalışmasında her seferinde tek değişkeni değiştirin. Sıcak ve soğuk ışığı incelerken kamerayı ve kütleyi koruyun veya aynı ışıkta birkaç malzeme paletini karşılaştırın. Farkları değerlendirmek böylece kolaylaşır."
+  ],
+  "Look beyond the mood. Check the scale of doors and furniture, the way surfaces meet, and whether reflections and shadows make sense. Select the ideas that support the brief, then develop them through a more controlled model and visualization process.": [
+    "Yalnız əhvala baxmayın. Qapı və mebelin miqyasını, səthlərin birləşməsini, əks və kölgələrin məntiqini yoxlayın. Tapşırığı dəstəkləyən ideyaları seçib daha nəzarətli model və vizuallaşdırma prosesi ilə inkişaf etdirin.",
+    "Не ограничивайтесь настроением. Проверяйте масштаб дверей и мебели, стыки поверхностей, правдоподобность отражений и теней. Выбирайте идеи, отвечающие заданию, и развивайте их через более управляемое моделирование и визуализацию.",
+    "Yalnızca atmosfere bakmayın. Kapı ve mobilya ölçeğini, yüzey birleşimlerini, yansıma ve gölgelerin tutarlılığını kontrol edin. Tanımı destekleyen fikirleri seçip daha kontrollü modelleme ve görselleştirmeyle geliştirin."
+  ],
+  "From concept to a resolved space.": [
+    "Konseptdən həll olunmuş məkana.",
+    "От концепции к проработанному пространству.",
+    "Konseptten çözülmüş mekâna."
+  ],
+  "The next step after an AI image: turn a visual idea into something that can be discussed, modeled and refined.": [
+    "Süni intellekt görüntüsündən sonrakı addım: vizual ideyanı müzakirə, modelləşdirmə və təkmilləşdirmə üçün əsasa çevirmək.",
+    "Следующий шаг после изображения ИИ: превратить визуальную идею в основу для обсуждения, моделирования и доработки.",
+    "Yapay zekâ görselinden sonraki adım: görsel fikri tartışılabilir, modellenebilir ve geliştirilebilir bir temele dönüştürmek."
+  ],
+  "A compelling concept image can open a conversation, but it rarely answers every question. What is the space made of? How do people move through it? What happens beyond the edge of the frame?": [
+    "Təsirli konsept görüntüsü müzakirə aça bilər, amma nadir hallarda bütün suallara cavab verir. Məkan nədən hazırlanıb? İnsanlar orada necə hərəkət edir? Kadrın kənarında nə baş verir?",
+    "Выразительная концепция может начать обсуждение, но редко отвечает на все вопросы. Из чего сделано пространство? Как по нему движутся люди? Что происходит за границей кадра?",
+    "Etkileyici bir konsept görseli görüşme başlatabilir, ancak tüm soruları nadiren yanıtlar. Mekân hangi malzemelerden oluşur? İnsanlar içinde nasıl hareket eder? Kadrajın ötesinde ne vardır?"
+  ],
+  "Translate the strongest ideas into a short list of decisions: proportions, material relationships, light and the intended use of the space. A model can then test those decisions across multiple views instead of relying on a single image.": [
+    "Ən güclü ideyaları qısa qərarlar siyahısına çevirin: nisbətlər, material əlaqələri, işıq və məkanın nəzərdə tutulan istifadəsi. Model bu qərarları tək görüntüyə əsaslanmadan bir neçə baxışda yoxlaya bilər.",
+    "Переведите сильнейшие идеи в краткий список решений: пропорции, сочетания материалов, свет и назначение пространства. Модель позволит проверить их с разных ракурсов, не полагаясь на одно изображение.",
+    "En güçlü fikirleri kısa bir karar listesine dönüştürün: oranlar, malzeme ilişkileri, ışık ve mekânın kullanım amacı. Model bu kararları tek görüntüye dayanmak yerine farklı açılardan sınayabilir."
+  ],
+  "Keep the process legible when presenting the work. Identify AI-generated explorations, distinguish them from model-based renders, and explain what is still being developed. The goal is a clearer design conversation, with each image doing a specific job.": [
+    "İşi təqdim edərkən prosesi aydın göstərin. Süni intellekt araşdırmalarını işarələyin, model əsasında hazırlanmış vizuallardan ayırın və nəyin hələ inkişafda olduğunu izah edin. Məqsəd hər görüntünün konkret vəzifə daşıdığı daha aydın dizayn müzakirəsidir.",
+    "При презентации делайте процесс понятным. Обозначайте исследования с ИИ, отличайте их от визуализаций на основе моделей и объясняйте, что ещё разрабатывается. Цель — более ясное обсуждение дизайна, где каждое изображение решает конкретную задачу.",
+    "Sunumda süreci anlaşılır kılın. Yapay zekâ keşiflerini belirtin, modele dayalı görsellerden ayırın ve nelerin hâlâ geliştirildiğini açıklayın. Amaç, her görselin belirli bir görevi olduğu daha net bir tasarım görüşmesidir."
+  ],
+  "Your message is too long.": [
+    "Mesajınız çox uzundur.",
+    "Ваше сообщение слишком длинное.",
+    "Mesajınız çok uzun."
+  ],
+  "Please complete the required fields.": [
+    "Vacib xanaları doldurun.",
+    "Заполните обязательные поля.",
+    "Lütfen gerekli alanları doldurun."
+  ],
+  "Please enter a valid email address.": [
+    "Düzgün e-poçt ünvanı daxil edin.",
+    "Введите корректный адрес электронной почты.",
+    "Geçerli bir e-posta adresi girin."
+  ],
+  "Please wait a few minutes before trying again.": [
+    "Yenidən cəhd etməzdən əvvəl bir neçə dəqiqə gözləyin.",
+    "Подождите несколько минут перед повторной попыткой.",
+    "Tekrar denemeden önce birkaç dakika bekleyin."
+  ],
+  "We could not send your brief. Please try again.": [
+    "Müraciətiniz göndərilmədi. Yenidən cəhd edin.",
+    "Не удалось отправить описание. Попробуйте ещё раз.",
+    "Proje özetiniz gönderilemedi. Lütfen tekrar deneyin."
+  ],
+  "Videos could not load. Refresh the page to try again.": [
+    "Videolar yüklənmədi. Səhifəni yeniləyərək yenidən yoxlayın.",
+    "Не удалось загрузить видео. Обновите страницу и попробуйте ещё раз.",
+    "Videolar yüklenemedi. Sayfayı yenileyip tekrar deneyin."
+  ],
+  "Contemporary waterfront architecture in warm evening light": [
+    "İsti axşam işığında müasir sahil memarlığı",
+    "Современная прибрежная архитектура в тёплом вечернем свете",
+    "Sıcak akşam ışığında çağdaş sahil mimarlığı"
+  ],
+  "Sunlight through a pergola over an outdoor dining space": [
+    "Açıq yemək məkanı üzərində perqoladan süzülən gün işığı",
+    "Солнечный свет через перголу над открытой обеденной зоной",
+    "Açık yemek alanı üzerindeki pergoladan süzülen gün ışığı"
+  ],
+  "Hospitality · Architectural visualization": [
+    "Otel layihəsi · Memarlıq vizuallaşdırması",
+    "Гостиница · Архитектурная визуализация",
+    "Otel projesi · Mimari görselleştirme"
+  ],
+  "Curved balconies, warm materials and a sheltered entrance define this hotel. Five perspectives explore the building, arrival canopy, landscaped edges and poolside spaces.": [
+    "Əyri balkonlar, isti çalarlı materiallar və örtülü giriş bu otelin görünüşünü formalaşdırır. Beş rakurs binanı, giriş örtüyünü, yaşıllıq zolaqlarını və hovuzətrafı məkanları göstərir.",
+    "Изогнутые балконы, тёплые материалы и крытый вход формируют облик отеля. Пять ракурсов показывают здание, входной навес, озеленение и пространства у бассейна.",
+    "Kavisli balkonlar, sıcak tonlu malzemeler ve korunaklı giriş bu otelin karakterini oluşturur. Beş açı; binayı, giriş saçağını, peyzajı ve havuz çevresindeki alanları gösterir."
+  ],
+  "Seaside hospitality · Architecture & terraces": [
+    "Sahil oteli · Memarlıq və terraslar",
+    "Прибрежный отель · Архитектура и террасы",
+    "Sahil oteli · Mimari ve teraslar"
+  ],
+  "A glazed hotel building meets the waterfront with sheltered dining terraces. Daylight and evening views connect the exterior, sea-facing promenade and planted spaces beneath the adjustable roof.": [
+    "Şüşəli otel binası örtülü yemək terrasları ilə sahilə açılır. Gündüz və axşam görüntüləri eksteryeri, dənizə baxan gəzinti yolunu və tənzimlənən damın altındakı yaşıllıqlı məkanları bir araya gətirir.",
+    "Остеклённое здание отеля выходит к воде крытыми обеденными террасами. Дневные и вечерние виды объединяют фасад, набережную и озеленённые пространства под регулируемой кровлей.",
+    "Cam cepheli otel binası, korunaklı yemek teraslarıyla kıyıya açılır. Gündüz ve akşam görüntüleri dış cepheyi, denize bakan yürüyüş yolunu ve ayarlanabilir çatı altındaki yeşil alanları bir araya getirir."
+  ],
+  "Restoration — Building 3": [
+    "Bərpa — Bina 3",
+    "Реставрация — Здание 3",
+    "Restorasyon — Bina 3"
+  ],
+  "Building restoration · Façade study": [
+    "Binanın bərpası · Fasad həlli",
+    "Реставрация здания · Исследование фасада",
+    "Bina restorasyonu · Cephe çalışması"
+  ],
+  "A residential façade study with pale stone, warm panels and recessed balconies. Street-level views and a front elevation explore the renewed frontage, entrances and relationship to the surrounding pavement.": [
+    "Açıq rəngli daş, isti çalarlı panellər və içəri çəkilmiş balkonlarla yaşayış binasının fasad həlli. Küçə səviyyəsindən baxışlar və ön görünüş yenilənmiş fasadı, girişləri və səki ilə əlaqəni göstərir.",
+    "Исследование жилого фасада со светлым камнем, тёплыми панелями и углублёнными балконами. Уличные ракурсы и фронтальный вид показывают обновлённый фасад, входы и связь с тротуаром.",
+    "Açık renkli taş, sıcak tonlu paneller ve içeri çekilmiş balkonlarla bir konut cephesi çalışması. Sokak seviyesindeki açılar ve ön görünüş, yenilenen cepheyi, girişleri ve kaldırımla ilişkisini gösterir."
+  ],
+  "Rooftop extension · Outdoor living": [
+    "Damüstü əlavə · Açıq hava məkanı",
+    "Надстройка на крыше · Открытое пространство",
+    "Çatı üstü ek yapı · Açık hava yaşamı"
+  ],
+  "A glazed rooftop enclosure adds a sheltered living space above a traditional street façade. Aerial and street views show its lightweight structure and relationship to the existing building.": [
+    "Şüşəli damüstü qurğu ənənəvi küçə fasadının üzərində qorunan yaşayış məkanı yaradır. Yuxarıdan və küçədən baxışlar yüngül konstruksiyanı və mövcud bina ilə əlaqəsini göstərir.",
+    "Остеклённая конструкция на крыше создаёт защищённое жилое пространство над традиционным уличным фасадом. Виды сверху и с улицы показывают лёгкую конструкцию и её связь с существующим зданием.",
+    "Camla çevrili çatı yapısı, geleneksel sokak cephesinin üzerinde korunaklı bir yaşam alanı oluşturur. Üstten ve sokaktan görüntüler hafif strüktürü ve mevcut binayla ilişkisini gösterir."
+  ],
+  "An architectural film following the building and its street setting.": [
+    "Binanı və onun küçə mühitini göstərən memarlıq videosu.",
+    "Архитектурный фильм о здании и окружающей его улице.",
+    "Binayı ve çevresindeki sokak dokusunu gösteren bir mimari film."
+  ]
+}

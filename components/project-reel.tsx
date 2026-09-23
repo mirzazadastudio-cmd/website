@@ -1,4 +1,5 @@
 'use client';
+import {fieldText,t} from '@/lib/i18n';
 import { useEffect, useLayoutEffect, useRef, useState, type PointerEvent } from 'react';
 import { ArrowUpRight, ArrowDownRight, MoveHorizontal, Pause, Play } from 'lucide-react';
 import { RenderImage } from '@/components/render-image';
@@ -9,10 +10,9 @@ import { useSiteContent } from '@/components/content-provider';
 function reelImageSizes(ratio:number) {
   const frame=(width:string,height:string)=>`max(${width}, calc(${height} * ${ratio.toFixed(5)}))`;
   return [
-    `(max-width: 440px) ${frame('205px','360px')}`,
-    `(max-width: 700px) ${frame('225px','410px')}`,
-    `(max-width: 1050px) ${frame('215px','570px')}`,
-    frame('clamp(205px, 17.1vw, 320px)','clamp(520px, calc(100svh - 190px), 760px)'),
+    `(max-width: 700px) ${frame('clamp(260px, 76vw, 340px)','calc(clamp(260px, 76vw, 340px) * 1.25 - 88px)')}`,
+    `(max-width: 1050px) ${frame('320px','308px')}`,
+    frame('clamp(340px, 30vw, 520px)','calc(clamp(340px, 30vw, 520px) * 1.25 - 92px)'),
   ].join(', ');
 }
 
@@ -26,7 +26,7 @@ export function ProjectReel() {
   const group = useRef<HTMLDivElement>(null);
   const position = useRef(0);
   const groupWidth = useRef(0);
-  const blocked = useRef({ paused: false, hover: false, focus: false, reduced: false });
+  const blocked = useRef({ paused: false, focus: false, reduced: false });
   const pointer = useRef<{ id: number; startX: number; startY: number; lastX: number; lastTime: number; dragged: boolean; vertical: boolean } | null>(null);
   const suppressClick = useRef(false);
   const velocity = useRef(0);
@@ -88,7 +88,7 @@ export function ProjectReel() {
       if (!document.hidden && !state.reduced && !pointer.current && Math.abs(velocity.current) > .015) {
         moveTo(position.current + velocity.current * elapsed);
         velocity.current *= Math.exp(-elapsed / 310);
-      } else if (!document.hidden && !state.paused && !state.hover && !state.focus && !state.reduced && !pointer.current && items.length > 1) {
+      } else if (!document.hidden && !state.paused && !state.focus && !state.reduced && !pointer.current && items.length > 1) {
         moveTo(position.current + elapsed * groupWidth.current / repeats / (duration * 1000));
       }
       frame = requestAnimationFrame(animate);
@@ -132,18 +132,17 @@ export function ProjectReel() {
     if (event.currentTarget.hasPointerCapture(event.pointerId)) event.currentTarget.releasePointerCapture(event.pointerId);
   };
 
-  return <section className="reel-hero" aria-label="Studio introduction and featured projects">
+  return <section className="reel-hero" aria-label={t("Studio introduction and featured projects")}>
     <div className="reel-copy">
-      <p className="eyebrow"><i/> ARCHITECTURE & VISUALIZATION</p>
-      <h1>{siteConfig.tagline[0]}<br/><span>{siteConfig.tagline[1]}</span></h1>
-      <div className="reel-description"><p>{siteConfig.introduction}</p><a href="#projects" className="text-link">Explore our work <ArrowDownRight size={23}/></a></div>
-      <p className="reel-footnote">SPACES. STORIES. NEW PERSPECTIVES.</p>
+      <p className="eyebrow"><i/> {t("ARCHITECTURE & VISUALIZATION")}</p>
+      <h1>{fieldText(siteConfig.tagline[0],'settings:tagline:0')}<br/><span>{fieldText(siteConfig.tagline[1],'settings:tagline:1')}</span></h1>
+      <div className="reel-description"><p>{fieldText(siteConfig.introduction,'settings:introduction')}</p><a href="#projects" className="text-link">{t("Explore our work")} <ArrowDownRight size={23}/></a></div>
+      <p className="reel-footnote">{t("SPACES. STORIES. NEW PERSPECTIVES.")}</p>
     </div>
     <div className="reel-panel">
       <div ref={viewport} className="reel-viewport" data-dragging={dragging}
         onPointerDown={pointerDown} onPointerMove={pointerMove} onPointerUp={pointerEnd} onPointerCancel={pointerEnd} onLostPointerCapture={pointerEnd}
-        onPointerEnter={event => { if (event.pointerType === 'mouse') blocked.current.hover = true; }}
-        onPointerLeave={event => { blocked.current.hover = false; if (!pointer.current?.dragged) pointerEnd(event); }}
+        onPointerLeave={event => { if (!pointer.current?.dragged) pointerEnd(event); }}
         onDragStart={event => event.preventDefault()}
         onClickCapture={event => { if (suppressClick.current && event.detail !== 0) { event.preventDefault(); event.stopPropagation(); } }}
         onFocusCapture={event => {
@@ -159,15 +158,15 @@ export function ProjectReel() {
               const src=project.heroImage||project.images[0];
               const image=media?.[src],crop=crops[src];
               const ratio=(crop?.width||image?.width||16)/((crop?.height||image?.height||9)*(1-(crop?.bottom||0)));
-              return <a key={`${repeat}-${project.slug}`} className="reel-card" data-protected-media href={`/projects/${project.slug}`} draggable={false} tabIndex={copy || repeat ? -1 : 0} aria-hidden={repeat ? true : undefined} aria-label={`View ${project.title}`}>
-              <RenderImage sizes={reelImageSizes(ratio)} src={src} alt={copy || repeat ? '' : project.title} loading={copy || repeat || index > 3 ? 'lazy' : 'eager'} fetchPriority={!copy && !repeat && index === 0 ? 'high' : 'auto'} style={{ objectPosition: project.heroPosition || '50% 50%' }}/>
-              <span className="reel-card-index">{String(index + 1).padStart(2, '0')} / {project.category}</span>
-              <div className="reel-card-caption"><div><p>{project.category.toUpperCase()}</p><h2>{project.title}</h2></div><ArrowUpRight size={23}/></div>
+              return <a key={`${repeat}-${project.slug}`} className="reel-card" data-protected-media href={`/projects/${project.slug}`} draggable={false} tabIndex={copy || repeat ? -1 : 0} aria-hidden={repeat ? true : undefined} aria-label={t(`View ${project.title}`)}>
+              <RenderImage sizes={reelImageSizes(ratio)} src={src} alt={t(copy || repeat ? '' : project.title)} loading={copy || repeat || index > 3 ? 'lazy' : 'eager'} fetchPriority={!copy && !repeat && index === 0 ? 'high' : 'auto'} style={{ objectPosition: project.heroPosition || '50% 50%' }}/>
+              <span className="reel-card-index">{String(index + 1).padStart(2, '0')} / {t(project.category)}</span>
+              <div className="reel-card-caption"><div><p>{t(project.category.toUpperCase())}</p><h2>{fieldText(project.title,'project:'+(project.id||'project-'+project.slug)+':title')}</h2></div><ArrowUpRight size={23}/></div>
             </a>}))}
           </div>)}
         </div>
       </div>
-      <div className="reel-toolbar"><span>SELECTED WORK / {String(items.length).padStart(2, '0')}</span><span className="reel-drag-hint"><MoveHorizontal size={16}/> Drag to explore</span><button className="reel-motion-button" type="button" onClick={() => { velocity.current=0; setPaused(!paused); }} aria-label={paused ? 'Play project animation' : 'Pause project animation'} aria-pressed={paused}>{paused ? <Play size={14}/> : <Pause size={14}/>}<span>{paused ? 'Play motion' : 'Pause motion'}</span></button></div>
+      <div className="reel-toolbar"><span>{t("SELECTED WORK /")} {String(items.length).padStart(2, '0')}</span><span className="reel-drag-hint"><MoveHorizontal size={16}/> {t("Drag to explore")}</span><button className="reel-motion-button" type="button" onClick={() => { velocity.current=0; setPaused(!paused); }} aria-label={t(paused ? 'Play project animation' : 'Pause project animation')} aria-pressed={paused}>{paused ? <Play size={14}/> : <Pause size={14}/>}<span>{t(paused ? 'Play motion' : 'Pause motion')}</span></button></div>
     </div>
   </section>;
 }

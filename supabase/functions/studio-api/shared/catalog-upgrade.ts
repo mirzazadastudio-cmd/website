@@ -9,7 +9,10 @@ import {hasCategory} from './projects.ts';
 import {defaultProfile,defaultJournal,defaultTestimonials} from './studio-content.ts';
 import {siteConfig} from './site-config.ts';
 
-export const CATALOG_VERSION = 4;
+import additions from './portfolio-september-2026.json' with {type:'json'};
+import {animationVideos,type AnimationVideo} from './animation-playlist.ts';
+import type {MediaInfo} from './media-types.ts';
+export const CATALOG_VERSION = 5;
 const same = (a: unknown, b: unknown) => JSON.stringify(a) === JSON.stringify(b);
 
 // Upgrade the original saved collection once, while retaining edits made in Admin.
@@ -79,8 +82,26 @@ function upgradeV3(input:SiteContent):SiteContent {
  };
 }
 
+function upgradeV4(input:SiteContent):SiteContent{
+ if((input.catalogVersion||0)>=4)return input;
+ const data=upgradeV3(input);const stamp='2026-09-08T00:00:00.000Z';
+ return {...data,catalogVersion:4,projectRedirects:data.projectRedirects||{},projects:data.projects.map(project=>({...project,id:project.id||'project-'+project.slug,status:project.status||'published',location:project.location||'',year:project.year||'',client:project.client||'',credit:project.credit||'',services:project.services||[],coverFrame:project.coverFrame||{x:50,y:50,zoom:1},createdAt:project.createdAt||stamp,updatedAt:project.updatedAt||stamp,publishedAt:project.publishedAt||stamp,seoTitle:project.seoTitle||'',seoDescription:project.seoDescription||'',displayPermission:project.displayPermission||'unreviewed'})),settings:{...data.settings,logoUrl:data.settings.logoUrl||'',services:(data.settings.services.length===4?[...data.settings.services,...siteConfig.services.slice(4)]:data.settings.services).map((service,i)=>({...service,audience:service.audience||siteConfig.services[i]?.audience||'',deliverables:service.deliverables||siteConfig.services[i]?.deliverables||''})),navigation:siteConfig.navigation,contact:{...data.settings.contact,email:'hello@mirzazadastudio.com',isPlaceholder:false,behanceUrl:data.settings.contact.behanceUrl||'',instagram:'@mirzazada.studio',instagramUrl:'https://www.instagram.com/mirzazada.studio/'}},testimonials:data.testimonials.map(review=>review.sample?{...review,published:false}:review)};
+}
+
+
+// One-time owner-requested import. Persisting v5 lets later edits/removals stay removed.
 export function upgradeCatalog(input:SiteContent):SiteContent{
  if((input.catalogVersion||0)>=CATALOG_VERSION)return input;
- const data=upgradeV3(input);const stamp='2026-09-08T00:00:00.000Z';
- return {...data,catalogVersion:CATALOG_VERSION,projectRedirects:data.projectRedirects||{},projects:data.projects.map(project=>({...project,id:project.id||'project-'+project.slug,status:project.status||'published',location:project.location||'',year:project.year||'',client:project.client||'',credit:project.credit||'',services:project.services||[],coverFrame:project.coverFrame||{x:50,y:50,zoom:1},createdAt:project.createdAt||stamp,updatedAt:project.updatedAt||stamp,publishedAt:project.publishedAt||stamp,seoTitle:project.seoTitle||'',seoDescription:project.seoDescription||'',displayPermission:project.displayPermission||'unreviewed'})),settings:{...data.settings,logoUrl:data.settings.logoUrl||'',services:(data.settings.services.length===4?[...data.settings.services,...siteConfig.services.slice(4)]:data.settings.services).map((service,i)=>({...service,audience:service.audience||siteConfig.services[i]?.audience||'',deliverables:service.deliverables||siteConfig.services[i]?.deliverables||''})),navigation:siteConfig.navigation,contact:{...data.settings.contact,email:'hello@mirzazadastudio.com',isPlaceholder:false,behanceUrl:data.settings.contact.behanceUrl||'',instagram:'@mirzazada.studio',instagramUrl:'https://www.instagram.com/mirzazada.studio/'}},testimonials:data.testimonials.map(review=>review.sample?{...review,published:false}:review)};
+ const data=upgradeV4(input);
+ const incoming=additions.projects as Project[];
+ const missing=incoming.filter(p=>!data.projects.some(old=>old.id===p.id||old.slug===p.slug));
+ const updated=[...structuredClone(missing),...data.projects];
+ const featured=incoming.map(p=>updated.find(old=>old.id===p.id||old.slug===p.slug)).filter((p):p is Project=>!!p);
+ const first=featured.map(p=>p.slug);
+ const videos=animationVideos(data);
+ return {...data,catalogVersion:CATALOG_VERSION,projects:updated,
+  settings:{...data.settings,homepage:{...data.settings.homepage,projectOrder:[...first,...data.settings.homepage.projectOrder.filter(slug=>!first.includes(slug))]}},
+  animations:videos.some(v=>v.id===additions.video.id)?videos:[structuredClone(additions.video) as AnimationVideo,...videos],
+  media:{...additions.media as Record<string,MediaInfo>,...data.media},
+ };
 }

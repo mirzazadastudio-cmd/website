@@ -8,12 +8,14 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
 const browser=await chromium.launch({headless:true,channel:'chrome'});
 const page=await browser.newPage({viewport:{width:1440,height:1000}});
 let record=JSON.parse(fs.readFileSync('dist/site-content.json','utf8'));
+// Keep the four short clips as a deterministic loop fixture; the 15-second import has its own browser test.
+record.data.animations=record.data.animations.filter(clip=>clip.id!=='xankendi');
 let uploadRequests=0;
 const errors=[];
 page.on('pageerror',e=>errors.push(e.message));
 await page.route('**/functions/v1/studio-api/**',async route=>{
  const url=route.request().url();
- if(url.endsWith('/admin/auth'))return route.fulfill({json:{authenticated:true,configured:true,owner:false,username:'preview@example.test'}});
+ if(url.endsWith('/admin/auth'))return route.fulfill({json:{authenticated:true,supportsPortfolioImports:true,supportsLocalizedContent:true,configured:true,owner:false,username:'preview@example.test'}});
  if(url.endsWith('/admin/video-upload')){uploadRequests++;return route.fulfill({json:{path:'12345678-1234-1234-1234-123456789abc.mp4',token:'local-test-only'}});}
  if(url.endsWith('/admin/content')&&route.request().method()==='PUT'){record=route.request().postDataJSON();record.revision++;return route.fulfill({json:record});}
  if(url.endsWith('/content'))return route.fulfill({json:record});
@@ -53,8 +55,8 @@ await page.setViewportSize({width:1440,height:1000});
 await page.goto('http://127.0.0.1:5173/');
 await page.locator('.animation-banner video').first().waitFor();
 assert.equal(await page.locator('#main > *').nth(1).getAttribute('id'),'animations');
-await page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Animations',exact:true}).click();
-await page.waitForFunction(()=>location.hash==='#animations'&&document.querySelector('#animations').getBoundingClientRect().top>=0&&document.querySelector('#animations').getBoundingClientRect().top<180);
+assert.equal(await page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Animation',exact:true}).getAttribute('href'),'/animation/');
+await page.locator('#animations').scrollIntoViewIfNeeded();
 await page.screenshot({path:'.prerender/animations-placement.png',fullPage:false});
 const playback=await page.evaluate(()=>new Promise(resolve=>{
  const samples=[];const start=performance.now();
@@ -71,15 +73,18 @@ record.data.animations=[record.data.animations[0]];
 await page.reload();
 await page.waitForTimeout(6500);
 assert(await page.locator('.animation-banner video').evaluateAll(v=>v.some(e=>!e.paused&&e.currentTime>0)),'Single video loops');
+await page.getByRole('link',{name:'More animation',exact:true}).click();
+await page.waitForURL('**/animation/');
+assert.equal(await page.locator('.motion-card').count(),1);
 await page.goto('http://127.0.0.1:5173/about/');
-await page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Animations',exact:true}).click();
-await page.waitForFunction(()=>location.pathname==='/'&&location.hash==='#animations'&&document.querySelector('#animations')?.getBoundingClientRect().top<180);
+await page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Animation',exact:true}).click();
+await page.waitForURL('**/animation/');
 await page.setViewportSize({width:390,height:844});
 await page.goto('http://127.0.0.1:5173/');
 await page.getByRole('button',{name:'Open navigation'}).click();
-await page.getByRole('navigation',{name:'Mobile navigation'}).getByRole('link',{name:'Animations',exact:true}).click();
-await page.waitForFunction(()=>location.hash==='#animations'&&document.querySelector('#animations')?.getBoundingClientRect().top<180);
-record.data.animations=[];await page.reload();
+await page.getByRole('navigation',{name:'Mobile navigation'}).getByRole('link',{name:'Animation',exact:true}).click();
+await page.waitForURL('**/animation/');
+record.data.animations=[];await page.goto('http://127.0.0.1:5173/');
 assert.equal(await page.locator('.animation-banner').count(),0);
 assert.deepEqual(errors,[]);
 console.log('PASS: admin reorder/drag/edit/save/reload, upload/remove, mobile layout, four clips with overlap, pause, single loop, empty playlist; no browser errors.');

@@ -1,3 +1,5 @@
+import {upgradeCatalog} from '@/lib/catalog-upgrade';
+import {initializeLanguage} from '@/lib/i18n';
 import {createRoot} from 'react-dom/client';
 import {App,resolvePage} from './app';
 import {studioFetch,downloadStudio} from './api';
@@ -10,7 +12,7 @@ import {PasswordRecovery} from './recovery';
 const recoveryHash=new URLSearchParams(location.hash.slice(1));
 const recoveryLink=recoveryHash.get('type')==='recovery';
 const recoveryFailure=recoveryHash.has('error')||recoveryHash.has('error_code');
-async function boot(){
+async function boot(){initializeLanguage();
  if(location.protocol!=='https:'&&!['localhost','127.0.0.1'].includes(location.hostname)){
   location.replace('https://'+location.host+location.pathname+location.search+location.hash);return;
  }
@@ -35,6 +37,7 @@ async function boot(){
   if(path.startsWith('/admin/preview/')){window.location.replace('/admin');return;}
   const response=await fetch('/site-content.json');record=await response.json();
  }
+ record={...record,data:upgradeCatalog(record.data)};
  if(!path.startsWith('/admin/preview/'))record={...record,data:publicContent(record.data)};
  setContent(record);
  try{const {meta}=resolvePage(path);document.title=String(meta.title||'Mirzazada Studio');}catch{}

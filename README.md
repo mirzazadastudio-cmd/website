@@ -59,4 +59,27 @@ Admin → Animation manages the homepage and /animation/ films: upload or replac
 
 Release after owner approval only: apply supabase/video-storage.sql, run node scripts/edge-package.mjs and deploy studio-api with its shared modules (existing verify_jwt=false; owner verified inside). Then publish the frontend through GitHub. Upload grants are owner-only; no public storage write policy is added. Uploaded video files are public portfolio assets and retained when removed from the list. Avoid publishing the frontend before its backend is ready.
 
-The homepage video playlist sits directly below the project reel and above the discipline strip. The desktop/mobile Animations navigation points to /#animations, including when opened from other pages.
+The homepage video playlist sits directly below the project reel and above the discipline strip. The desktop/mobile Animation navigation and the prominent More animation button on the video banner both open /animation/.
+
+
+### Public website languages
+The square language control supports English (default), Azerbaijani, Russian and Turkish on desktop and mobile. The choice is stored locally as `mirzazada:language`, shared across pages and browser tabs, and updates the document language and title. Browser storage being unavailable does not prevent switching during the current visit.
+
+Visible React text uses `t()` from `lib/i18n.ts`; `lib/translations.json` holds English source text with Azerbaijani, Russian and Turkish translations in that order. Project names, URLs, filter IDs and stored admin content retain their original values. Current published project descriptions, services, biography, collections and complete articles are translated. Use Admin → Dillər və mətnlər to edit English source fields and independent Azerbaijani, Russian and Turkish translations. Interface labels can also be edited in all four languages. New untranslated copy falls back to its source. Each saved field translation retains its source text, so the editor flags later English changes without deleting translations. The admin interface remains in Azerbaijani.
+
+Run `tests/localization.browser.mjs` against the local preview after building. Set `PLAYWRIGHT_MODULE` if Playwright is installed outside the project. It intercepts contact submissions locally and checks language persistence, navigation, keyboard access, mobile layout, playback and translated form feedback.
+
+
+Admin language edits are stored in the existing content record as `texts.ui` (known interface strings) and `texts.fields` (entity/field IDs with independent per-language source/text values). Content validation checks the locale, field, value type and length. Public filtering removes translations and source copies belonging to drafts, archived/confidential projects and unpublished articles/reviews. Project fields use persistent project IDs; blog URL edits migrate their translation keys. The source interface list is `lib/interface-text-sources.json`.
+
+This release requires deploying the generated studio-api package along with the frontend. The updated admin auth response advertises `supportsLocalizedContent`; the frontend blocks multilingual saves against an older API instead of silently losing them. No database schema change is required. After `pnpm test:content`, run `tests/admin-languages.browser.mjs` to exercise save/reload using the actual content validator and a fully intercepted API. It never writes production content.
+
+### September 2026 portfolio import
+`scripts/import-september-2026.py` prepares four projects / 17 source images from the owner-designated folder, with responsive 640/1280/2400 variants. Full-frame and bottom-strip inspection found no footer logos in this batch. Source originals remain unchanged; each derivative's source checksum and crop are recorded in `artifacts/portfolio-september-2026.json`.
+`lib/portfolio-september-2026.json` contains the additions and media metadata. Catalog version 5 adds them once to existing content, puts Hotel Project first on the homepage, preserves existing text/order/media, and adds Xankəndi first to the video playlist. After a save persists version 5, subsequent edits/removals are retained. Owner-renamed projects match stable IDs to avoid duplication.
+Xankəndi uses exactly source seconds 0–15, 1920×1080 H.264, silent, with faststart. The source remains a 60-second original; the website serves only the trimmed MP4. The existing 0.5-second transition applies unchanged.
+The preview, static generation and API reads apply the same import. Admin saves are blocked against an older API until `supportsPortfolioImports` is available. Backend package and public assets must both be published in the approved release; retain the revision-checked save flow. A later normal admin save persists the upgraded catalog into full/public records. Public snapshots are still filtered before rendering.
+Validate with `pnpm test:content` and `tests/portfolio-import.browser.mjs`. The latter checks project routes, responsive layouts, actual 15-second playback and crossfade; it does not write to production.
+
+
+Admin → Ana səhifə now shows a thumbnail list for the homepage slideshow. Drag any row with the left mouse button or use its grip on touch devices; keyboard arrows and separate up/down buttons remain available. Escape cancels, edge scrolling supports long lists, and the existing revision-protected Save action persists the order independently of the overall project catalog. Test with tests/project-order.browser.mjs.

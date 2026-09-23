@@ -1,3 +1,4 @@
+import {upgradeCatalog} from './shared/catalog-upgrade.ts';
 import {createClient} from 'npm:@supabase/supabase-js@2.115.0';
 import {validateContent} from './shared/content-validation.ts';
 import {publicContent} from './shared/editorial-validation.ts';
@@ -20,7 +21,7 @@ Deno.serve(async req=>{
  const url=new URL(req.url),route=url.pathname.split('/studio-api')[1]||'/';
  const db=createClient(Deno.env.get('SUPABASE_URL')!,Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!,{auth:{persistSession:false,autoRefreshToken:false}});
  try{
-  if(route==='/content'&&req.method==='GET')return json(checked(await db.from('studio_public_content').select('data,revision').eq('id','main').single()));
+  if(route==='/content'&&req.method==='GET'){const record=checked(await db.from('studio_public_content').select('data,revision').eq('id','main').single());return json({...record,data:publicContent(upgradeCatalog(record.data))});}
   if(route==='/setup'&&req.method==='POST'){
    const raw=await req.text();if(raw.length>2000)return json({error:'Request too large'},413);
    const body=JSON.parse(raw);
@@ -47,12 +48,13 @@ Deno.serve(async req=>{
   const {data:{user}}=token?await db.auth.getUser(token):{data:{user:null}};
   const owner=checked(await db.from('studio_owner').select('user_id,email').eq('id','main').maybeSingle());
   const authorized=!!user&&!!user.email_confirmed_at&&user.id===owner?.user_id;
-  if(route==='/admin/auth'&&req.method==='GET')return json({authenticated:authorized,configured:true,owner:false,...(authorized?{username:user!.email}:{})});
+  if(route==='/admin/auth'&&req.method==='GET')return json({authenticated:authorized,supportsPortfolioImports:authorized,supportsLocalizedContent:authorized,configured:true,owner:false,...(authorized?{username:user!.email}:{})});
   if(!authorized)return json({error:'Owner sign-in required.'},401);
   if(route==='/admin/content'){
    if(req.method==='GET'){
     const content=checked(await db.from('studio_content').select('data,revision').eq('id','main').single());
     const assets=checked(await db.from('studio_assets').select('metadata'));
+    content.data=upgradeCatalog(content.data);
     content.data.media={...content.data.media,...Object.fromEntries(assets.map((row:any)=>[row.metadata.src,row.metadata]))};
     return json(content);
    }
@@ -61,7 +63,7 @@ Deno.serve(async req=>{
     const body=JSON.parse(raw);if(!Number.isInteger(body.revision))return json({error:'Invalid revision'},400);
     const previous=checked(await db.from('studio_content').select('data,revision').eq('id','main').single());
     if(previous.revision!==body.revision)return json({error:'CONFLICT: Reload the latest content before saving.'},409);
-    const data=validateContent(body.data),now=new Date().toISOString();
+    const data=validateContent(upgradeCatalog(body.data)),now=new Date().toISOString();
     data.projectRedirects=Object.fromEntries(Object.entries({...previous.data.projectRedirects,...data.projectRedirects}).filter(([,id])=>data.projects.some(p=>p.id===id)));
     for(const p of data.projects){
      const old=previous.data.projects.find((item:any)=>item.id===p.id);
@@ -72,7 +74,7 @@ Deno.serve(async req=>{
      p.publishedAt=p.status==='published'?(old?.publishedAt||now):old?.publishedAt||'';
     }
     const assets=checked(await db.from('studio_assets').select('metadata'));
-    data.media={...previous.data.media,...Object.fromEntries(assets.map((row:any)=>[row.metadata.src,row.metadata]))};
+    data.media={...upgradeCatalog(previous.data).media,...Object.fromEntries(assets.map((row:any)=>[row.metadata.src,row.metadata]))};
     const revision=checked(await db.rpc('studio_save',{expected_revision:body.revision,full_data:data,published_data:publicContent(data)}));
     return json({data,revision});
    }

@@ -1,0 +1,677 @@
+{
+  "projects": [
+    {
+      "id": "project-hotel-project",
+      "slug": "hotel-project",
+      "title": "Hotel Project",
+      "status": "published",
+      "displayPermission": "confirmed",
+      "category": "Large Buildings",
+      "categories": [
+        "Large Buildings",
+        "Exterior"
+      ],
+      "topics": [
+        "Exterior views"
+      ],
+      "type": "Hospitality · Architectural visualization",
+      "description": "Curved balconies, warm materials and a sheltered entrance define this hotel. Five perspectives explore the building, arrival canopy, landscaped edges and poolside spaces.",
+      "images": [
+        "/images/hotel-project-1.webp",
+        "/images/hotel-project-2.webp",
+        "/images/hotel-project-3.webp",
+        "/images/hotel-project-4.webp",
+        "/images/hotel-project-5.webp"
+      ],
+      "coverImage": "/images/hotel-project-1.webp",
+      "heroImage": "/images/hotel-project-1.webp",
+      "coverFrame": {
+        "x": 50,
+        "y": 50,
+        "zoom": 1
+      },
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "updatedAt": "2026-09-24T00:00:00.000Z",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "location": "",
+      "year": "",
+      "client": "",
+      "credit": "",
+      "services": [],
+      "seoTitle": "",
+      "seoDescription": ""
+    },
+    {
+      "id": "project-seaside-hotel-building",
+      "slug": "seaside-hotel-building",
+      "title": "Seaside Hotel Building",
+      "status": "published",
+      "displayPermission": "confirmed",
+      "category": "Large Buildings",
+      "categories": [
+        "Large Buildings",
+        "Exterior",
+        "Interior",
+        "Outdoor Systems"
+      ],
+      "topics": [
+        "Exterior views",
+        "Interior views",
+        "Bioclimatic roofs"
+      ],
+      "type": "Seaside hospitality · Architecture & terraces",
+      "description": "A glazed hotel building meets the waterfront with sheltered dining terraces. Daylight and evening views connect the exterior, sea-facing promenade and planted spaces beneath the adjustable roof.",
+      "images": [
+        "/images/seaside-hotel-building-1.webp",
+        "/images/seaside-hotel-building-2.webp",
+        "/images/seaside-hotel-building-3.webp",
+        "/images/seaside-hotel-building-4.webp",
+        "/images/seaside-hotel-building-5.webp"
+      ],
+      "coverImage": "/images/seaside-hotel-building-1.webp",
+      "heroImage": "/images/seaside-hotel-building-1.webp",
+      "coverFrame": {
+        "x": 50,
+        "y": 50,
+        "zoom": 1
+      },
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "updatedAt": "2026-09-24T00:00:00.000Z",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "location": "",
+      "year": "",
+      "client": "",
+      "credit": "",
+      "services": [],
+      "seoTitle": "",
+      "seoDescription": ""
+    },
+    {
+      "id": "project-restoration-building-3",
+      "slug": "restoration-building-3",
+      "title": "Restoration — Building 3",
+      "status": "published",
+      "displayPermission": "confirmed",
+      "category": "Restoration",
+      "categories": [
+        "Restoration",
+        "Residential",
+        "Exterior",
+        "Street"
+      ],
+      "topics": [
+        "Exterior views"
+      ],
+      "type": "Building restoration · Façade study",
+      "description": "A residential façade study with pale stone, warm panels and recessed balconies. Street-level views and a front elevation explore the renewed frontage, entrances and relationship to the surrounding pavement.",
+      "images": [
+        "/images/restoration-building-3-1.webp",
+        "/images/restoration-building-3-2.webp",
+        "/images/restoration-building-3-3.webp",
+        "/images/restoration-building-3-4.webp",
+        "/images/restoration-building-3-5.webp"
+      ],
+      "coverImage": "/images/restoration-building-3-1.webp",
+      "heroImage": "/images/restoration-building-3-1.webp",
+      "coverFrame": {
+        "x": 50,
+        "y": 50,
+        "zoom": 1
+      },
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "updatedAt": "2026-09-24T00:00:00.000Z",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "location": "",
+      "year": "",
+      "client": "",
+      "credit": "",
+      "services": [],
+      "seoTitle": "",
+      "seoDescription": ""
+    },
+    {
+      "id": "project-san-francisco-rooftop",
+      "slug": "san-francisco-rooftop",
+      "title": "San Francisco Rooftop",
+      "status": "published",
+      "displayPermission": "confirmed",
+      "category": "Outdoor Systems",
+      "categories": [
+        "Outdoor Systems",
+        "Exterior",
+        "Residential"
+      ],
+      "topics": [
+        "Exterior views",
+        "Glass systems"
+      ],
+      "type": "Rooftop extension · Outdoor living",
+      "description": "A glazed rooftop enclosure adds a sheltered living space above a traditional street façade. Aerial and street views show its lightweight structure and relationship to the existing building.",
+      "images": [
+        "/images/san-francisco-rooftop-1.webp",
+        "/images/san-francisco-rooftop-2.webp"
+      ],
+      "coverImage": "/images/san-francisco-rooftop-1.webp",
+      "heroImage": "/images/san-francisco-rooftop-1.webp",
+      "coverFrame": {
+        "x": 50,
+        "y": 50,
+        "zoom": 1
+      },
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "updatedAt": "2026-09-24T00:00:00.000Z",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "location": "San Francisco",
+      "year": "",
+      "client": "",
+      "credit": "",
+      "services": [],
+      "seoTitle": "",
+      "seoDescription": ""
+    }
+  ],
+  "video": {
+    "id": "xankendi",
+    "title": "Xankəndi",
+    "description": "An architectural film following the building and its street setting.",
+    "kind": "Architecture",
+    "src": "/animations/xankendi.mp4",
+    "poster": "/animations/xankendi.webp",
+    "duration": 15
+  },
+  "media": {
+    "/images/hotel-project-1.webp": {
+      "id": "import-6d032f0fc08a19af",
+      "src": "/images/hotel-project-1.webp",
+      "name": "hotel-project-1.webp",
+      "type": "image/webp",
+      "size": 833312,
+      "checksum": "19cedc2193edbe16baf92196a0ddddf93f46127aef86570a1a707d4aea09d73e",
+      "width": 2400,
+      "height": 1925,
+      "variants": [
+        {
+          "src": "/images/hotel-project-1-responsive-640.webp",
+          "width": 640,
+          "height": 513
+        },
+        {
+          "src": "/images/hotel-project-1-responsive-1280.webp",
+          "width": 1280,
+          "height": 1027
+        },
+        {
+          "src": "/images/hotel-project-1.webp",
+          "width": 2400,
+          "height": 1925
+        }
+      ],
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "privateOriginal": false
+    },
+    "/images/hotel-project-2.webp": {
+      "id": "import-32c5e0a3c0e0d086",
+      "src": "/images/hotel-project-2.webp",
+      "name": "hotel-project-2.webp",
+      "type": "image/webp",
+      "size": 645368,
+      "checksum": "5c574fd967ff8642f98e2c1763c234caad2dd13c16f89d580f9339d0f00b6dd2",
+      "width": 2400,
+      "height": 1925,
+      "variants": [
+        {
+          "src": "/images/hotel-project-2-responsive-640.webp",
+          "width": 640,
+          "height": 513
+        },
+        {
+          "src": "/images/hotel-project-2-responsive-1280.webp",
+          "width": 1280,
+          "height": 1027
+        },
+        {
+          "src": "/images/hotel-project-2.webp",
+          "width": 2400,
+          "height": 1925
+        }
+      ],
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "privateOriginal": false
+    },
+    "/images/hotel-project-3.webp": {
+      "id": "import-fe52932389699271",
+      "src": "/images/hotel-project-3.webp",
+      "name": "hotel-project-3.webp",
+      "type": "image/webp",
+      "size": 1011572,
+      "checksum": "6f23a2e929f2f0da9a47206783270c708dad50af41a8824c5637ffa9057c3936",
+      "width": 2400,
+      "height": 1925,
+      "variants": [
+        {
+          "src": "/images/hotel-project-3-responsive-640.webp",
+          "width": 640,
+          "height": 513
+        },
+        {
+          "src": "/images/hotel-project-3-responsive-1280.webp",
+          "width": 1280,
+          "height": 1027
+        },
+        {
+          "src": "/images/hotel-project-3.webp",
+          "width": 2400,
+          "height": 1925
+        }
+      ],
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "privateOriginal": false
+    },
+    "/images/hotel-project-4.webp": {
+      "id": "import-232ed1da1ea9a38b",
+      "src": "/images/hotel-project-4.webp",
+      "name": "hotel-project-4.webp",
+      "type": "image/webp",
+      "size": 869960,
+      "checksum": "76a0b8f8961a79b77f71caf2198b6c000a5f14ae3aed5b0faf8af2061bbda5b5",
+      "width": 2400,
+      "height": 1925,
+      "variants": [
+        {
+          "src": "/images/hotel-project-4-responsive-640.webp",
+          "width": 640,
+          "height": 513
+        },
+        {
+          "src": "/images/hotel-project-4-responsive-1280.webp",
+          "width": 1280,
+          "height": 1027
+        },
+        {
+          "src": "/images/hotel-project-4.webp",
+          "width": 2400,
+          "height": 1925
+        }
+      ],
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "privateOriginal": false
+    },
+    "/images/hotel-project-5.webp": {
+      "id": "import-c9b8d744fca28b46",
+      "src": "/images/hotel-project-5.webp",
+      "name": "hotel-project-5.webp",
+      "type": "image/webp",
+      "size": 706968,
+      "checksum": "5c9570d5f38c714876f5c95ae5bb44f571805addd947fb924a5a516323d5838d",
+      "width": 2400,
+      "height": 1925,
+      "variants": [
+        {
+          "src": "/images/hotel-project-5-responsive-640.webp",
+          "width": 640,
+          "height": 513
+        },
+        {
+          "src": "/images/hotel-project-5-responsive-1280.webp",
+          "width": 1280,
+          "height": 1027
+        },
+        {
+          "src": "/images/hotel-project-5.webp",
+          "width": 2400,
+          "height": 1925
+        }
+      ],
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "privateOriginal": false
+    },
+    "/images/seaside-hotel-building-1.webp": {
+      "id": "import-a8aec080d4703798",
+      "src": "/images/seaside-hotel-building-1.webp",
+      "name": "seaside-hotel-building-1.webp",
+      "type": "image/webp",
+      "size": 542300,
+      "checksum": "03da7b3fa5f12fd0b8c7e61dc8edb2e314c9e4dfbab459556f49baf1282b7989",
+      "width": 2400,
+      "height": 1350,
+      "variants": [
+        {
+          "src": "/images/seaside-hotel-building-1-responsive-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "/images/seaside-hotel-building-1-responsive-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/images/seaside-hotel-building-1.webp",
+          "width": 2400,
+          "height": 1350
+        }
+      ],
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "privateOriginal": false
+    },
+    "/images/seaside-hotel-building-2.webp": {
+      "id": "import-89bb57ff4a7d9c16",
+      "src": "/images/seaside-hotel-building-2.webp",
+      "name": "seaside-hotel-building-2.webp",
+      "type": "image/webp",
+      "size": 506946,
+      "checksum": "39e3d293d697062e033e785af8c3dd6579b0b1b332bb266ad340c8bb86e8364e",
+      "width": 2400,
+      "height": 1350,
+      "variants": [
+        {
+          "src": "/images/seaside-hotel-building-2-responsive-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "/images/seaside-hotel-building-2-responsive-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/images/seaside-hotel-building-2.webp",
+          "width": 2400,
+          "height": 1350
+        }
+      ],
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "privateOriginal": false
+    },
+    "/images/seaside-hotel-building-3.webp": {
+      "id": "import-214957c15bab5ec3",
+      "src": "/images/seaside-hotel-building-3.webp",
+      "name": "seaside-hotel-building-3.webp",
+      "type": "image/webp",
+      "size": 477306,
+      "checksum": "9175055ea0d45f571d8655b95026265475532ef445919299c612411fc9c1cbb7",
+      "width": 2400,
+      "height": 1350,
+      "variants": [
+        {
+          "src": "/images/seaside-hotel-building-3-responsive-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "/images/seaside-hotel-building-3-responsive-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/images/seaside-hotel-building-3.webp",
+          "width": 2400,
+          "height": 1350
+        }
+      ],
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "privateOriginal": false
+    },
+    "/images/seaside-hotel-building-4.webp": {
+      "id": "import-4d8a473bbc1476fa",
+      "src": "/images/seaside-hotel-building-4.webp",
+      "name": "seaside-hotel-building-4.webp",
+      "type": "image/webp",
+      "size": 854876,
+      "checksum": "a4815c709393ca43c07927c1f1bb0c65b678d4eae4ab33071c945d7a4229d84f",
+      "width": 2400,
+      "height": 1350,
+      "variants": [
+        {
+          "src": "/images/seaside-hotel-building-4-responsive-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "/images/seaside-hotel-building-4-responsive-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/images/seaside-hotel-building-4.webp",
+          "width": 2400,
+          "height": 1350
+        }
+      ],
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "privateOriginal": false
+    },
+    "/images/seaside-hotel-building-5.webp": {
+      "id": "import-a54886d8e6f3d39a",
+      "src": "/images/seaside-hotel-building-5.webp",
+      "name": "seaside-hotel-building-5.webp",
+      "type": "image/webp",
+      "size": 753452,
+      "checksum": "3bd156ada21fd6b67f0047403206eb2e925940fed564bbcc1d8cb81da41652ae",
+      "width": 2400,
+      "height": 1350,
+      "variants": [
+        {
+          "src": "/images/seaside-hotel-building-5-responsive-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "/images/seaside-hotel-building-5-responsive-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/images/seaside-hotel-building-5.webp",
+          "width": 2400,
+          "height": 1350
+        }
+      ],
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "privateOriginal": false
+    },
+    "/images/restoration-building-3-1.webp": {
+      "id": "import-e72ccef2c772dd41",
+      "src": "/images/restoration-building-3-1.webp",
+      "name": "restoration-building-3-1.webp",
+      "type": "image/webp",
+      "size": 702610,
+      "checksum": "599081de0cdd8358a3b1e2d5f3d62e91621c15c9d854f3487ae892d547d6fe74",
+      "width": 2400,
+      "height": 1350,
+      "variants": [
+        {
+          "src": "/images/restoration-building-3-1-responsive-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "/images/restoration-building-3-1-responsive-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/images/restoration-building-3-1.webp",
+          "width": 2400,
+          "height": 1350
+        }
+      ],
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "privateOriginal": false
+    },
+    "/images/restoration-building-3-2.webp": {
+      "id": "import-45b79c98659b4d03",
+      "src": "/images/restoration-building-3-2.webp",
+      "name": "restoration-building-3-2.webp",
+      "type": "image/webp",
+      "size": 619388,
+      "checksum": "d1a70685656351bb7e19ce45f071f4ad6ed4df64713420dd33db1d5c942701cf",
+      "width": 2400,
+      "height": 1350,
+      "variants": [
+        {
+          "src": "/images/restoration-building-3-2-responsive-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "/images/restoration-building-3-2-responsive-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/images/restoration-building-3-2.webp",
+          "width": 2400,
+          "height": 1350
+        }
+      ],
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "privateOriginal": false
+    },
+    "/images/restoration-building-3-3.webp": {
+      "id": "import-056abc2494c99ee7",
+      "src": "/images/restoration-building-3-3.webp",
+      "name": "restoration-building-3-3.webp",
+      "type": "image/webp",
+      "size": 733576,
+      "checksum": "b352885c55deace57b6d3148b9b87b504cbbbac61dfabbdddf6808746d912d96",
+      "width": 2400,
+      "height": 1350,
+      "variants": [
+        {
+          "src": "/images/restoration-building-3-3-responsive-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "/images/restoration-building-3-3-responsive-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/images/restoration-building-3-3.webp",
+          "width": 2400,
+          "height": 1350
+        }
+      ],
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "privateOriginal": false
+    },
+    "/images/restoration-building-3-4.webp": {
+      "id": "import-6f439258e7ea6700",
+      "src": "/images/restoration-building-3-4.webp",
+      "name": "restoration-building-3-4.webp",
+      "type": "image/webp",
+      "size": 699516,
+      "checksum": "321f3f1a7ce5f30bcd3e53180354c4291be0f9e24b426224c1f2d861cc427f9f",
+      "width": 2400,
+      "height": 1350,
+      "variants": [
+        {
+          "src": "/images/restoration-building-3-4-responsive-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "/images/restoration-building-3-4-responsive-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/images/restoration-building-3-4.webp",
+          "width": 2400,
+          "height": 1350
+        }
+      ],
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "privateOriginal": false
+    },
+    "/images/restoration-building-3-5.webp": {
+      "id": "import-31a6a3b56391102f",
+      "src": "/images/restoration-building-3-5.webp",
+      "name": "restoration-building-3-5.webp",
+      "type": "image/webp",
+      "size": 580422,
+      "checksum": "adbd130cc92e4918d49fa9c2fda7b1ba89033a9b335ae2c86bb08e314f6b3b15",
+      "width": 2400,
+      "height": 1350,
+      "variants": [
+        {
+          "src": "/images/restoration-building-3-5-responsive-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "/images/restoration-building-3-5-responsive-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/images/restoration-building-3-5.webp",
+          "width": 2400,
+          "height": 1350
+        }
+      ],
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "privateOriginal": false
+    },
+    "/images/san-francisco-rooftop-1.webp": {
+      "id": "import-60e67a052e523a5b",
+      "src": "/images/san-francisco-rooftop-1.webp",
+      "name": "san-francisco-rooftop-1.webp",
+      "type": "image/webp",
+      "size": 464694,
+      "checksum": "6e02e89acf6e3cd277d5f79e63fb9446da2432d0115c4e585134a07c8956290f",
+      "width": 2400,
+      "height": 1926,
+      "variants": [
+        {
+          "src": "/images/san-francisco-rooftop-1-responsive-640.webp",
+          "width": 640,
+          "height": 514
+        },
+        {
+          "src": "/images/san-francisco-rooftop-1-responsive-1280.webp",
+          "width": 1280,
+          "height": 1027
+        },
+        {
+          "src": "/images/san-francisco-rooftop-1.webp",
+          "width": 2400,
+          "height": 1926
+        }
+      ],
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "privateOriginal": false
+    },
+    "/images/san-francisco-rooftop-2.webp": {
+      "id": "import-321550bffa9ef162",
+      "src": "/images/san-francisco-rooftop-2.webp",
+      "name": "san-francisco-rooftop-2.webp",
+      "type": "image/webp",
+      "size": 495724,
+      "checksum": "6c86c8cb01e9e5813073433efe4ca72810595b45f70d05f1a495c5ce930ebb55",
+      "width": 2400,
+      "height": 1926,
+      "variants": [
+        {
+          "src": "/images/san-francisco-rooftop-2-responsive-640.webp",
+          "width": 640,
+          "height": 514
+        },
+        {
+          "src": "/images/san-francisco-rooftop-2-responsive-1280.webp",
+          "width": 1280,
+          "height": 1027
+        },
+        {
+          "src": "/images/san-francisco-rooftop-2.webp",
+          "width": 2400,
+          "height": 1926
+        }
+      ],
+      "createdAt": "2026-09-24T00:00:00.000Z",
+      "privateOriginal": false
+    }
+  }
+}

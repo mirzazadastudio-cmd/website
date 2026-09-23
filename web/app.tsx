@@ -1,4 +1,5 @@
-import type {ReactNode} from 'react';
+import {fieldText,t,useLanguage} from '@/lib/i18n';
+import {useEffect,type ReactNode} from 'react';
 import {ContentProvider} from '@/components/content-provider';
 import {MediaProtection} from '@/components/media-protection';
 import {CampaignAttribution} from '@/components/campaign-attribution';
@@ -37,7 +38,9 @@ export function resolvePage(path:string){
  return {node:<NotFound/>,meta:{title:'Page not found',robots:{index:false}}};
 }
 export function App({record,path,node}:{record:ContentRecord;path:string;node?:ReactNode}){
+ const language=useLanguage();
+ useEffect(()=>{if(path.startsWith("/admin"))return;const title=path==="/"?t("Architecture & visualization"):document.querySelector("main h1")?.textContent?.replace(/\s+/g," ");const project=record.data.projects.find(p=>path.replace(/\/$/,"")==="/projects/"+p.slug);const seo=project?fieldText(project.seoTitle,"project:"+(project.id||"project-"+project.slug)+":seoTitle"):"";if(title)document.title=(seo||title)+" — Mirzazada Studio";},[language,path]);
  setContent(record);setPathname(path);
  let content=node;try{content??=resolvePage(path).node;}catch(error){if((error as Error).message.startsWith('REDIRECT:')&&typeof window!=='undefined')window.location.replace((error as Error).message.slice(9));content=<NotFound/>;}
- return <ContentProvider data={record.data} allowMediaActions={path.startsWith('/admin')}><a className="skip-link" href="#main">Skip to content</a><MediaProtection/><CampaignAttribution/>{content}</ContentProvider>;
+ return <ContentProvider data={record.data} allowMediaActions={path.startsWith('/admin')}><a className="skip-link" href="#main">{t("Skip to content")}</a><MediaProtection/><CampaignAttribution/>{content}</ContentProvider>;
 }

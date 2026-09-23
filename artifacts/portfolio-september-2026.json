@@ -1,0 +1,121 @@
+[
+  {
+    "project": "hotel-project",
+    "source": "E:\\Mirzazada Studio WEB\\Mirzazadastudio.com\\Hotel Project\\1.jpg",
+    "output": "public\\images\\hotel-project-1.webp",
+    "sourceChecksum": "ae1bded97e5b4a55b5bd88c6fecc8b3df8e4b2873b89db9eea9006da84574abc",
+    "bottomCropPixels": 0
+  },
+  {
+    "project": "hotel-project",
+    "source": "E:\\Mirzazada Studio WEB\\Mirzazadastudio.com\\Hotel Project\\2.jpg",
+    "output": "public\\images\\hotel-project-2.webp",
+    "sourceChecksum": "035ed767d06d826cb130726883519dee21bcb30569c2aa79e7abce95d6ee9da9",
+    "bottomCropPixels": 0
+  },
+  {
+    "project": "hotel-project",
+    "source": "E:\\Mirzazada Studio WEB\\Mirzazadastudio.com\\Hotel Project\\3.jpg",
+    "output": "public\\images\\hotel-project-3.webp",
+    "sourceChecksum": "cc0b938e3b87fcb40054efd111465f78900cde4ea6a8f4c2a2144903f665b740",
+    "bottomCropPixels": 0
+  },
+  {
+    "project": "hotel-project",
+    "source": "E:\\Mirzazada Studio WEB\\Mirzazadastudio.com\\Hotel Project\\4.jpg",
+    "output": "public\\images\\hotel-project-4.webp",
+    "sourceChecksum": "ffc513b0256a28b0baecd8c396a82f18c916af589198abc460436418ec784ee7",
+    "bottomCropPixels": 0
+  },
+  {
+    "project": "hotel-project",
+    "source": "E:\\Mirzazada Studio WEB\\Mirzazadastudio.com\\Hotel Project\\5.jpg",
+    "output": "public\\images\\hotel-project-5.webp",
+    "sourceChecksum": "5181b9e2a4136c70154710633a65abddcd02dd2df8cb6ef6f482330989b85cb3",
+    "bottomCropPixels": 0
+  },
+  {
+    "project": "seaside-hotel-building",
+    "source": "E:\\Mirzazada Studio WEB\\Mirzazadastudio.com\\Seaside hotel building\\1.jpg",
+    "output": "public\\images\\seaside-hotel-building-1.webp",
+    "sourceChecksum": "fe089554fc29e7ca508b84df38a4b04a7907cc0023fa536223fce3e5f8496b9e",
+    "bottomCropPixels": 0
+  },
+  {
+    "project": "seaside-hotel-building",
+    "source": "E:\\Mirzazada Studio WEB\\Mirzazadastudio.com\\Seaside hotel building\\2.jpg",
+    "output": "public\\images\\seaside-hotel-building-2.webp",
+    "sourceChecksum": "d944b5795d96264d987aad8a8487a01a12f8b92c1b19b23cdeb428ab74c20793",
+    "bottomCropPixels": 0
+  },
+  {
+    "project": "seaside-hotel-building",
+    "source": "E:\\Mirzazada Studio WEB\\Mirzazadastudio.com\\Seaside hotel building\\15.jpg",
+    "output": "public\\images\\seaside-hotel-building-3.webp",
+    "sourceChecksum": "34b24f1c818c3d75110be12e8a7e11bd14e87651da7110f6c8efa55fc8421bf3",
+    "bottomCropPixels": 0
+  },
+  {
+    "project": "seaside-hotel-building",
+    "source": "E:\\Mirzazada Studio WEB\\Mirzazadastudio.com\\Seaside hotel building\\4.jpg",
+    "output": "public\\images\\seaside-hotel-building-4.webp",
+    "sourceChecksum": "6c7fd8f5f87c5ff971f2bd5f7fc72f41b92b0b72abd76dd53b001c5da43a2d3f",
+    "bottomCropPixels": 0
+  },
+  {
+    "project": "seaside-hotel-building",
+    "source": "E:\\Mirzazada Studio WEB\\Mirzazadastudio.com\\Seaside hotel building\\17.jpg",
+    "output": "public\\images\\seaside-hotel-building-5.webp",
+    "sourceChecksum": "cc360e5b105767c37c6ecb5fa244c878c03ff281e2e2f37022fa95f6b61f0efa",
+    "bottomCropPixels": 0
+  },
+  {
+    "project": "restoration-building-3",
+    "source": "E:\\Mirzazada Studio WEB\\Mirzazadastudio.com\\Restoration\\Bina 3\\1.jpg",
+    "output": "public\\images\\restoration-building-3-1.webp",
+    "sourceChecksum": "1db3e3ebda4ec29f8607be5a65d64140fd477adc6ed6ab74cc9dc5f8ae42f65e",
+    "bottomCropPixels": 0
+  },
+  {
+    "project": "restoration-building-3",
+    "source": "E:\\Mirzazada Studio WEB\\Mirzazadastudio.com\\Restoration\\Bina 3\\2.jpg",
+    "output": "public\\images\\restoration-building-3-2.webp",
+    "sourceChecksum": "00f6df184e9254334e72c719843791c46b384e1a9c9d2205680b735dbe6f652e",
+    "bottomCropPixels": 0
+  },
+  {
+    "project": "restoration-building-3",
+    "source": "E:\\Mirzazada Studio WEB\\Mirzazadastudio.com\\Restoration\\Bina 3\\4.jpg",
+    "output": "public\\images\\restoration-building-3-3.webp",
+    "sourceChecksum": "f32f30c7dea8a9195523b6a2e5b051cda829f6e54f46b248baa2588bbe911c23",
+    "bottomCropPixels": 0
+  },
+  {
+    "project": "restoration-building-3",
+    "source": "E:\\Mirzazada Studio WEB\\Mirzazadastudio.com\\Restoration\\Bina 3\\5.jpg",
+    "output": "public\\images\\restoration-building-3-4.webp",
+    "sourceChecksum": "cd58744905ea1db246e262226cb8081fab5a1a255617f4c6fa14f54111d730f3",
+    "bottomCropPixels": 0
+  },
+  {
+    "project": "restoration-building-3",
+    "source": "E:\\Mirzazada Studio WEB\\Mirzazadastudio.com\\Restoration\\Bina 3\\6.jpg",
+    "output": "public\\images\\restoration-building-3-5.webp",
+    "sourceChecksum": "046ac580e1337546f46e8e30f71ee44fd444aaa2d9852a315eee8e281dae3f6b",
+    "bottomCropPixels": 0
+  },
+  {
+    "project": "san-francisco-rooftop",
+    "source": "E:\\Mirzazada Studio WEB\\Mirzazadastudio.com\\Sanfrancisco rooftop\\4.jpg",
+    "output": "public\\images\\san-francisco-rooftop-1.webp",
+    "sourceChecksum": "f58196cc8fbda5297d623d02be7204ba4a144d65041f1660d49b1a72cd47b624",
+    "bottomCropPixels": 0
+  },
+  {
+    "project": "san-francisco-rooftop",
+    "source": "E:\\Mirzazada Studio WEB\\Mirzazadastudio.com\\Sanfrancisco rooftop\\1.jpg",
+    "output": "public\\images\\san-francisco-rooftop-2.webp",
+    "sourceChecksum": "e3d3cc166a299db2fb80645ddd6b76e47d87f85d64cbaaac9c989e9671d1a758",
+    "bottomCropPixels": 0
+  }
+]
