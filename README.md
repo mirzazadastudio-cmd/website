@@ -52,3 +52,11 @@ Validation: `pnpm run typecheck`, `pnpm run build`, `pnpm test`, `pnpm run test:
 The homepage opens with a full-width video banner (about 40–42% of the viewport height). Its silent 20-second studio-loop-hd.mp4 combines the four five-second films with 0.7-second crossfades, including the last-to-first transition. It starts automatically in view, pauses off screen/in background tabs, and uses a static poster by default with reduced motion. The four individual films remain on /animation/.
 
 Animation export: 1920x1080, H.264, directly from original source videos (individual films: CRF 18; banner: CRF 19 with an 8 Mbps ceiling). Sequence: Showroom -> Patio -> Sea Breeze / Marina Village -> Day into night.
+
+
+## Editable Animation playlist
+Admin → Animation manages the homepage and /animation/ films: upload or replace MP4/WebM (up to 50 MB each, 1–3600 seconds), edit labels, remove, and reorder with pointer/touch handles or arrow buttons. Duration is read from the file. Save with the existing revision-protected content action. An absent playlist falls back to the four existing clips; an explicit empty playlist hides the banner. The two-layer player overlaps each ending and beginning by 0.5 seconds, including last-to-first, with in-panel preview.
+
+Release after owner approval only: apply supabase/video-storage.sql, run node scripts/edge-package.mjs and deploy studio-api with its shared modules (existing verify_jwt=false; owner verified inside). Then publish the frontend through GitHub. Upload grants are owner-only; no public storage write policy is added. Uploaded video files are public portfolio assets and retained when removed from the list. Avoid publishing the frontend before its backend is ready.
+
+The homepage video playlist sits directly below the project reel and above the discipline strip. The desktop/mobile Animations navigation points to /#animations, including when opened from other pages.

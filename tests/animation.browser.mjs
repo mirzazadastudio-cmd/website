@@ -1,0 +1,87 @@
+
+import {createRequire} from 'node:module';
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+const require=createRequire(import.meta.url);
+// Install Playwright in your test environment or set PLAYWRIGHT_MODULE to its path.
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
+const browser=await chromium.launch({headless:true,channel:'chrome'});
+const page=await browser.newPage({viewport:{width:1440,height:1000}});
+let record=JSON.parse(fs.readFileSync('dist/site-content.json','utf8'));
+let uploadRequests=0;
+const errors=[];
+page.on('pageerror',e=>errors.push(e.message));
+await page.route('**/functions/v1/studio-api/**',async route=>{
+ const url=route.request().url();
+ if(url.endsWith('/admin/auth'))return route.fulfill({json:{authenticated:true,configured:true,owner:false,username:'preview@example.test'}});
+ if(url.endsWith('/admin/video-upload')){uploadRequests++;return route.fulfill({json:{path:'12345678-1234-1234-1234-123456789abc.mp4',token:'local-test-only'}});}
+ if(url.endsWith('/admin/content')&&route.request().method()==='PUT'){record=route.request().postDataJSON();record.revision++;return route.fulfill({json:record});}
+ if(url.endsWith('/content'))return route.fulfill({json:record});
+ return route.fulfill({json:{items:[]}});
+});
+await page.route('**/storage/v1/object/upload/sign/studio-videos/**',route=>route.fulfill({json:{Key:'studio-videos/12345678-1234-1234-1234-123456789abc.mp4'}}));
+await page.route('**/storage/v1/object/public/studio-videos/**',route=>route.fulfill({path:'public/animations/patio.mp4',contentType:'video/mp4'}));
+await page.goto('http://127.0.0.1:5173/admin/');
+await page.getByRole('tab',{name:'Animation',exact:true}).click();
+await page.locator('.animation-video-card').first().waitFor();
+assert.equal(await page.locator('.animation-video-card').count(),4);
+await page.waitForFunction(()=>[...document.querySelectorAll('.animation-video-body video')].every(v=>v.readyState>=1));
+await page.screenshot({path:'.prerender/animation-admin-desktop.png',fullPage:false});
+const initial=await page.locator('.animation-video-fields input').first().inputValue();
+await page.locator('.animation-video-toolbar').first().getByRole('button',{name:/sona çək/}).click();
+assert.notEqual(await page.locator('.animation-video-fields input').first().inputValue(),initial);
+const handle=page.locator('.animation-drag-handle').first();
+const from=await handle.boundingBox(),to=await page.locator('.animation-video-card').nth(1).boundingBox();
+await page.mouse.move(from.x+15,from.y+15);await page.mouse.down();await page.mouse.move(to.x+80,to.y+70,{steps:15});await page.mouse.up();
+assert.equal(await page.locator('.animation-video-fields input').first().inputValue(),initial);
+await page.locator('.animation-video-fields input').first().fill('Edited showroom');
+await page.getByRole('button',{name:'Dəyişiklikləri saxla',exact:true}).click();
+assert.equal(record.data.animations[0].title,'Edited showroom');
+await page.reload();await page.getByRole('tab',{name:'Animation',exact:true}).click();
+assert.equal(await page.locator('.animation-video-fields input').first().inputValue(),'Edited showroom');
+await page.locator('.admin-animation .admin-upload input').setInputFiles('public/animations/patio.mp4');
+await page.waitForFunction(()=>document.querySelectorAll('.animation-video-card').length===5);
+assert.equal(uploadRequests,1);
+await page.locator('.animation-video-card').last().getByRole('button',{name:/— sil/}).click();
+await page.getByRole('button',{name:'Siyahıdan çıxar',exact:true}).click();
+assert.equal(await page.locator('.animation-video-card').count(),4);
+await page.setViewportSize({width:390,height:844});
+await page.locator('.admin-animation').scrollIntoViewIfNeeded();
+await page.screenshot({path:'.prerender/animation-admin-mobile.png',fullPage:false});
+assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'Mobile horizontal overflow');
+await page.setViewportSize({width:1440,height:1000});
+await page.goto('http://127.0.0.1:5173/');
+await page.locator('.animation-banner video').first().waitFor();
+assert.equal(await page.locator('#main > *').nth(1).getAttribute('id'),'animations');
+await page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Animations',exact:true}).click();
+await page.waitForFunction(()=>location.hash==='#animations'&&document.querySelector('#animations').getBoundingClientRect().top>=0&&document.querySelector('#animations').getBoundingClientRect().top<180);
+await page.screenshot({path:'.prerender/animations-placement.png',fullPage:false});
+const playback=await page.evaluate(()=>new Promise(resolve=>{
+ const samples=[];const start=performance.now();
+ const tick=()=>{const v=[...document.querySelectorAll('.animation-banner video')];samples.push(v.map(e=>({clip:e.dataset.clip,time:e.currentTime,opacity:Number(e.style.opacity),paused:e.paused})));if(performance.now()-start<22500)requestAnimationFrame(tick);else resolve(samples);};tick();
+}));
+assert(playback.some(s=>s.every(v=>v.opacity>.1&&v.opacity<.9)),'Both layers must overlap');
+for(const clip of ['0','1','2','3'])assert(playback.some(s=>s.some(v=>v.clip===clip&&v.opacity>.9&&!v.paused)),'Playback missing clip '+clip);
+assert(playback.slice(-180).some(s=>s.some(v=>v.clip==='0'&&v.time>.6&&v.opacity>.9)),'Playlist returns to first clip');
+await page.getByRole('button',{name:'Pause background animation'}).click();
+const times=await page.locator('.animation-banner video').evaluateAll(v=>v.map(e=>e.currentTime));
+await page.waitForTimeout(400);
+assert.deepEqual(await page.locator('.animation-banner video').evaluateAll(v=>v.map(e=>e.currentTime)),times);
+record.data.animations=[record.data.animations[0]];
+await page.reload();
+await page.waitForTimeout(6500);
+assert(await page.locator('.animation-banner video').evaluateAll(v=>v.some(e=>!e.paused&&e.currentTime>0)),'Single video loops');
+await page.goto('http://127.0.0.1:5173/about/');
+await page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Animations',exact:true}).click();
+await page.waitForFunction(()=>location.pathname==='/'&&location.hash==='#animations'&&document.querySelector('#animations')?.getBoundingClientRect().top<180);
+await page.setViewportSize({width:390,height:844});
+await page.goto('http://127.0.0.1:5173/');
+await page.getByRole('button',{name:'Open navigation'}).click();
+await page.getByRole('navigation',{name:'Mobile navigation'}).getByRole('link',{name:'Animations',exact:true}).click();
+await page.waitForFunction(()=>location.hash==='#animations'&&document.querySelector('#animations')?.getBoundingClientRect().top<180);
+record.data.animations=[];await page.reload();
+assert.equal(await page.locator('.animation-banner').count(),0);
+assert.deepEqual(errors,[]);
+console.log('PASS: admin reorder/drag/edit/save/reload, upload/remove, mobile layout, four clips with overlap, pause, single loop, empty playlist; no browser errors.');
+await browser.close();
+

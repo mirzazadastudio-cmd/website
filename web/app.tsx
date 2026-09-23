@@ -23,7 +23,7 @@ export function resolvePage(path:string){
  const clean=path.replace(/\/$/,'')||'/';const parts=clean.split('/');
  const params={slug:decodeURIComponent(parts[2]||'')};
  if(clean==='/')return {node:<Home/>,meta:pageMetadata('Mirzazada Studio — Architecture & Visualization','Architectural visualization by Ilkin Mirzazada. Explore exterior, interior, restoration and outdoor projects.','/')};
- if(clean==='/animation')return {node:<Animation/>,meta:pageMetadata('Animation — Mirzazada Studio','Five-second architectural, interior and outdoor-system films by Mirzazada Studio.','/animation')};
+ if(clean==='/animation')return {node:<Animation/>,meta:pageMetadata('Animation — Mirzazada Studio','Architectural, interior and outdoor-system films by Mirzazada Studio.','/animation')};
  if(clean==='/about')return {node:About(),meta:pageMetadata('About Ilkin Mirzazada','Architect and 3D visualization specialist in Baku.','/about')};
  if(clean==='/services')return {node:Services(),meta:pageMetadata('Services','Architectural, interior, product and outdoor visualization.','/services')};
  if(clean==='/projects')return {node:<Projects/>,meta:pageMetadata('Projects','Architecture and visualization portfolio.','/projects')};

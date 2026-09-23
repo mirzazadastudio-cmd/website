@@ -92,6 +92,16 @@ Deno.serve(async req=>{
    const content=revision?checked(await db.from('studio_revisions').select('data,revision').eq('revision',Number(revision)).single()):checked(await db.from('studio_content').select('data,revision').eq('id','main').single());
    return json({format:'mirzazada-studio-backup-v1',createdAt:new Date().toISOString(),content:content.data,revision:content.revision,inquiries:checked(await db.from('studio_inquiries').select('*')),assets:checked(await db.from('studio_assets').select('metadata'))});
   }
+
+  if(route==='/admin/video-upload'&&req.method==='POST'){
+   const raw=await req.text();if(raw.length>2000)return json({error:'Request too large'},413);
+   const body=JSON.parse(raw),ext=body.type==='video/mp4'?'mp4':body.type==='video/webm'?'webm':null;
+   if(!ext||typeof body.name!=='string'||body.name.length>255||!body.name.toLowerCase().endsWith('.'+ext)||!Number.isInteger(body.size)||body.size<1||body.size>50*1024*1024)return json({error:'MP4 və ya WebM seçin; ən çox 50 MB.'},400);
+   if(checked(await db.rpc('studio_rate_limit',{rate_key:'video-upload:'+user!.id,limit_count:50,window_seconds:900})))return json({error:'Yükləmə limiti doldu. Bir az sonra davam edin.'},429);
+   const path=crypto.randomUUID()+'.'+ext;
+   const upload=checked(await db.storage.from('studio-videos').createSignedUploadUrl(path));
+   return json({path,token:upload.token},201);
+  }
   if(route==='/admin/upload'&&req.method==='POST'){
    if(Number(req.headers.get('content-length'))>60*1024*1024)return json({error:'Upload too large'},413);
    if(checked(await db.rpc('studio_rate_limit',{rate_key:'upload:'+user!.id,limit_count:50,window_seconds:900})))return json({error:'Please wait before uploading more files.'},429);

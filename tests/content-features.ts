@@ -14,3 +14,21 @@ assert(validateContent(legacy).collections.some(c=>c.category==='AI'));
 const invalid=structuredClone(edited);invalid.projects[0].category='Unsupported category';
 assert.throws(()=>validateContent(invalid));
 console.log('AI projects are accepted; older collection data upgrades; unsupported categories rejected.');
+
+
+// Video playlists survive validation/public filtering, including an intentionally empty list.
+const {defaultAnimationVideos,FADE_SECONDS,validateAnimations}=await import('../lib/animation-playlist');
+assert.equal(FADE_SECONDS,.5);
+const videoData=structuredClone(data);delete videoData.animations;
+assert.deepEqual(validateContent(videoData).animations,defaultAnimationVideos);
+videoData.animations=[...defaultAnimationVideos].reverse();
+assert.deepEqual(publicContent(validateContent(videoData)).animations,videoData.animations);
+videoData.animations=[];
+assert.deepEqual(publicContent(validateContent(videoData)).animations,[]);
+assert.throws(()=>validateAnimations([{...defaultAnimationVideos[0],src:'https://invalid.test/a.mp4'}]));
+assert.throws(()=>validateAnimations([{...defaultAnimationVideos[0],duration:NaN}]));
+assert.throws(()=>validateAnimations([{...defaultAnimationVideos[0],duration:.4}]));
+assert.throws(()=>validateAnimations([defaultAnimationVideos[0],defaultAnimationVideos[0]]));
+assert.throws(()=>validateAnimations([{...defaultAnimationVideos[0],title:''}]));
+assert.equal(validateAnimations([{...defaultAnimationVideos[0],src:'/videos/12345678-1234-1234-1234-123456789abc.webm',poster:'',duration:12.75}])[0].duration,12.75);
+console.log('Video defaults, saved order, empty state, duration and source validation passed.');
